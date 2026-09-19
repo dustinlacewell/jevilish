@@ -1,0 +1,70 @@
+.modes {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  margin-top: 0.9rem;
+}
+
+/* The slot anchors the popover; the button inside it stays a plain pill. */
+.mode-pill__slot { position: relative; display: inline-flex; }
+
+.mode-pill {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.22rem 0.85rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  transition: color 150ms ease, border-color 150ms ease;
+}
+
+.mode-pill:hover { color: var(--ink-soft); }
+
+.mode-pill--on {
+  color: var(--gold-bright);
+  border-color: var(--gold);
+  background: var(--paper-deep);
+}
+
+.mode-pill__gloss {
+  position: absolute;
+  top: calc(100% + 0.55rem);
+  left: 50%;
+  z-index: 2;
+  width: max-content;
+  max-width: min(16rem, 70vw);
+  transform: translateX(-50%);
+  padding: 0.5rem 0.75rem;
+  font-size: 0.72rem;
+  font-style: italic;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  box-shadow: 0 0.5rem 1.5rem var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 140ms ease, visibility 140ms;
+}
+
+.mode-pill__slot:hover .mode-pill__gloss,
+.mode-pill:focus-visible ~ .mode-pill__gloss {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* A small pointer up toward the pill. */
+.mode-pill__gloss::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -0.35rem;
+  border: 0.35rem solid transparent;
+  border-bottom-color: var(--rule);
+}

@@ -116,12 +116,4 @@ function stripPunctuation(token: string): string {
   return token.replace(/[^A-Za-z']/g, "");
 }
 
-/** Deterministic daily pick, so everyone shares the same puzzle. */
-export function puzzleOfTheDay(bank: readonly RawPuzzle[], today = new Date()): RawPuzzle {
-  const epoch = Date.UTC(2026, 0, 1);
-  const day = Math.floor((Date.UTC(
-    today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) - epoch) / 86_400_000);
-  return bank[((day % bank.length) + bank.length) % bank.length];
-}
-
 export { binomialFor };

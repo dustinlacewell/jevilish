@@ -1,11 +1,14 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { dailyIndex, dayNumber, isSpent, spend, type DailyState } from "./core/daily";
 import { nextIn, prune } from "./core/progress";
 import { livesLeft, scoreRound, startRound, submitGuess, useHint, type Round } from "./core/session";
 import { TASTE } from "./core/select";
 import { hydrate, loadBank, type Bank, type RawPuzzle } from "./data/bank";
+import { loadDaily, saveDaily } from "./data/daily-store";
 import { loadProgress, saveProgress } from "./data/progress-store";
 import { Board } from "./ui/Board";
 import { Controls } from "./ui/Controls";
+import { ModePicker, type PlayMode } from "./ui/ModePicker";
 import { ModeTag } from "./ui/ModeTag";
 import { Reveal } from "./ui/Reveal";
 import { shareText } from "./ui/share";
@@ -22,6 +25,12 @@ export function App() {
   const [seed, setSeed] = useState(1);
   const [round, setRound] = useState<Round | null>(null);
   const [copied, setCopied] = useState(false);
+  const [mode, setMode] = useState<PlayMode>("daily");
+  const [daily, setDaily] = useState<DailyState | null>(() => loadDaily());
+
+  // Fixed for the session: a player who crosses midnight mid-round finishes
+  // the puzzle they started rather than having it swapped underneath them.
+  const [today] = useState(() => dayNumber());
 
   useEffect(() => {
     let live = true;
@@ -32,7 +41,7 @@ export function App() {
   }, []);
 
   /** Serve the next unseen puzzle and record that it was served, so the bank
-      plays out once through before anything repeats. */
+      plays out once through before anything repeats. Addict mode only. */
   const serve = useCallback((puzzles: readonly RawPuzzle[]) => {
     const stored = prune(loadProgress(RUN), puzzles);
     const step = nextIn(puzzles, RUN, stored);
@@ -42,10 +51,27 @@ export function App() {
     setSeed((s) => s + 1);
   }, []);
 
-  // The opening puzzle, once the bank arrives.
+  /** Switch modes, dropping the board so the new mode draws its own. */
+  const pickMode = useCallback((next: PlayMode) => {
+    setMode((current) => {
+      if (current !== next) setRaw(null);
+      return next;
+    });
+  }, []);
+
+  // Which puzzle the current mode is asking for. Daily is a pure function of
+  // the date, so it survives a reload and matches every other player's.
   useEffect(() => {
-    if (bank && !raw) serve(bank.puzzles);
-  }, [bank, raw, serve]);
+    if (!bank || raw) return;
+    if (mode === "daily") {
+      setRaw(bank.puzzles[dailyIndex(today, bank.puzzles.length)]);
+      // One dressing per day: the seed is the day, so a reload shows the
+      // same words rather than re-rolling them.
+      setSeed(today);
+    } else {
+      serve(bank.puzzles);
+    }
+  }, [bank, mode, today, raw, serve]);
 
   // The board is derived: same puzzle, new seed, new words.
   const puzzle = useMemo(
@@ -54,9 +80,24 @@ export function App() {
   );
 
   useEffect(() => {
-    if (puzzle) setRound(startRound(puzzle));
+    if (!puzzle) return;
+    const fresh = startRound(puzzle);
+    // A daily already finished today reopens on its result, not playable
+    // again. The attempts are gone, so the board simply shows the answer.
+    const spentToday = mode === "daily" && daily?.day === today ? daily : null;
+    setRound(spentToday ? { ...fresh, status: spentToday.outcome } : fresh);
     setCopied(false);
   }, [puzzle?.id, puzzle?.words.map((w) => w.shown).join(" ")]);
+
+  // A finished daily is spent: record it once, so a reload shows the result
+  // rather than offering the same puzzle again.
+  useEffect(() => {
+    if (mode !== "daily" || !round) return;
+    if (round.status === "playing" || isSpent(daily, today)) return;
+    const state = spend(today, round.status === "solved" ? "solved" : "failed");
+    saveDaily(state);
+    setDaily(state);
+  }, [mode, round, daily, today]);
 
   const next = useCallback(() => {
     if (bank) serve(bank.puzzles);
@@ -89,6 +130,7 @@ export function App() {
         <img className="masthead__seal" src="/logo-512.png" alt="" width={512} height={512} />
         <h1 className="masthead__title">Jevilish</h1>
         <p className="masthead__sub">A common phrase served devilishly opaque.</p>
+        <ModePicker mode={mode} onPick={pickMode} />
       </header>
 
       <ModeTag mode={round.puzzle.mode} />
@@ -103,11 +145,18 @@ export function App() {
               : `It was “${round.puzzle.answer}”`}
           </p>
           <div className="outcome__actions">
-            <button className="btn btn--primary" type="button" onClick={next}>Next phrase</button>
+            {mode === "addict" && (
+              <button className="btn btn--primary" type="button" onClick={next}>Next phrase</button>
+            )}
             <button className="btn" type="button" onClick={copyShare}>
               {copied ? "Copied" : "Share"}
             </button>
           </div>
+          {mode === "daily" && (
+            <p className="outcome__adieu">
+              The day's phrase is spent. Return upon the morrow for another.
+            </p>
+          )}
           <Reveal puzzle={round.puzzle} lexicon={bank.lexicon} raw={raw} taste={TASTE} />
         </section>
       ) : (
