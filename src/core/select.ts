@@ -54,6 +54,30 @@ export const TASTE: Taste = {
   temperature: 0.25,
 };
 
+/**
+ * Modal verbs that take a bare infinitive: "must be", "should have".
+ * A replacement has to accept the same complement or the sentence breaks.
+ */
+const BARE_INFINITIVE_MODALS = new Set([
+  "MUST", "CAN", "WILL", "SHALL", "MAY", "MIGHT", "COULD", "WOULD", "SHOULD",
+]);
+
+/**
+ * Words that mean the same as a modal but govern a to-infinitive. They are
+ * honest synonyms and still wrong here: "must be" becomes "have be", and
+ * "should undergo" becomes "ought undergo". Supplying the missing TO would
+ * turn one token into two and desync the board from its answer, so the
+ * substitution is refused instead.
+ */
+const TO_INFINITIVE_MODALS = new Set([
+  "HAVE", "HAS", "HAD", "OUGHT", "NEED", "NEEDS", "GET", "GOT", "WANT",
+]);
+
+/** Does swapping `candidate` for `original` break the complement frame? */
+function breaksModalFrame(candidate: string, original: string): boolean {
+  return BARE_INFINITIVE_MODALS.has(original) && TO_INFINITIVE_MODALS.has(candidate);
+}
+
 /** Candidates a given taste is willing to show the player. */
 export function eligible(
   candidates: readonly Candidate[],
@@ -65,7 +89,8 @@ export function eligible(
     (c) =>
       c.sense >= taste.minSense &&
       c.unknown <= taste.maxUnknown &&
-      !sharesStem(c.w, base),
+      !sharesStem(c.w, base) &&
+      !breaksModalFrame(c.w.toUpperCase().replace(/[^A-Z]/g, ""), base),
   );
 }
 

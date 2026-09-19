@@ -94,3 +94,38 @@ describe("pick", () => {
     expect(pick(field, "CAT", TASTE, 1)).not.toBeNull();
   });
 });
+
+describe("modal complement frames", () => {
+  /** MUST takes a bare infinitive; HAVE and OUGHT take a to-infinitive.
+      Swapping them gave "I HAVE BE HEARING THINGS" and "THOU OUGHT
+      UNDERGO". The words are honest synonyms and still unusable here. */
+  it("rejects a to-infinitive verb in a bare-modal slot", () => {
+    const field = [c("HAVE", 0.37, 0.29, 0.01), c("OUGHT", 0.5, 0.38, 0.05)];
+    expect(eligible(field, "MUST", TASTE)).toHaveLength(0);
+  });
+
+  it("rejects NEED for SHOULD", () => {
+    expect(eligible([c("NEED", 0.51, 0.49, 0.02)], "SHOULD", TASTE)).toHaveLength(0);
+  });
+
+  it("keeps a modal that shares the frame", () => {
+    // MUST for SHOULD is grammatical: both take a bare infinitive.
+    expect(eligible([c("MUST", 0.37, 0.46, 0.02)], "SHOULD", TASTE).map((x) => x.w))
+      .toEqual(["MUST"]);
+  });
+
+  it("leaves ordinary verbs untouched by the rule", () => {
+    // The guard must not fire outside modal slots: HAVE is a fine swap
+    // for OWN, which is not a modal at all.
+    expect(eligible([c("HAVE", 0.8, 0.4, 0.02)], "OWN", TASTE).map((x) => x.w))
+      .toEqual(["HAVE"]);
+  });
+
+  it("strands a slot rather than breaking the sentence", () => {
+    // "I MUST BE HEARING THINGS" offers only OUGHT and HAVE. Both are
+    // refused, so MUST stays plain and the puzzle is one word less
+    // disguised — the correct trade against a broken phrase.
+    const field = [c("OUGHT", 0.25, 0.38, 0.05), c("HAVE", 0.37, 0.29, 0.01)];
+    expect(pick(field, "MUST", TASTE, 0.5)).toBeNull();
+  });
+});
