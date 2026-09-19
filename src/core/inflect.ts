@@ -124,6 +124,10 @@ function toBase(word: string): string {
 export function inflect(word: string, form: WordForm, verbSlot = false): string {
   let upper = word.toUpperCase();
   if (verbSlot && form === "base") upper = toBase(upper);
+  // Participle forms belong to verbs. GLOWING is an adjective that merely
+  // ends in -ING, and its replacements are adjectives too: SPLENDID needs no
+  // suffix, and adding one gives SPLENDIDING.
+  if (!verbSlot && (form === "ing" || form === "ed")) return upper;
   const irregular = IRREGULAR[upper]?.[form];
   if (irregular) return irregular;
   if (alreadyInflected(upper, form)) return upper;

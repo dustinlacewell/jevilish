@@ -25,6 +25,7 @@ of the lemma.
 """
 import concurrent.futures as cf, glob, json, os, sys, time
 sys.path.insert(0, "bin")
+from gates import swappable
 from lib import Cache, ask, spend
 from lexicon import candidates_for, load_moby
 
@@ -86,20 +87,33 @@ def vet(word, shortlist):
     return out
 
 
+def load_safety():
+    pack = "cache/safety.pack.json"
+    if os.path.exists(pack):
+        return list(json.load(open(pack, encoding="utf-8")).values())
+    return [json.load(open(f, encoding="utf-8")) for f in glob.glob("cache/safety/*.json")]
+
+
 def main():
+    """Score every slot the gates allow.
+
+    Reads the tag and safety caches rather than the built puzzles.json: the
+    build applies its own thresholds, so taking the slot list from its output
+    would silently skip anything a later relaxation of those thresholds lets
+    back in.
+    """
     moby = load_moby()
-    puzzles = json.load(open("public/puzzles.json", encoding="utf-8"))
-    tags = {(t["phrase"], t["position"]): t for t in load_tags()}
+    safety = {(s["phrase"], s["position"]): s for s in load_safety()}
 
     work = []
-    for puzzle in puzzles:
-        for slot in puzzle["slots"]:
-            tag = tags.get((puzzle["answer"], slot["i"]))
-            if not tag:
-                continue
-            _, pool = candidates_for(tag["word"], moby)
-            if pool:
-                work.append((puzzle["answer"], slot["i"], tag["word"], pool))
+    for tag in load_tags():
+        if tag["pos"] == "other":
+            continue
+        if not swappable(safety.get((tag["phrase"], tag["position"]))):
+            continue
+        _, pool = candidates_for(tag["word"], moby)
+        if pool:
+            work.append((tag["phrase"], tag["position"], tag["word"], pool))
 
     cache = Cache("sense", QV)
     todo = [w for w in work if cache.get(f"{w[0]}|{w[1]}") is None]

@@ -13,8 +13,10 @@ and the game decides how much obscurity a difficulty allows.
 """
 import glob, json, os, re, sys
 sys.path.insert(0, "bin")
+from gates import swappable
 
-MAX_FIXED = 0.6        # above this the word belongs to a phrasal unit
+SHORT_PHRASE = 2       # content words; below this, swap all or nothing
+WELDED = 0.45          # "fixed" score at which a short phrase is one unit
 MIN_CANDS = 2          # a slot needs alternatives to be worth a swap
 MAX_CANDS = 8          # per slot; softmax never reaches past this
 
@@ -55,8 +57,7 @@ def main():
                 continue
             # Words that are structurally part of the phrase rather than
             # vocabulary in it: swapping those breaks the sentence.
-            safe = safety.get((phrase, position))
-            if safe and (safe["effect"] == "broken" or safe["fixed"] > MAX_FIXED):
+            if not swappable(safety.get((phrase, position))):
                 continue
 
             bare = re.sub(r"[^A-Z]", "", raw.upper().replace("'S", ""))
@@ -80,6 +81,18 @@ def main():
             if tag["pos"] == "verb":
                 slot["v"] = 1
             slots.append(slot)
+
+        # A short FIXED expression is a unit: swapping half of it gives
+        # "GOOD UNHAPPINESS", which reads as broken rather than transformed.
+        # Only applies where Jev actually called the phrase fixed -- a plain
+        # two-word phrase is fine with one word swapped.
+        content = [q for q, _ in enumerate(tokens)
+                   if tags.get((phrase, q)) and tags[(phrase, q)]["pos"] != "other"]
+        if len(content) <= SHORT_PHRASE and len(slots) < len(content):
+            welded = any(safety.get((phrase, q), {}).get("fixed", 0) >= WELDED
+                         for q in content)
+            if welded:
+                continue
 
         if not slots:
             continue

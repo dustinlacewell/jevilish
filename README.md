@@ -85,6 +85,7 @@ bin/            generation passes, each cached and resumable
   tag.py          part of speech and inflection, in context
   safety.py       which slots would break if swapped
   sense.py        sense, recognisability and theme, per slot
+  gates.py        the thresholds sense.py and build.py must agree on
   build.py        assemble the shipped data (no API calls)
   pack.py         fold the per-answer cache into committable files
 src/core/       pure game logic, no I/O, no React
