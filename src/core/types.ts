@@ -16,6 +16,8 @@ export interface PuzzleWord {
   readonly rivals?: readonly RankedWord[];
   /** Number of candidates this word beat. */
   readonly fieldSize?: number;
+  /** True when the replacement is a scientific name rather than a synonym. */
+  readonly scientific?: boolean;
 }
 
 export interface RankedWord {

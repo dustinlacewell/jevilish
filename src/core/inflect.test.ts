@@ -68,3 +68,20 @@ describe("inflect", () => {
     expect(inflect("GOOD", "comparative")).toBe("BETTER");
   });
 });
+
+describe("inflect in a verb slot", () => {
+  it("strips a participle a thesaurus supplied for a base-form slot", () => {
+    // Moby lists BOOZING under DRINK; "don't BOOZING and drive" is broken.
+    expect(inflect("BOOZING", "base", true)).toBe("BOOZE");
+    expect(inflect("SWIMMING", "base", true)).toBe("SWIM");
+  });
+
+  it("leaves adjectives alone outside a verb slot", () => {
+    expect(inflect("UNFEELING", "base")).toBe("UNFEELING");
+    expect(inflect("BLESSED", "base")).toBe("BLESSED");
+  });
+
+  it("still inflects normally in a verb slot", () => {
+    expect(inflect("PERAMBULATE", "ing", true)).toBe("PERAMBULATING");
+  });
+});

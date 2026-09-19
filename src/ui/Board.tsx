@@ -35,6 +35,7 @@ interface WordCardProps {
 function WordCard({ word, revealed, matched, pivot }: WordCardProps) {
   const classes = ["word"];
   if (word.swapped) classes.push("word--swapped");
+  if (word.scientific) classes.push("word--scientific");
   if (pivot) classes.push("word--pivot");
   if (revealed) classes.push("word--revealed");
   else if (matched) classes.push("word--matched");

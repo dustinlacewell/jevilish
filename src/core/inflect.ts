@@ -92,9 +92,38 @@ function alreadyInflected(word: string, form: WordForm): boolean {
   }
 }
 
-/** Reshape a dictionary-form word into the form the sentence needs. */
-export function inflect(word: string, form: WordForm): string {
-  const upper = word.toUpperCase();
+/**
+ * Strip an inflection a candidate arrived with. A thesaurus lists BOOZING
+ * under DRINK, and a slot wanting the base form then prints "don't BOOZING
+ * and drive". Undoing the suffix is safer than printing the wrong tense.
+ */
+function toBase(word: string): string {
+  const suffix = word.endsWith("ING") ? 3 : word.endsWith("ED") ? 2 : 0;
+  if (suffix === 0 || word.length - suffix < 3) return word;
+
+  let stem = word.slice(0, -suffix);
+  // Undo a doubled consonant: SWIMMING -> SWIM, STOPPED -> STOP.
+  if (stem.length > 2 && stem.at(-1) === stem.at(-2) && !"AEIOU".includes(stem.at(-1)!)) {
+    return stem.slice(0, -1);
+  }
+  // Restore a silent E the suffix displaced: BOOZING -> BOOZE, not BOOZ.
+  // A stem ending in a consonant after a long vowel or a soft C/G needs it.
+  if (/[^AEIOU]$/.test(stem) && /(?:[AEIOU][ZSCGV]|[^AEIOU][LR])$/.test(stem)) {
+    return `${stem}E`;
+  }
+  return stem;
+}
+
+/**
+ * Reshape a word into the form the sentence needs.
+ *
+ * `verbSlot` says the slot is unambiguously a verb, which is the only case
+ * where an -ING or -ED ending can be assumed to be an inflection rather than
+ * part of the word: UNFEELING and BLESSED are adjectives, not tenses.
+ */
+export function inflect(word: string, form: WordForm, verbSlot = false): string {
+  let upper = word.toUpperCase();
+  if (verbSlot && form === "base") upper = toBase(upper);
   const irregular = IRREGULAR[upper]?.[form];
   if (irregular) return irregular;
   if (alreadyInflected(upper, form)) return upper;

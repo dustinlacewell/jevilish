@@ -1,77 +1,64 @@
 import { describe, expect, it } from "vitest";
 import { TASTES, appeal, eligible, pick, type Candidate } from "./select";
 
-const c = (w: string, syn: number, pomp: number, obs: number, dec = 0.8): Candidate =>
-  ({ w, syn, pomp, obs, dec });
+const c = (w: string, sense: number, theme: number, unknown: number): Candidate =>
+  ({ w, sense, theme, unknown });
 
 describe("eligible", () => {
-  it("drops weak substitutes", () => {
-    const out = eligible([c("BULLION", 0.05, 1.8, 0.8)], "PENNY", TASTES.standard);
+  it("drops a word that means something else here", () => {
+    // BANKRUPTED is a fine synonym for BROKE, and wrong for the camel.
+    const out = eligible([c("BANKRUPTED", 0.1, 1.1, 0.03)], "BROKE", TASTES.standard);
     expect(out).toHaveLength(0);
   });
 
-  it("drops words nobody knows", () => {
-    // Measured: BAWBEE scores 1.28 obscurity, past every tier's ceiling.
-    const out = eligible([c("BAWBEE", 0.6, 1.1, 1.28)], "PENNY", TASTES.cruel);
-    expect(out).toHaveLength(0);
+  it("drops a word the reader has never met", () => {
+    // Measured: CULM scores 0.65 unknown, past every tier.
+    expect(eligible([c("CULM", 0.8, 1.2, 0.65)], "STRAW", TASTES.cruel)).toHaveLength(0);
   });
 
-  it("keeps a showy word an ordinary reader still knows", () => {
-    const out = eligible([c("MALODOROUS", 0.7, 0.98, 0.92)], "SMELLY", TASTES.standard);
-    expect(out.map((x) => x.w)).toEqual(["MALODOROUS"]);
+  it("keeps a costumed word that is rare but recognised", () => {
+    // PERCHANCE is archaic and universally understood: exactly the target.
+    const out = eligible([c("PERCHANCE", 0.7, 1.3, 0.12)], "MAYBE", TASTES.standard);
+    expect(out.map((x) => x.w)).toEqual(["PERCHANCE"]);
   });
 
-  it("drops a word just past the recognition boundary", () => {
-    const out = eligible([c("WHILOM", 0.7, 1.3, 1.2)], "ONCE", TASTES.standard);
-    expect(out).toHaveLength(0);
-  });
-
-  it("rejects the original and its inflections", () => {
+  it("rejects the original word and its inflections", () => {
     const out = eligible(
-      [c("PENNY", 1, 1, 0.2), c("PENNIES", 0.9, 1, 0.2), c("FARTHING", 0.7, 1.2, 0.8)],
-      "PENNY", TASTES.standard,
+      [c("SLEEP", 1, 1, 0.02), c("SLEEPING", 0.9, 1, 0.02), c("REPOSE", 0.67, 0.7, 0.15)],
+      "SLEEP",
+      TASTES.standard,
     );
-    expect(out.map((x) => x.w)).toEqual(["FARTHING"]);
+    expect(out.map((x) => x.w)).toEqual(["REPOSE"]);
   });
 
-  it("gentle admits less obscurity than cruel", () => {
-    const field = [c("OCULUS", 0.6, 1.5, 1.1)];
-    expect(eligible(field, "EYE", TASTES.gentle)).toHaveLength(0);
-    expect(eligible(field, "EYE", TASTES.cruel)).toHaveLength(1);
+  it("gentle allows less unfamiliarity than cruel", () => {
+    const field = [c("SCATHE", 0.6, 1.1, 0.3)];
+    expect(eligible(field, "HURT", TASTES.gentle)).toHaveLength(0);
+    expect(eligible(field, "HURT", TASTES.cruel)).toHaveLength(1);
   });
 });
 
-describe("part-of-speech shape", () => {
-  it("rejects a participle offered as a verb", () => {
-    const out = eligible([c("PROPELLING", 0.8, 1, 0.5)], "DRIVE", TASTES.standard, "verb");
-    expect(out).toHaveLength(0);
+describe("appeal", () => {
+  it("prefers the grander of two valid words", () => {
+    expect(appeal(c("HALLOWED", 0.6, 1.27, 0.05)))
+      .toBeGreaterThan(appeal(c("BLESSED", 0.6, 0.4, 0.02)));
   });
 
-  it("rejects an abstract noun offered as a verb", () => {
-    const out = eligible([c("PUSHINGNESS", 0.8, 1, 0.9)], "DRIVE", TASTES.cruel, "verb");
-    expect(out).toHaveLength(0);
-  });
-
-  it("keeps a real verb", () => {
-    const out = eligible([c("CHAUFFEUR", 0.6, 1.2, 0.6)], "DRIVE", TASTES.standard, "verb");
-    expect(out.map((x) => x.w)).toEqual(["CHAUFFEUR"]);
-  });
-
-  it("allows those same shapes for a noun slot", () => {
-    const out = eligible([c("PROPULSION", 0.8, 1, 0.5)], "DRIVE", TASTES.standard, "noun");
-    expect(out).toHaveLength(1);
+  it("breaks a tie on sense", () => {
+    expect(appeal(c("SLUMBER", 0.91, 0.51, 0.09)))
+      .toBeGreaterThan(appeal(c("DROWSE", 0.27, 0.51, 0.05)));
   });
 });
 
 describe("pick", () => {
   const field = [
-    c("FELINE", 0.8, 1.1, 0.7),
-    c("PUSS", 0.7, 0.8, 0.3),
-    c("KITTY", 0.6, 0.4, 0.1),
+    c("FELINE", 0.6, 0.96, 0.09),
+    c("PUSSYCAT", 0.68, 0.52, 0.05),
+    c("TABBY", 0.68, 0.22, 0.08),
   ];
 
   it("returns null when nothing survives", () => {
-    expect(pick([c("X", 0.01, 0, 0)], "CAT", TASTES.standard, 0.5)).toBeNull();
+    expect(pick([c("X", 0.01, 1, 0.01)], "CAT", TASTES.standard, 0.5)).toBeNull();
   });
 
   it("favours the most appealing word at a low roll", () => {
@@ -79,12 +66,11 @@ describe("pick", () => {
   });
 
   it("is deterministic for a given roll", () => {
-    const a = pick(field, "CAT", TASTES.standard, 0.42);
-    const b = pick(field, "CAT", TASTES.standard, 0.42);
-    expect(a?.w).toBe(b?.w);
+    expect(pick(field, "CAT", TASTES.standard, 0.42)?.w)
+      .toBe(pick(field, "CAT", TASTES.standard, 0.42)?.w);
   });
 
-  it("covers the whole field across rolls at high temperature", () => {
+  it("covers the whole field at high temperature", () => {
     const warm = { ...TASTES.standard, temperature: 3 };
     const seen = new Set<string>();
     for (let i = 0; i < 100; i++) seen.add(pick(field, "CAT", warm, i / 100)!.w);
@@ -100,21 +86,5 @@ describe("pick", () => {
 
   it("handles a roll at the top of the range", () => {
     expect(pick(field, "CAT", TASTES.standard, 1)).not.toBeNull();
-  });
-});
-
-describe("appeal", () => {
-  it("ranks the pompous word above the plain one", () => {
-    expect(appeal(c("FELINE", 0.8, 1.1, 0.7))).toBeGreaterThan(appeal(c("KITTY", 0.8, 0.4, 0.1)));
-  });
-
-  it("puts an in-context ranking above dictionary pomposity", () => {
-    const contextual = { ...c("FRIGID", 0.6, 0.9, 0.5), fit: 0.62 };
-    expect(appeal(contextual)).toBeGreaterThan(appeal(c("AFFECTLESS", 0.6, 1.4, 0.8)));
-  });
-
-  it("penalises an obscure word against an equally pompous known one", () => {
-    expect(appeal(c("GARGANTUAN", 0.7, 1.34, 0.95)))
-      .toBeGreaterThan(appeal(c("CACHINNATION", 0.7, 1.34, 1.33)));
   });
 });

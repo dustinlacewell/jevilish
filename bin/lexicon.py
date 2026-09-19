@@ -5,6 +5,15 @@ lemma. Neither is a list of drop-in substitutes -- Moby files `monkey` under
 PENNY -- so nothing here judges a word. That is Jev's job, in bin/score.py.
 """
 import json
+import os
+
+# Irregular past and participle forms. Moby files BROKE as its own headword
+# (the adjective, "out of money"), so a phrase using the past tense of BREAK
+# is handed a pool that cannot express fracture at all. Mapping to the base
+# form first is what makes FRACTURE reachable.
+_IRREGULAR_PATH = os.path.join("data", "irregulars.json")
+IRREGULAR = (json.load(open(_IRREGULAR_PATH, encoding="utf-8"))
+             if os.path.exists(_IRREGULAR_PATH) else {})
 
 STOP = set("""A AN THE OF FOR TO IN ON AT AND OR BUT IS ARE WAS WERE BE BEEN AM IT ITS
 YOUR MY HIS HER THEIR OUR THIS THAT THESE THOSE WITH FROM BY AS SO IF NOT NO YES YOU I WE
@@ -28,6 +37,9 @@ def load_moby():
     return pool
 
 def lemmas(word):
+    base = IRREGULAR.get(word)
+    if base:
+        yield base
     """Candidate base forms, best guess first. A thesaurus is keyed on lemmas,
     so BIGGER must reach BIG or the word silently loses its swap."""
     yield word

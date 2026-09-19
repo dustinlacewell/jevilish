@@ -1,44 +1,52 @@
 /** Loading and hydrating the generated bank. The app's only I/O. */
+import { binomialFor, type BinomialTable } from "../core/binomial";
 import { inflect, type WordForm } from "../core/inflect";
+import { archaicPass, fixArticles } from "../core/register";
+import { pick, type Candidate, type Taste } from "../core/select";
 import { randomFrom } from "../core/shuffle";
-import { pick, type Candidate, type Pos, type Taste } from "../core/select";
 import type { Puzzle, PuzzleWord } from "../core/types";
 
-/** A puzzle as stored: tokens plus which of them may be swapped. */
+/** A slot the generator decided is worth replacing. */
+export interface Slot {
+  /** Token index in the phrase. */
+  readonly i: number;
+  /** Lexicon key, when the replacement comes from the thesaurus. */
+  readonly k?: string;
+  /** A scientific name, when the word is an organism. */
+  readonly sci?: string;
+  /** Grammatical form the sentence needs. */
+  readonly f: WordForm;
+  /** Present when the slot is unambiguously a verb. */
+  readonly v?: number;
+}
+
 export interface RawPuzzle {
   readonly id: string;
   readonly mode: "idiom" | "before-after";
   readonly answer: string;
   readonly tokens: readonly string[];
-  readonly slots: readonly {
-    /** Token index in the phrase. */
-    i: number;
-    /** Lexicon key, `lemma|pos`. */
-    k: string;
-    /** Grammatical form the sentence needs. */
-    f: WordForm;
-    /** Jev's in-context ranking for this exact slot: [word, probability]. */
-    r?: readonly (readonly [string, number])[];
-  }[];
+  readonly slots: readonly Slot[];
   readonly fam: number;
   readonly pivot?: number;
 }
 
-/** lemma|pos -> the candidates Jev scored for that sense. */
+/** Slot key -> the candidates Jev vetted for it, ranked by theme. */
 export type Lexicon = Record<string, Candidate[]>;
 
 export interface Bank {
   readonly puzzles: readonly RawPuzzle[];
   readonly lexicon: Lexicon;
+  readonly binomials: BinomialTable;
 }
 
 export async function loadBank(): Promise<Bank> {
   const base = import.meta.env.BASE_URL;
-  const [puzzles, lexicon] = await Promise.all([
+  const [puzzles, lexicon, binomials] = await Promise.all([
     fetch(`${base}puzzles.json`).then(expectJson<RawPuzzle[]>),
     fetch(`${base}lexicon.json`).then(expectJson<Lexicon>),
+    fetch(`${base}binomials.json`).then(expectJson<BinomialTable>),
   ]);
-  return { puzzles, lexicon };
+  return { puzzles, lexicon, binomials };
 }
 
 async function expectJson<T>(response: Response): Promise<T> {
@@ -47,68 +55,61 @@ async function expectJson<T>(response: Response): Promise<T> {
 }
 
 /**
- * Turn a stored puzzle into a playable one by choosing each slot's
- * replacement. The seed makes a board reproducible, so a shared link and a
- * re-roll are the same mechanism with a different number.
+ * Turn a stored puzzle into a playable board.
+ *
+ * Three kinds of replacement, in order of precedence: a scientific name for
+ * an organism, a vetted synonym for ordinary vocabulary, and an archaic form
+ * for the function words neither of those can touch. The seed makes a board
+ * reproducible, so a shared link and a re-roll are the same mechanism with a
+ * different number.
  */
 export function hydrate(
   raw: RawPuzzle,
-  lexicon: Lexicon,
+  bank: Pick<Bank, "lexicon" | "binomials">,
   taste: Taste,
   seed: number,
 ): Puzzle {
   const roll = randomFrom(seed);
   const bySlot = new Map(raw.slots.map((slot) => [slot.i, slot]));
+  const archaic = archaicPass(raw.tokens);
 
   const words: PuzzleWord[] = raw.tokens.map((token, index) => {
+    const plain = { original: token, shown: token, swapped: false };
     const slot = bySlot.get(index);
-    const candidates = slot ? lexicon[slot.k] : undefined;
-    if (!slot || !candidates) return { original: token, shown: token, swapped: false };
 
-    const pos = slot.k.split("|")[1] as Pos;
-    // Prefer Jev's ranking for this exact sentence: it alone knows which
-    // sense the phrase wants. Fall back to the lemma's scores.
-    const field = slot.r ? contextual(slot.r, candidates) : candidates;
-    const chosen = pick(field, stripPunctuation(token), taste, roll(), pos);
-    if (!chosen) return { original: token, shown: token, swapped: false };
+    if (slot?.sci) {
+      return { original: token, shown: slot.sci, swapped: true, scientific: true };
+    }
 
-    return {
-      original: token,
-      shown: inflect(chosen.w, slot.f),
-      swapped: true,
-      confidence: chosen.syn,
-    };
+    if (slot?.k) {
+      const candidates = bank.lexicon[slot.k];
+      const chosen = candidates && pick(candidates, stripPunctuation(token), taste, roll());
+      if (chosen) {
+        return {
+          original: token,
+          shown: inflect(chosen.w, slot.f, slot.v === 1),
+          swapped: true,
+          confidence: chosen.sense,
+        };
+      }
+    }
+
+    // Function words have no synonyms, only registers: YOUR -> THY.
+    const costumed = archaic[index];
+    if (costumed) return { original: token, shown: costumed, swapped: true };
+
+    return plain;
   });
 
+  // A/AN agrees with the sound of what follows, which the swaps just changed.
+  const articled = fixArticles(words.map((w) => w.shown));
+  const settled = words.map((word, i) =>
+    articled[i] === word.shown ? word : { ...word, shown: articled[i] });
+
   return {
-    id: raw.id, mode: raw.mode, answer: raw.answer, words,
+    id: raw.id, mode: raw.mode, answer: raw.answer, words: settled,
     familiarity: raw.fam, pivotIndex: raw.pivot,
   };
-}
-
-/**
- * Fold the in-context ranking into the scored candidates. The contextual
- * probability replaces synonymy, since it is a judgement about this sentence
- * rather than about the dictionary.
- */
-function contextual(
-  ranked: readonly (readonly [string, number])[],
-  scored: readonly Candidate[],
-): Candidate[] {
-  const byWord = new Map(scored.map((c) => [c.w.toUpperCase(), c]));
-  const out: Candidate[] = [];
-  let mass = 0;
-  for (const [word, probability] of ranked) {
-    const base = byWord.get(word.toUpperCase());
-    if (!base) continue;
-    // Keep the head of the distribution only. Below it Jev is expressing
-    // "anything but this", and sampling there is what produced readings like
-    // "AFFECTLESS AS ICE" for a phrase about temperature.
-    if (mass > 0.98 && out.length >= 4) break;
-    mass += probability;
-    out.push({ ...base, syn: Math.max(base.syn, probability), fit: probability });
-  }
-  return out.length > 0 ? out : [...scored];
 }
 
 function stripPunctuation(token: string): string {
@@ -122,3 +123,5 @@ export function puzzleOfTheDay(bank: readonly RawPuzzle[], today = new Date()): 
     today.getUTCFullYear(), today.getUTCMonth(), today.getUTCDate()) - epoch) / 86_400_000);
   return bank[((day % bank.length) + bank.length) % bank.length];
 }
+
+export { binomialFor };

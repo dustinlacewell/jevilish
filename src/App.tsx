@@ -40,7 +40,7 @@ export function App() {
 
   // The board is derived: same puzzle, new seed or difficulty, new words.
   const puzzle = useMemo(
-    () => (bank && raw ? hydrate(raw, bank.lexicon, TASTES[level], seed) : null),
+    () => (bank && raw ? hydrate(raw, bank, TASTES[level], seed) : null),
     [bank, raw, level, seed],
   );
 

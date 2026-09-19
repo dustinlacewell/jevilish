@@ -11,14 +11,14 @@ interface RevealProps {
   readonly taste: Taste;
 }
 
-const SHOWN = 6;
+const SHOWN = 5;
 
 /**
- * The payoff: every swapped word was a field of candidates Jev scored, and
- * these are the numbers it scored them on.
+ * The payoff: every swapped word was a field Jev scored, and these are the
+ * numbers it kept and threw away.
  */
 export function Reveal({ puzzle, raw, lexicon, taste }: RevealProps) {
-  const slots = raw.slots.filter((slot) => puzzle.words[slot.i]?.swapped);
+  const slots = raw.slots.filter((slot) => slot.k && puzzle.words[slot.i]?.swapped);
   if (slots.length === 0) return null;
 
   return (
@@ -30,7 +30,7 @@ export function Reveal({ puzzle, raw, lexicon, taste }: RevealProps) {
             key={slot.i}
             original={puzzle.words[slot.i].original}
             chosen={puzzle.words[slot.i].shown}
-            pool={lexicon[slot.k] ?? []}
+            pool={lexicon[slot.k!] ?? []}
             taste={taste}
           />
         ))}
@@ -59,7 +59,7 @@ function Verdict({ original, chosen, pool, taste }: VerdictProps) {
         <span className="verdict__arrow" aria-hidden="true">→</span>
         <span className="verdict__to">{chosen}</span>
         <span className="verdict__field">
-          {field.length} passed · {rejected} rejected
+          {field.length} kept · {rejected} cut
         </span>
       </div>
 
@@ -67,18 +67,18 @@ function Verdict({ original, chosen, pool, taste }: VerdictProps) {
         <thead>
           <tr>
             <th scope="col">candidate</th>
-            <th scope="col" title="Can it replace the word?">syn</th>
-            <th scope="col" title="How over-the-top it sounds">pomp</th>
-            <th scope="col" title="How obscure it is">obs</th>
+            <th scope="col" title="Does it mean the right thing here?">sense</th>
+            <th scope="col" title="How grand it sounds">theme</th>
+            <th scope="col" title="How many readers have never met it">unknown</th>
           </tr>
         </thead>
         <tbody>
           {listed.map((c) => (
             <tr key={c.w} className={c.w.toUpperCase() === chosen ? "scores__row--won" : undefined}>
               <td className="scores__word">{c.w}</td>
-              <td><Bar value={c.syn} /></td>
-              <td><Bar value={c.pomp / 2} tone="gold" /></td>
-              <td><Bar value={c.obs / 2} tone="seal" /></td>
+              <td><Bar value={c.sense} /></td>
+              <td><Bar value={c.theme / 2} tone="gold" /></td>
+              <td><Bar value={c.unknown} tone="seal" /></td>
             </tr>
           ))}
         </tbody>
