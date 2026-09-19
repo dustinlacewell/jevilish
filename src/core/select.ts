@@ -73,9 +73,33 @@ const TO_INFINITIVE_MODALS = new Set([
   "HAVE", "HAS", "HAD", "OUGHT", "NEED", "NEEDS", "GET", "GOT", "WANT",
 ]);
 
+/**
+ * LET is causative, not modal, and shares the bare-infinitive frame: "let
+ * bygones be", "let the good times roll". Its synonyms all want a TO —
+ * "allow bygones TO be" — so none of them can stand in for it.
+ *
+ * Only LET is listed. MAKE and SEE take the same frame in "make your hair
+ * stand" and "hear a pin drop", but they are far more often plain
+ * transitives ("make a mountain", "see the forest") where the synonyms are
+ * correct. Every LET in the bank is causative; the others are not, and
+ * telling the uses apart needs a parse rather than a word list.
+ */
+const BARE_INFINITIVE_CAUSATIVES = new Set(["LET"]);
+
+/**
+ * Verbs of permitting. Fine anywhere else, unusable after a causative LET
+ * because each one governs a to-infinitive.
+ */
+const PERMITTING_VERBS = new Set([
+  "ALLOW", "PERMIT", "AUTHORIZE", "SANCTION", "CONSENT", "ACCORD", "GRANT",
+  "SUFFER", "LEAVE", "RELEASE", "DISPENSE", "ADMIT", "CONSIDER", "HAVE",
+  "ENABLE", "ENTITLE", "LICENSE",
+]);
+
 /** Does swapping `candidate` for `original` break the complement frame? */
 function breaksModalFrame(candidate: string, original: string): boolean {
-  return BARE_INFINITIVE_MODALS.has(original) && TO_INFINITIVE_MODALS.has(candidate);
+  if (BARE_INFINITIVE_MODALS.has(original) && TO_INFINITIVE_MODALS.has(candidate)) return true;
+  return BARE_INFINITIVE_CAUSATIVES.has(original) && PERMITTING_VERBS.has(candidate);
 }
 
 /** Candidates a given taste is willing to show the player. */

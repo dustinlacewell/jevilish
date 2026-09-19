@@ -129,3 +129,37 @@ describe("modal complement frames", () => {
     expect(pick(field, "MUST", TASTE, 0.5)).toBeNull();
   });
 });
+
+describe("causative LET", () => {
+  /** LET takes a bare infinitive — "let bygones be" — and every synonym
+      for it governs a to-infinitive. "ALLOW PASTS BE PASTS" was the daily
+      puzzle on the day this was found. */
+  it("refuses a permitting verb for LET", () => {
+    const field = [
+      c("ALLOW", 0.88, 0.69, 0.02),
+      c("PERMIT", 0.72, 0.6, 0.03),
+      c("AUTHORIZE", 0.5, 0.57, 0.03),
+      c("LEAVE", 0.75, 0.46, 0.02),
+    ];
+    expect(eligible(field, "LET", TASTE)).toHaveLength(0);
+  });
+
+  it("strands the slot, leaving LET plain", () => {
+    expect(pick([c("ALLOW", 0.88, 0.69, 0.02)], "LET", TASTE, 0.5)).toBeNull();
+  });
+
+  it("does not touch the same verbs elsewhere", () => {
+    // ALLOW for PERMIT is a fine swap; the rule is about LET's frame,
+    // not about the word ALLOW.
+    expect(eligible([c("ALLOW", 0.8, 0.5, 0.02)], "PERMIT", TASTE).map((x) => x.w))
+      .toEqual(["ALLOW"]);
+  });
+
+  it("leaves MAKE alone", () => {
+    // MAKE is causative in "make your hair stand" and a plain transitive
+    // in "make a mountain". Refusing its synonyms would break far more
+    // puzzles than it fixed, so the rule names only LET.
+    expect(eligible([c("CONSTRUCT", 0.63, 0.7, 0.03)], "MAKE", TASTE).map((x) => x.w))
+      .toEqual(["CONSTRUCT"]);
+  });
+});
