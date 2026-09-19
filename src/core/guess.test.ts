@@ -38,3 +38,32 @@ describe("evaluateGuess", () => {
     expect(evaluateGuess("", answer).verdict).toBe("wrong");
   });
 });
+
+describe("contractions", () => {
+  /** A player typing DONT for DON'T is making the same guess. Before
+      normalize() dropped apostrophes this scored 0.60 and read "close". */
+  it("accepts a contraction typed without its apostrophe", () => {
+    expect(evaluateGuess("dont drink and drive", "DON'T DRINK AND DRIVE").verdict)
+      .toBe("correct");
+  });
+
+  it("accepts it with the apostrophe", () => {
+    expect(evaluateGuess("don't drink and drive", "DON'T DRINK AND DRIVE").verdict)
+      .toBe("correct");
+  });
+
+  it("accepts the curly apostrophe a phone inserts", () => {
+    expect(evaluateGuess("don’t drink and drive", "DON'T DRINK AND DRIVE").verdict)
+      .toBe("correct");
+  });
+
+  it("accepts several contractions in one phrase", () => {
+    expect(evaluateGuess("what you dont know wont hurt you", "WHAT YOU DON'T KNOW WON'T HURT YOU").verdict)
+      .toBe("correct");
+  });
+
+  it("still rejects a genuinely wrong guess", () => {
+    expect(evaluateGuess("something else entirely", "DON'T DRINK AND DRIVE").verdict)
+      .toBe("wrong");
+  });
+});
