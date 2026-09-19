@@ -1,0 +1,22 @@
+node_modules
+dist
+
+# Secrets
+.env
+
+# Source corpora: large, and re-downloadable (see README)
+data/moby.txt
+data/wordnet.jsonl
+
+# Loose per-answer cache. The committed cache/*.pack.json files are what
+# makes the bank rebuildable without an API key; bin/pack.py folds these
+# into them.
+cache/screen/
+cache/tag/
+cache/safety/
+cache/score/
+cache/fit/
+
+*.tmp
+__pycache__/
+*.pyc

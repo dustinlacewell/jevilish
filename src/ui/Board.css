@@ -1,0 +1,57 @@
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.35em 0.5em;
+  padding: clamp(1rem, 4vw, 2.5rem) 0;
+  font-size: clamp(1.35rem, 5.2vw, 2.9rem);
+  line-height: 1.25;
+  text-align: center;
+}
+
+.word {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  letter-spacing: 0.02em;
+  transition: color 180ms ease;
+}
+
+/* An untouched word: the phrase's own scaffolding. */
+.word__shown { white-space: nowrap; }
+
+/* A word Jev replaced. Underlined in gold like a printer's correction. */
+.word--swapped .word__shown {
+  color: var(--gold);
+  font-style: italic;
+  border-bottom: 2px solid var(--gold);
+  padding-bottom: 0.04em;
+}
+
+/* The shared hinge of a Before & After puzzle. */
+.word--pivot .word__shown {
+  box-shadow: inset 0 -0.55em 0 rgba(154, 123, 37, 0.16);
+}
+
+.word--matched .word__shown { color: var(--green); }
+
+.word--revealed .word__shown {
+  color: var(--ink-faint);
+  font-size: 0.55em;
+  border-bottom-color: transparent;
+}
+
+/* The recovered word, printed beneath its pompous stand-in. */
+.word__original {
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: 0.01em;
+  animation: settle 320ms ease both;
+}
+
+@keyframes settle {
+  from { opacity: 0; transform: translateY(-0.25em); }
+  to { opacity: 1; transform: none; }
+}

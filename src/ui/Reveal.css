@@ -1,0 +1,87 @@
+.reveal { border-top: 1px solid var(--rule); margin-top: 1rem; padding-top: 1.25rem; }
+
+.reveal__title {
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.reveal__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 1.5rem; }
+
+.verdict__head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.verdict__from { font-weight: 600; }
+.verdict__arrow { color: var(--ink-faint); }
+.verdict__to { color: var(--gold); font-style: italic; }
+
+.verdict__field {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.scores { width: 100%; border-collapse: collapse; font-size: 0.75rem; }
+
+.scores th {
+  font-family: var(--mono);
+  font-size: 0.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+  text-align: left;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+.scores th:not(:first-child) { width: 20%; }
+
+.scores td { padding: 0.28rem 0.5rem 0.28rem 0; vertical-align: middle; }
+
+.scores__word {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  max-width: 11rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.scores__row--won .scores__word { color: var(--gold); font-weight: 700; }
+
+.bar {
+  display: block;
+  height: 0.38rem;
+  background: var(--paper-deep);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.bar > span { display: block; height: 100%; opacity: 0.6; }
+.bar--ink > span { background: var(--ink-soft); }
+.bar--gold > span { background: var(--gold); }
+.bar--seal > span { background: var(--seal); }
+
+.verdict__more {
+  margin-top: 0.5rem;
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

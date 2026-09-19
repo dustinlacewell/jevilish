@@ -1,0 +1,3242 @@
+[
+ {
+  "phrase": "A CHIP OFF THE OLD BLOCK AND TACKLE",
+  "pivot_index": 5,
+  "pivot": "BLOCK",
+  "pivot_conf": 0.78,
+  "before": "A CHIP OFF THE OLD BLOCK",
+  "after": "BLOCK AND TACKLE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "A FASHION PLATE OF PASTA",
+  "pivot_index": 2,
+  "pivot": "PLATE",
+  "pivot_conf": 0.97,
+  "before": "A FASHION PLATE",
+  "after": "PLATE OF PASTA",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "A FRIEND OF THE FAMILY TREE",
+  "pivot_index": 4,
+  "pivot": "FAMILY",
+  "pivot_conf": 0.56,
+  "before": "A FRIEND OF THE FAMILY",
+  "after": "FAMILY TREE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "A GOOD TIME WAS HAD BY ALL TOGETHER NOW",
+  "pivot_index": 6,
+  "pivot": "ALL",
+  "pivot_conf": 0.64,
+  "before": "A GOOD TIME WAS HAD BY ALL",
+  "after": "ALL TOGETHER NOW",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "A HOUSE IS NOT A HOME ON THE RANGE",
+  "pivot_index": 5,
+  "pivot": "HOME",
+  "pivot_conf": 0.52,
+  "before": "A HOUSE IS NOT A HOME",
+  "after": "HOME ON THE RANGE",
+  "ba_score": 0.85
+ },
+ {
+  "phrase": "A JELLY BELLY LAUGH",
+  "pivot_index": 2,
+  "pivot": "BELLY",
+  "pivot_conf": 0.84,
+  "before": "A JELLY BELLY",
+  "after": "BELLY LAUGH",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "A LETTER FROM AN OLD FLAME THROWER",
+  "pivot_index": 5,
+  "pivot": "FLAME",
+  "pivot_conf": 0.83,
+  "before": "A LETTER FROM AN OLD FLAME",
+  "after": "FLAME THROWER",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "A MATCH MADE IN HEAVEN ONLY KNOWS",
+  "pivot_index": 4,
+  "pivot": "HEAVEN",
+  "pivot_conf": 0.68,
+  "before": "A MATCH MADE IN HEAVEN",
+  "after": "HEAVEN ONLY KNOWS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "A NEWBORN BABY RUTH",
+  "pivot_index": 2,
+  "pivot": "BABY",
+  "pivot_conf": 0.75,
+  "before": "A NEWBORN BABY",
+  "after": "BABY RUTH",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "A SCHOOL OF FISH SANDWICHES",
+  "pivot_index": 3,
+  "pivot": "FISH",
+  "pivot_conf": 0.75,
+  "before": "A SCHOOL OF FISH",
+  "after": "FISH SANDWICHES",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "A WOLF IN SHEEP'S CLOTHING STORE",
+  "pivot_index": 4,
+  "pivot": "CLOTHING",
+  "pivot_conf": 0.78,
+  "before": "A WOLF IN SHEEP'S CLOTHING",
+  "after": "CLOTHING STORE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "ACHY BREAKY HEART SURGEON",
+  "pivot_index": 2,
+  "pivot": "HEART",
+  "pivot_conf": 1.0,
+  "before": "ACHY BREAKY HEART",
+  "after": "HEART SURGEON",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "AIN'T SHE SWEET POTATOES",
+  "pivot_index": 2,
+  "pivot": "SWEET",
+  "pivot_conf": 0.62,
+  "before": "AIN'T SHE SWEET",
+  "after": "SWEET POTATOES",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "AIR FORCE ONE-TRACK MIND",
+  "pivot_index": 2,
+  "pivot": "ONE-TRACK",
+  "pivot_conf": 0.61,
+  "before": "AIR FORCE ONE-TRACK",
+  "after": "ONE-TRACK MIND",
+  "ba_score": 0.88
+ },
+ {
+  "phrase": "ALEXANDER THE GREAT DANE",
+  "pivot_index": 2,
+  "pivot": "GREAT",
+  "pivot_conf": 0.83,
+  "before": "ALEXANDER THE GREAT",
+  "after": "GREAT DANE",
+  "ba_score": 0.85
+ },
+ {
+  "phrase": "ALEXANDER THE GREAT LAKES",
+  "pivot_index": 2,
+  "pivot": "GREAT",
+  "pivot_conf": 0.91,
+  "before": "ALEXANDER THE GREAT",
+  "after": "GREAT LAKES",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "ALL THE WORLD'S A STAGE FRIGHT",
+  "pivot_index": 4,
+  "pivot": "STAGE",
+  "pivot_conf": 0.79,
+  "before": "ALL THE WORLD'S A STAGE",
+  "after": "STAGE FRIGHT",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "ANDY GRIFFITH AS SHERIFF ANDY TAYLOR",
+  "pivot_index": 4,
+  "pivot": "ANDY",
+  "pivot_conf": 0.79,
+  "before": "ANDY GRIFFITH AS SHERIFF ANDY",
+  "after": "ANDY TAYLOR",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "ATTENDING A BRIDAL SHOWER CURTAIN",
+  "pivot_index": 3,
+  "pivot": "SHOWER",
+  "pivot_conf": 0.95,
+  "before": "ATTENDING A BRIDAL SHOWER",
+  "after": "SHOWER CURTAIN",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "BACK IN A FLASH GORDON",
+  "pivot_index": 3,
+  "pivot": "FLASH",
+  "pivot_conf": 0.77,
+  "before": "BACK IN A FLASH",
+  "after": "FLASH GORDON",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "BANK OF AMERICA THE BEAUTIFUL",
+  "pivot_index": 2,
+  "pivot": "AMERICA",
+  "pivot_conf": 0.6,
+  "before": "BANK OF AMERICA",
+  "after": "AMERICA THE BEAUTIFUL",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "BAR OF SOAP OPERA",
+  "pivot_index": 2,
+  "pivot": "SOAP",
+  "pivot_conf": 0.75,
+  "before": "BAR OF SOAP",
+  "after": "SOAP OPERA",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "BARKING UP THE WRONG TREE SURGEON",
+  "pivot_index": 4,
+  "pivot": "TREE",
+  "pivot_conf": 0.98,
+  "before": "BARKING UP THE WRONG TREE",
+  "after": "TREE SURGEON",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "BASEBALL DIAMOND ENGAGEMENT RING",
+  "pivot_index": 1,
+  "pivot": "DIAMOND",
+  "pivot_conf": 0.74,
+  "before": "BASEBALL DIAMOND",
+  "after": "DIAMOND ENGAGEMENT RING",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "BEACH BLANKET BINGO PARLOR",
+  "pivot_index": 2,
+  "pivot": "BINGO",
+  "pivot_conf": 0.71,
+  "before": "BEACH BLANKET BINGO",
+  "after": "BINGO PARLOR",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "BELLY BUTTON OR ORANGE",
+  "pivot_index": 2,
+  "pivot": "OR",
+  "pivot_conf": 0.98,
+  "before": "BELLY BUTTON OR",
+  "after": "OR ORANGE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "BETTY WHITE AS A SHEET",
+  "pivot_index": 1,
+  "pivot": "WHITE",
+  "pivot_conf": 0.57,
+  "before": "BETTY WHITE",
+  "after": "WHITE AS A SHEET",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "BETTY WHITE PICKET FENCE",
+  "pivot_index": 1,
+  "pivot": "WHITE",
+  "pivot_conf": 0.55,
+  "before": "BETTY WHITE",
+  "after": "WHITE PICKET FENCE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "BICYCLE CHAIN OF COMMAND",
+  "pivot_index": 1,
+  "pivot": "CHAIN",
+  "pivot_conf": 0.44,
+  "before": "BICYCLE CHAIN",
+  "after": "CHAIN OF COMMAND",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "BOOGIE FEVER GOT TO BOOGIE DOWN",
+  "pivot_index": 4,
+  "pivot": "BOOGIE",
+  "pivot_conf": 0.96,
+  "before": "BOOGIE FEVER GOT TO BOOGIE",
+  "after": "BOOGIE DOWN",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "BORED TO DEATH-DEFYING ACT",
+  "pivot_index": 2,
+  "pivot": "DEATH-DEFYING",
+  "pivot_conf": 0.84,
+  "before": "BORED TO DEATH-DEFYING",
+  "after": "DEATH-DEFYING ACT",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "BORN TO BE WILD RICE",
+  "pivot_index": 3,
+  "pivot": "WILD",
+  "pivot_conf": 0.77,
+  "before": "BORN TO BE WILD",
+  "after": "WILD RICE",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "BREAKFAST IN BED OF ROSES",
+  "pivot_index": 2,
+  "pivot": "BED",
+  "pivot_conf": 0.65,
+  "before": "BREAKFAST IN BED",
+  "after": "BED OF ROSES",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "BROWN PAPER BAG OF TRICKS",
+  "pivot_index": 2,
+  "pivot": "BAG",
+  "pivot_conf": 0.75,
+  "before": "BROWN PAPER BAG",
+  "after": "BAG OF TRICKS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "BUSINESS SUIT OF ARMOR",
+  "pivot_index": 1,
+  "pivot": "SUIT",
+  "pivot_conf": 0.75,
+  "before": "BUSINESS SUIT",
+  "after": "SUIT OF ARMOR",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "BUTTON NOSE CORNCOB PIPE EYES MADE OUT OF COAL",
+  "pivot_index": 3,
+  "pivot": "PIPE",
+  "pivot_conf": 0.42,
+  "before": "BUTTON NOSE CORNCOB PIPE",
+  "after": "PIPE EYES MADE OUT OF COAL",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "CANDY CORN ON THE COB",
+  "pivot_index": 1,
+  "pivot": "CORN",
+  "pivot_conf": 0.75,
+  "before": "CANDY CORN",
+  "after": "CORN ON THE COB",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "CASH IN YOUR CHIPS",
+  "pivot_index": 1,
+  "pivot": "IN",
+  "pivot_conf": 0.44,
+  "before": "CASH IN",
+  "after": "IN YOUR CHIPS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "CHECK STUB YOUR TOE",
+  "pivot_index": 1,
+  "pivot": "STUB",
+  "pivot_conf": 0.6,
+  "before": "CHECK STUB",
+  "after": "STUB YOUR TOE",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "CHICKEN OF THE SEA LION",
+  "pivot_index": 3,
+  "pivot": "SEA",
+  "pivot_conf": 0.94,
+  "before": "CHICKEN OF THE SEA",
+  "after": "SEA LION",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "CHILLED SHRIMP COCKTAIL DRESS",
+  "pivot_index": 2,
+  "pivot": "COCKTAIL",
+  "pivot_conf": 0.91,
+  "before": "CHILLED SHRIMP COCKTAIL",
+  "after": "COCKTAIL DRESS",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "CHOO-CHOO TRAIN OF THOUGHT",
+  "pivot_index": 1,
+  "pivot": "TRAIN",
+  "pivot_conf": 0.44,
+  "before": "CHOO-CHOO TRAIN",
+  "after": "TRAIN OF THOUGHT",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "CLIMB EVERY MOUNTAIN GOAT",
+  "pivot_index": 2,
+  "pivot": "MOUNTAIN",
+  "pivot_conf": 0.91,
+  "before": "CLIMB EVERY MOUNTAIN",
+  "after": "MOUNTAIN GOAT",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "COAT OF ARMS AND LEGS",
+  "pivot_index": 2,
+  "pivot": "ARMS",
+  "pivot_conf": 0.77,
+  "before": "COAT OF ARMS",
+  "after": "ARMS AND LEGS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "COFFEE SHOP TILL YOU DROP",
+  "pivot_index": 2,
+  "pivot": "TILL",
+  "pivot_conf": 0.69,
+  "before": "COFFEE SHOP TILL",
+  "after": "TILL YOU DROP",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "COLLECT CALL ME IRRESPONSIBLE",
+  "pivot_index": 1,
+  "pivot": "CALL",
+  "pivot_conf": 0.49,
+  "before": "COLLECT CALL",
+  "after": "CALL ME IRRESPONSIBLE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "COME ON BABY LIGHT MY FIRE",
+  "pivot_index": 3,
+  "pivot": "LIGHT",
+  "pivot_conf": 0.59,
+  "before": "COME ON BABY LIGHT",
+  "after": "LIGHT MY FIRE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "COME ON BABY LIGHT MY FIRE HYDRANT",
+  "pivot_index": 5,
+  "pivot": "FIRE",
+  "pivot_conf": 0.89,
+  "before": "COME ON BABY LIGHT MY FIRE",
+  "after": "FIRE HYDRANT",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "COMEDY CENTRAL NERVOUS SYSTEM",
+  "pivot_index": 1,
+  "pivot": "CENTRAL",
+  "pivot_conf": 0.65,
+  "before": "COMEDY CENTRAL",
+  "after": "CENTRAL NERVOUS SYSTEM",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "CONVERTIBLE SOFA BED AND BREAKFAST",
+  "pivot_index": 2,
+  "pivot": "BED",
+  "pivot_conf": 0.98,
+  "before": "CONVERTIBLE SOFA BED",
+  "after": "BED AND BREAKFAST",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "COWBOY SPUR OF THE MOMENT",
+  "pivot_index": 1,
+  "pivot": "SPUR",
+  "pivot_conf": 0.53,
+  "before": "COWBOY SPUR",
+  "after": "SPUR OF THE MOMENT",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "CURE FOR THE COMMON COLD CUTS",
+  "pivot_index": 4,
+  "pivot": "COLD",
+  "pivot_conf": 0.96,
+  "before": "CURE FOR THE COMMON COLD",
+  "after": "COLD CUTS",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "CUSTER'S LAST STAND BY ME",
+  "pivot_index": 2,
+  "pivot": "STAND",
+  "pivot_conf": 0.69,
+  "before": "CUSTER'S LAST STAND",
+  "after": "STAND BY ME",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "DAIRY CASE OF MISTAKEN IDENTITY",
+  "pivot_index": 1,
+  "pivot": "CASE",
+  "pivot_conf": 0.6,
+  "before": "DAIRY CASE",
+  "after": "CASE OF MISTAKEN IDENTITY",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "DAIRY QUEEN OF HEARTS",
+  "pivot_index": 1,
+  "pivot": "QUEEN",
+  "pivot_conf": 0.45,
+  "before": "DAIRY QUEEN",
+  "after": "QUEEN OF HEARTS",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "DANIEL IN THE LIONS' DEN OF INIQUITY",
+  "pivot_index": 4,
+  "pivot": "DEN",
+  "pivot_conf": 0.82,
+  "before": "DANIEL IN THE LIONS' DEN",
+  "after": "DEN OF INIQUITY",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "DAVID HYDE PIERCE YOUR EARS",
+  "pivot_index": 2,
+  "pivot": "PIERCE",
+  "pivot_conf": 0.84,
+  "before": "DAVID HYDE PIERCE",
+  "after": "PIERCE YOUR EARS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "DELICIOUS APPLE OF MY EYE",
+  "pivot_index": 1,
+  "pivot": "APPLE",
+  "pivot_conf": 0.68,
+  "before": "DELICIOUS APPLE",
+  "after": "APPLE OF MY EYE",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "DIAMOND HEAD & SHOULDERS",
+  "pivot_index": 1,
+  "pivot": "HEAD",
+  "pivot_conf": 0.83,
+  "before": "DIAMOND HEAD",
+  "after": "HEAD & SHOULDERS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "DIVING BOARD OF EDUCATION",
+  "pivot_index": 1,
+  "pivot": "BOARD",
+  "pivot_conf": 0.87,
+  "before": "DIVING BOARD",
+  "after": "BOARD OF EDUCATION",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "DO A DEER A FEMALE DEER",
+  "pivot_index": 2,
+  "pivot": "DEER",
+  "pivot_conf": 0.85,
+  "before": "DO A DEER",
+  "after": "DEER A FEMALE DEER",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "DO YOU CATCH MY DRIFT",
+  "pivot_index": 2,
+  "pivot": "CATCH",
+  "pivot_conf": 0.52,
+  "before": "DO YOU CATCH",
+  "after": "CATCH MY DRIFT",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "DON JOHNSON & JOHNSON",
+  "pivot_index": 1,
+  "pivot": "JOHNSON",
+  "pivot_conf": 0.99,
+  "before": "DON JOHNSON",
+  "after": "JOHNSON & JOHNSON",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "DON'T CRY OVER SPILLED MILK OF MAGNESIA",
+  "pivot_index": 4,
+  "pivot": "MILK",
+  "pivot_conf": 0.86,
+  "before": "DON'T CRY OVER SPILLED MILK",
+  "after": "MILK OF MAGNESIA",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "DON'T GO AWAY MAD JUST GO AWAY",
+  "pivot_index": 2,
+  "pivot": "AWAY",
+  "pivot_conf": 0.88,
+  "before": "DON'T GO AWAY",
+  "after": "AWAY MAD JUST GO AWAY",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "DON'T LEAVE ME DANGLING PARTICIPLE",
+  "pivot_index": 3,
+  "pivot": "DANGLING",
+  "pivot_conf": 0.95,
+  "before": "DON'T LEAVE ME DANGLING",
+  "after": "DANGLING PARTICIPLE",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "DORMITORY ROOM FOR ERROR",
+  "pivot_index": 1,
+  "pivot": "ROOM",
+  "pivot_conf": 0.65,
+  "before": "DORMITORY ROOM",
+  "after": "ROOM FOR ERROR",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "DOWN BUT NOT OUT TO LUNCH",
+  "pivot_index": 3,
+  "pivot": "OUT",
+  "pivot_conf": 0.8,
+  "before": "DOWN BUT NOT OUT",
+  "after": "OUT TO LUNCH",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "DOWN FOR THE COUNT DRACULA",
+  "pivot_index": 3,
+  "pivot": "COUNT",
+  "pivot_conf": 0.98,
+  "before": "DOWN FOR THE COUNT",
+  "after": "COUNT DRACULA",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "DRIVER'S & POETIC LICENSE",
+  "pivot_index": 1,
+  "pivot": "&",
+  "pivot_conf": 0.58,
+  "before": "DRIVER'S &",
+  "after": "& POETIC LICENSE",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "E.T. PHONE HOME IMPROVEMENT",
+  "pivot_index": 2,
+  "pivot": "HOME",
+  "pivot_conf": 0.99,
+  "before": "E.T. PHONE HOME",
+  "after": "HOME IMPROVEMENT",
+  "ba_score": 0.82
+ },
+ {
+  "phrase": "EIGHT IS ENOUGH IS ENOUGH",
+  "pivot_index": 2,
+  "pivot": "ENOUGH",
+  "pivot_conf": 0.7,
+  "before": "EIGHT IS ENOUGH",
+  "after": "ENOUGH IS ENOUGH",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "ENGAGEMENT RING AROUND THE COLLAR",
+  "pivot_index": 1,
+  "pivot": "RING",
+  "pivot_conf": 0.54,
+  "before": "ENGAGEMENT RING",
+  "after": "RING AROUND THE COLLAR",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "ENTERTAINMENT CENTER OF GRAVITY",
+  "pivot_index": 1,
+  "pivot": "CENTER",
+  "pivot_conf": 0.77,
+  "before": "ENTERTAINMENT CENTER",
+  "after": "CENTER OF GRAVITY",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "EXCLAMATION POINT ME IN THE RIGHT DIRECTION",
+  "pivot_index": 1,
+  "pivot": "POINT",
+  "pivot_conf": 0.54,
+  "before": "EXCLAMATION POINT",
+  "after": "POINT ME IN THE RIGHT DIRECTION",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "EYE OF THE TIGER WOODS",
+  "pivot_index": 3,
+  "pivot": "TIGER",
+  "pivot_conf": 0.82,
+  "before": "EYE OF THE TIGER",
+  "after": "TIGER WOODS",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "FAMILY MAN ABOUT TOWN",
+  "pivot_index": 1,
+  "pivot": "MAN",
+  "pivot_conf": 0.78,
+  "before": "FAMILY MAN",
+  "after": "MAN ABOUT TOWN",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "FIGHT TOOTH AND NAIL POLISH",
+  "pivot_index": 3,
+  "pivot": "NAIL",
+  "pivot_conf": 0.94,
+  "before": "FIGHT TOOTH AND NAIL",
+  "after": "NAIL POLISH",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "FIT AS A FIDDLE DEE FIDDLE DUM",
+  "pivot_index": 3,
+  "pivot": "FIDDLE",
+  "pivot_conf": 0.66,
+  "before": "FIT AS A FIDDLE",
+  "after": "FIDDLE DEE FIDDLE DUM",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "FLU SHOT OF WHISKEY",
+  "pivot_index": 1,
+  "pivot": "SHOT",
+  "pivot_conf": 0.66,
+  "before": "FLU SHOT",
+  "after": "SHOT OF WHISKEY",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "FOGGED UP UP AND AWAY",
+  "pivot_index": 2,
+  "pivot": "UP",
+  "pivot_conf": 0.44,
+  "before": "FOGGED UP UP",
+  "after": "UP AND AWAY",
+  "ba_score": 0.84
+ },
+ {
+  "phrase": "FOOT THE BILL OF RIGHTS",
+  "pivot_index": 2,
+  "pivot": "BILL",
+  "pivot_conf": 0.87,
+  "before": "FOOT THE BILL",
+  "after": "BILL OF RIGHTS",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "FOOTLONG HOT DOG LEASH",
+  "pivot_index": 2,
+  "pivot": "DOG",
+  "pivot_conf": 0.62,
+  "before": "FOOTLONG HOT DOG",
+  "after": "DOG LEASH",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "FOR IT'S ONE TWO THREE STRIKES YOU'RE OUT",
+  "pivot_index": 5,
+  "pivot": "STRIKES",
+  "pivot_conf": 0.4,
+  "before": "FOR IT'S ONE TWO THREE STRIKES",
+  "after": "STRIKES YOU'RE OUT",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "FORT WORTH ITS WEIGHT IN GOLD",
+  "pivot_index": 1,
+  "pivot": "WORTH",
+  "pivot_conf": 0.53,
+  "before": "FORT WORTH",
+  "after": "WORTH ITS WEIGHT IN GOLD",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "FOUND ON THE FOOT OR GROWN IN A FIELD",
+  "pivot_index": 3,
+  "pivot": "FOOT",
+  "pivot_conf": 0.67,
+  "before": "FOUND ON THE FOOT",
+  "after": "FOOT OR GROWN IN A FIELD",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "FREEDOM OF SPEECH THERAPIST",
+  "pivot_index": 2,
+  "pivot": "SPEECH",
+  "pivot_conf": 0.92,
+  "before": "FREEDOM OF SPEECH",
+  "after": "SPEECH THERAPIST",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "FROZEN FISH STICK TO YOUR DIET",
+  "pivot_index": 2,
+  "pivot": "STICK",
+  "pivot_conf": 0.92,
+  "before": "FROZEN FISH STICK",
+  "after": "STICK TO YOUR DIET",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "FRUIT AND VEGETABLE STAND-UP COMEDIAN",
+  "pivot_index": 3,
+  "pivot": "STAND-UP",
+  "pivot_conf": 0.56,
+  "before": "FRUIT AND VEGETABLE STAND-UP",
+  "after": "STAND-UP COMEDIAN",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "FULL-LENGTH MINK COAT OF ARMS",
+  "pivot_index": 2,
+  "pivot": "COAT",
+  "pivot_conf": 0.83,
+  "before": "FULL-LENGTH MINK COAT",
+  "after": "COAT OF ARMS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "GAMES PEOPLE PLAY IT AGAIN SAM",
+  "pivot_index": 2,
+  "pivot": "PLAY",
+  "pivot_conf": 0.42,
+  "before": "GAMES PEOPLE PLAY",
+  "after": "PLAY IT AGAIN SAM",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "GARLIC BREATH OF FRESH AIR",
+  "pivot_index": 1,
+  "pivot": "BREATH",
+  "pivot_conf": 0.42,
+  "before": "GARLIC BREATH",
+  "after": "BREATH OF FRESH AIR",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "GET YOUR DUCKS IN A ROW ROW ROW YOUR BOAT",
+  "pivot_index": 5,
+  "pivot": "ROW",
+  "pivot_conf": 0.8,
+  "before": "GET YOUR DUCKS IN A ROW",
+  "after": "ROW ROW ROW YOUR BOAT",
+  "ba_score": 0.92
+ },
+ {
+  "phrase": "GINGERBREAD MAN ABOUT TOWN",
+  "pivot_index": 1,
+  "pivot": "MAN",
+  "pivot_conf": 0.75,
+  "before": "GINGERBREAD MAN",
+  "after": "MAN ABOUT TOWN",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "GINGERBREAD MAN OF THE YEAR",
+  "pivot_index": 1,
+  "pivot": "MAN",
+  "pivot_conf": 0.59,
+  "before": "GINGERBREAD MAN",
+  "after": "MAN OF THE YEAR",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "GIVE IT YOUR BEST SHOT PUT",
+  "pivot_index": 4,
+  "pivot": "SHOT",
+  "pivot_conf": 0.96,
+  "before": "GIVE IT YOUR BEST SHOT",
+  "after": "SHOT PUT",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "GLAMOUR PUSS IN BOOTS",
+  "pivot_index": 1,
+  "pivot": "PUSS",
+  "pivot_conf": 0.44,
+  "before": "GLAMOUR PUSS",
+  "after": "PUSS IN BOOTS",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "GOLF BALL-SIZE HAIL TO THE CHIEF",
+  "pivot_index": 2,
+  "pivot": "HAIL",
+  "pivot_conf": 0.88,
+  "before": "GOLF BALL-SIZE HAIL",
+  "after": "HAIL TO THE CHIEF",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "GOLF COURSE OF ACTION",
+  "pivot_index": 1,
+  "pivot": "COURSE",
+  "pivot_conf": 0.91,
+  "before": "GOLF COURSE",
+  "after": "COURSE OF ACTION",
+  "ba_score": 0.82
+ },
+ {
+  "phrase": "GRANNY SMITH APPLE OF MY EYE",
+  "pivot_index": 2,
+  "pivot": "APPLE",
+  "pivot_conf": 0.94,
+  "before": "GRANNY SMITH APPLE",
+  "after": "APPLE OF MY EYE",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "HAMBURGER JOINT CHIEFS OF STAFF",
+  "pivot_index": 1,
+  "pivot": "JOINT",
+  "pivot_conf": 0.62,
+  "before": "HAMBURGER JOINT",
+  "after": "JOINT CHIEFS OF STAFF",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "HARD AS A ROCK AROUND THE CLOCK",
+  "pivot_index": 3,
+  "pivot": "ROCK",
+  "pivot_conf": 0.64,
+  "before": "HARD AS A ROCK",
+  "after": "ROCK AROUND THE CLOCK",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "HEAVEN ON EARTH ANGEL",
+  "pivot_index": 2,
+  "pivot": "EARTH",
+  "pivot_conf": 0.89,
+  "before": "HEAVEN ON EARTH",
+  "after": "EARTH ANGEL",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "HEIGH-HO HEIGH-HO IT'S HOME FROM WORK WE GO",
+  "pivot_index": 3,
+  "pivot": "HOME",
+  "pivot_conf": 0.71,
+  "before": "HEIGH-HO HEIGH-HO IT'S HOME",
+  "after": "HOME FROM WORK WE GO",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HEIR TO THE FAMILY FORTUNE COOKIE",
+  "pivot_index": 4,
+  "pivot": "FORTUNE",
+  "pivot_conf": 0.98,
+  "before": "HEIR TO THE FAMILY FORTUNE",
+  "after": "FORTUNE COOKIE",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "HEY WAIT A MINUTE HAND",
+  "pivot_index": 3,
+  "pivot": "MINUTE",
+  "pivot_conf": 0.95,
+  "before": "HEY WAIT A MINUTE",
+  "after": "MINUTE HAND",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HI HO SILVER POLISH",
+  "pivot_index": 2,
+  "pivot": "SILVER",
+  "pivot_conf": 0.69,
+  "before": "HI HO SILVER",
+  "after": "SILVER POLISH",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "HIGH BLOOD PRESSURE COOKER",
+  "pivot_index": 2,
+  "pivot": "PRESSURE",
+  "pivot_conf": 0.88,
+  "before": "HIGH BLOOD PRESSURE",
+  "after": "PRESSURE COOKER",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HIGH SCHOOL SENIOR CITIZEN",
+  "pivot_index": 2,
+  "pivot": "SENIOR",
+  "pivot_conf": 0.98,
+  "before": "HIGH SCHOOL SENIOR",
+  "after": "SENIOR CITIZEN",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "HO CHI MINH TRAIL MIX",
+  "pivot_index": 3,
+  "pivot": "TRAIL",
+  "pivot_conf": 0.79,
+  "before": "HO CHI MINH TRAIL",
+  "after": "TRAIL MIX",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HOCKEY STICK OF GUM",
+  "pivot_index": 1,
+  "pivot": "STICK",
+  "pivot_conf": 0.6,
+  "before": "HOCKEY STICK",
+  "after": "STICK OF GUM",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "HOME IMPROVEMENT STAR TIM ALLEN",
+  "pivot_index": 2,
+  "pivot": "STAR",
+  "pivot_conf": 0.72,
+  "before": "HOME IMPROVEMENT STAR",
+  "after": "STAR TIM ALLEN",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HOME SWEET HOME NETWORK",
+  "pivot_index": 2,
+  "pivot": "HOME",
+  "pivot_conf": 1.0,
+  "before": "HOME SWEET HOME",
+  "after": "HOME NETWORK",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "HOME SWEET HOME PAGE",
+  "pivot_index": 2,
+  "pivot": "HOME",
+  "pivot_conf": 1.0,
+  "before": "HOME SWEET HOME",
+  "after": "HOME PAGE",
+  "ba_score": 0.82
+ },
+ {
+  "phrase": "HONKY-TONK BAR OF SOAP",
+  "pivot_index": 1,
+  "pivot": "BAR",
+  "pivot_conf": 0.77,
+  "before": "HONKY-TONK BAR",
+  "after": "BAR OF SOAP",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "HORIZONTAL HOLD YOUR TONGUE",
+  "pivot_index": 1,
+  "pivot": "HOLD",
+  "pivot_conf": 0.82,
+  "before": "HORIZONTAL HOLD",
+  "after": "HOLD YOUR TONGUE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "HOT DOG STAND BY YOUR MAN",
+  "pivot_index": 2,
+  "pivot": "STAND",
+  "pivot_conf": 0.74,
+  "before": "HOT DOG STAND",
+  "after": "STAND BY YOUR MAN",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "HUMPTY DUMPTY HAD A GREAT FALL WARDROBE",
+  "pivot_index": 5,
+  "pivot": "FALL",
+  "pivot_conf": 0.87,
+  "before": "HUMPTY DUMPTY HAD A GREAT FALL",
+  "after": "FALL WARDROBE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HUMPTY DUMPTY SAT ON A WALL STREET JOURNAL",
+  "pivot_index": 5,
+  "pivot": "WALL",
+  "pivot_conf": 0.59,
+  "before": "HUMPTY DUMPTY SAT ON A WALL",
+  "after": "WALL STREET JOURNAL",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "HUNGARIAN RHAPSODY IN BLUE",
+  "pivot_index": 2,
+  "pivot": "IN",
+  "pivot_conf": 0.51,
+  "before": "HUNGARIAN RHAPSODY IN",
+  "after": "IN BLUE",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "I SHALL RETURN OF THE PINK PANTHER",
+  "pivot_index": 2,
+  "pivot": "RETURN",
+  "pivot_conf": 0.46,
+  "before": "I SHALL RETURN",
+  "after": "RETURN OF THE PINK PANTHER",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "I SLEPT LIKE A BABY DOCTOR",
+  "pivot_index": 4,
+  "pivot": "BABY",
+  "pivot_conf": 0.77,
+  "before": "I SLEPT LIKE A BABY",
+  "after": "BABY DOCTOR",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "I SPEAK FLUENT FRENCH TOAST",
+  "pivot_index": 3,
+  "pivot": "FRENCH",
+  "pivot_conf": 0.56,
+  "before": "I SPEAK FLUENT FRENCH",
+  "after": "FRENCH TOAST",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "I THINK I CAN OF TUNA",
+  "pivot_index": 3,
+  "pivot": "CAN",
+  "pivot_conf": 0.75,
+  "before": "I THINK I CAN",
+  "after": "CAN OF TUNA",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "I WANT TO HOLD YOUR HAND LOTION",
+  "pivot_index": 5,
+  "pivot": "HAND",
+  "pivot_conf": 0.98,
+  "before": "I WANT TO HOLD YOUR HAND",
+  "after": "HAND LOTION",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "I WON'T BE VERY LONG JOHN SILVER",
+  "pivot_index": 4,
+  "pivot": "LONG",
+  "pivot_conf": 0.93,
+  "before": "I WON'T BE VERY LONG",
+  "after": "LONG JOHN SILVER",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "I'D KNOW THAT FACE ANYWHERE",
+  "pivot_index": 3,
+  "pivot": "FACE",
+  "pivot_conf": 0.46,
+  "before": "I'D KNOW THAT FACE",
+  "after": "FACE ANYWHERE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "I'D LIKE TO PROPOSE A TOAST & JELLY",
+  "pivot_index": 5,
+  "pivot": "TOAST",
+  "pivot_conf": 0.81,
+  "before": "I'D LIKE TO PROPOSE A TOAST",
+  "after": "TOAST & JELLY",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "I'LL BE WITH YOU IN AN INSTANT PUDDING",
+  "pivot_index": 6,
+  "pivot": "INSTANT",
+  "pivot_conf": 0.9,
+  "before": "I'LL BE WITH YOU IN AN INSTANT",
+  "after": "INSTANT PUDDING",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "I'LL TRY ANYTHING ONCE UPON A TIME",
+  "pivot_index": 3,
+  "pivot": "ONCE",
+  "pivot_conf": 0.66,
+  "before": "I'LL TRY ANYTHING ONCE",
+  "after": "ONCE UPON A TIME",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "I'M FEELING A BIT UNDER THE WEATHER BUREAU",
+  "pivot_index": 6,
+  "pivot": "WEATHER",
+  "pivot_conf": 0.77,
+  "before": "I'M FEELING A BIT UNDER THE WEATHER",
+  "after": "WEATHER BUREAU",
+  "ba_score": 0.85
+ },
+ {
+  "phrase": "I'M FEELING ABSOLUTELY GREAT BRITAIN",
+  "pivot_index": 3,
+  "pivot": "GREAT",
+  "pivot_conf": 0.92,
+  "before": "I'M FEELING ABSOLUTELY GREAT",
+  "after": "GREAT BRITAIN",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "I'M HEADIN' FOR THE LAST ROUND-UP",
+  "pivot_index": 4,
+  "pivot": "LAST",
+  "pivot_conf": 0.52,
+  "before": "I'M HEADIN' FOR THE LAST",
+  "after": "LAST ROUND-UP",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "I'M ON YOUR SIDE DISH",
+  "pivot_index": 3,
+  "pivot": "SIDE",
+  "pivot_conf": 0.97,
+  "before": "I'M ON YOUR SIDE",
+  "after": "SIDE DISH",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "I'M TAKING THE DAY OFF-KILTER",
+  "pivot_index": 3,
+  "pivot": "DAY",
+  "pivot_conf": 0.89,
+  "before": "I'M TAKING THE DAY",
+  "after": "DAY OFF-KILTER",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "I'M THROWING IN THE TOWEL BAR",
+  "pivot_index": 4,
+  "pivot": "TOWEL",
+  "pivot_conf": 0.92,
+  "before": "I'M THROWING IN THE TOWEL",
+  "after": "TOWEL BAR",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "I'M TURNING OVER A NEW LEAF BLOWER",
+  "pivot_index": 5,
+  "pivot": "LEAF",
+  "pivot_conf": 0.98,
+  "before": "I'M TURNING OVER A NEW LEAF",
+  "after": "LEAF BLOWER",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "I'VE GOT YOU UNDER MY SKIN AND BONES",
+  "pivot_index": 5,
+  "pivot": "SKIN",
+  "pivot_conf": 0.47,
+  "before": "I'VE GOT YOU UNDER MY SKIN",
+  "after": "SKIN AND BONES",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "I'VE HAD IT UP TO HERE COMES THE BRIDE",
+  "pivot_index": 5,
+  "pivot": "HERE",
+  "pivot_conf": 0.76,
+  "before": "I'VE HAD IT UP TO HERE",
+  "after": "HERE COMES THE BRIDE",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "IN THE MIDDLE OF THE NIGHT WATCHMAN",
+  "pivot_index": 5,
+  "pivot": "NIGHT",
+  "pivot_conf": 0.74,
+  "before": "IN THE MIDDLE OF THE NIGHT",
+  "after": "NIGHT WATCHMAN",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "INCOME TAX RETURN THE FAVOR",
+  "pivot_index": 2,
+  "pivot": "RETURN",
+  "pivot_conf": 0.94,
+  "before": "INCOME TAX RETURN",
+  "after": "RETURN THE FAVOR",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "IS THE GLASS HALF FULL OR HALF EMPTY",
+  "pivot_index": 3,
+  "pivot": "HALF",
+  "pivot_conf": 0.71,
+  "before": "IS THE GLASS HALF",
+  "after": "HALF FULL OR HALF EMPTY",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "IS THERE A DOCTOR IN THE HOUSE OF PANCAKES",
+  "pivot_index": 6,
+  "pivot": "HOUSE",
+  "pivot_conf": 0.69,
+  "before": "IS THERE A DOCTOR IN THE HOUSE",
+  "after": "HOUSE OF PANCAKES",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "IT FITS IN THE PALM OF YOUR HAND IT OVER",
+  "pivot_index": 7,
+  "pivot": "HAND",
+  "pivot_conf": 0.74,
+  "before": "IT FITS IN THE PALM OF YOUR HAND",
+  "after": "HAND IT OVER",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "IT MAKES MY HEAD SPIN OR SOLVE",
+  "pivot_index": 3,
+  "pivot": "HEAD",
+  "pivot_conf": 0.44,
+  "before": "IT MAKES MY HEAD",
+  "after": "HEAD SPIN OR SOLVE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "IT SUITS YOU TO A T-BONE STEAK",
+  "pivot_index": 3,
+  "pivot": "TO",
+  "pivot_conf": 0.47,
+  "before": "IT SUITS YOU TO",
+  "after": "TO A T-BONE STEAK",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "IT TAKES MY BREATH AWAY WE GO",
+  "pivot_index": 4,
+  "pivot": "AWAY",
+  "pivot_conf": 0.68,
+  "before": "IT TAKES MY BREATH AWAY",
+  "after": "AWAY WE GO",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "IT'LL DO IN A PINCH OF SALT",
+  "pivot_index": 4,
+  "pivot": "PINCH",
+  "pivot_conf": 0.83,
+  "before": "IT'LL DO IN A PINCH",
+  "after": "PINCH OF SALT",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "IT'S A WALK OF FAME STAR FOR MICHAEL J. FOX",
+  "pivot_index": 5,
+  "pivot": "STAR",
+  "pivot_conf": 0.55,
+  "before": "IT'S A WALK OF FAME STAR",
+  "after": "STAR FOR MICHAEL J. FOX",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "IT'S NOTHING PERSONAL COMPUTER",
+  "pivot_index": 2,
+  "pivot": "PERSONAL",
+  "pivot_conf": 0.97,
+  "before": "IT'S NOTHING PERSONAL",
+  "after": "PERSONAL COMPUTER",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "IT'S NOW OR NEVER-NEVER LAND",
+  "pivot_index": 3,
+  "pivot": "NEVER-NEVER",
+  "pivot_conf": 0.96,
+  "before": "IT'S NOW OR NEVER-NEVER",
+  "after": "NEVER-NEVER LAND",
+  "ba_score": 0.89
+ },
+ {
+  "phrase": "JOIN OUR CLUB SANDWICH",
+  "pivot_index": 2,
+  "pivot": "CLUB",
+  "pivot_conf": 0.9,
+  "before": "JOIN OUR CLUB",
+  "after": "CLUB SANDWICH",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "JOLLY GREEN GIANT SQUID",
+  "pivot_index": 2,
+  "pivot": "GIANT",
+  "pivot_conf": 0.55,
+  "before": "JOLLY GREEN GIANT",
+  "after": "GIANT SQUID",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "JOLLY OLD SAINT NICK NOLTE",
+  "pivot_index": 3,
+  "pivot": "NICK",
+  "pivot_conf": 0.98,
+  "before": "JOLLY OLD SAINT NICK",
+  "after": "NICK NOLTE",
+  "ba_score": 0.83
+ },
+ {
+  "phrase": "JUMBO SHRIMP COCKTAIL WAITRESS",
+  "pivot_index": 2,
+  "pivot": "COCKTAIL",
+  "pivot_conf": 0.91,
+  "before": "JUMBO SHRIMP COCKTAIL",
+  "after": "COCKTAIL WAITRESS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "JUST IN THE NICK OF TIME CAPSULE",
+  "pivot_index": 5,
+  "pivot": "TIME",
+  "pivot_conf": 0.61,
+  "before": "JUST IN THE NICK OF TIME",
+  "after": "TIME CAPSULE",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "JUST WHAT I'VE ALWAYS WANTED DEAD OR ALIVE",
+  "pivot_index": 4,
+  "pivot": "WANTED",
+  "pivot_conf": 0.45,
+  "before": "JUST WHAT I'VE ALWAYS WANTED",
+  "after": "WANTED DEAD OR ALIVE",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "JUSTICE OF THE PEACE OF MIND",
+  "pivot_index": 3,
+  "pivot": "PEACE",
+  "pivot_conf": 0.59,
+  "before": "JUSTICE OF THE PEACE",
+  "after": "PEACE OF MIND",
+  "ba_score": 0.84
+ },
+ {
+  "phrase": "KEEP A STIFF UPPER LIP GLOSS",
+  "pivot_index": 4,
+  "pivot": "LIP",
+  "pivot_conf": 0.96,
+  "before": "KEEP A STIFF UPPER LIP",
+  "after": "LIP GLOSS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "KEEP BOTH HANDS ON THE WHEEL OF FORTUNE",
+  "pivot_index": 5,
+  "pivot": "WHEEL",
+  "pivot_conf": 0.44,
+  "before": "KEEP BOTH HANDS ON THE WHEEL",
+  "after": "WHEEL OF FORTUNE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "KEEP IN TOUCH FOOTBALL",
+  "pivot_index": 2,
+  "pivot": "TOUCH",
+  "pivot_conf": 0.97,
+  "before": "KEEP IN TOUCH",
+  "after": "TOUCH FOOTBALL",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "KEEP THE FAITH HILL",
+  "pivot_index": 2,
+  "pivot": "FAITH",
+  "pivot_conf": 0.94,
+  "before": "KEEP THE FAITH",
+  "after": "FAITH HILL",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "KENTUCKY FRIED CHICKEN LITTLE",
+  "pivot_index": 2,
+  "pivot": "CHICKEN",
+  "pivot_conf": 0.97,
+  "before": "KENTUCKY FRIED CHICKEN",
+  "after": "CHICKEN LITTLE",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "KEVIN BACON LETTUCE & TOMATO SANDWICH",
+  "pivot_index": 1,
+  "pivot": "BACON",
+  "pivot_conf": 0.56,
+  "before": "KEVIN BACON",
+  "after": "BACON LETTUCE & TOMATO SANDWICH",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "KISS AND MAKE UP UP AND AWAY",
+  "pivot_index": 3,
+  "pivot": "UP",
+  "pivot_conf": 0.62,
+  "before": "KISS AND MAKE UP",
+  "after": "UP UP AND AWAY",
+  "ba_score": 0.87
+ },
+ {
+  "phrase": "KISS OF DEATH-DEFYING ACT",
+  "pivot_index": 2,
+  "pivot": "DEATH-DEFYING",
+  "pivot_conf": 0.7,
+  "before": "KISS OF DEATH-DEFYING",
+  "after": "DEATH-DEFYING ACT",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "LARRY KING CRAB LEGS",
+  "pivot_index": 1,
+  "pivot": "KING",
+  "pivot_conf": 0.53,
+  "before": "LARRY KING",
+  "after": "KING CRAB LEGS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "LARRY KING OF HEARTS",
+  "pivot_index": 1,
+  "pivot": "KING",
+  "pivot_conf": 0.5,
+  "before": "LARRY KING",
+  "after": "KING OF HEARTS",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "LARRY KING OF THE JUNGLE",
+  "pivot_index": 1,
+  "pivot": "KING",
+  "pivot_conf": 0.96,
+  "before": "LARRY KING",
+  "after": "KING OF THE JUNGLE",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "LEATHER COAT OF PAINT",
+  "pivot_index": 1,
+  "pivot": "COAT",
+  "pivot_conf": 0.79,
+  "before": "LEATHER COAT",
+  "after": "COAT OF PAINT",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "LET ME BE FRANK GIFFORD",
+  "pivot_index": 3,
+  "pivot": "FRANK",
+  "pivot_conf": 0.95,
+  "before": "LET ME BE FRANK",
+  "after": "FRANK GIFFORD",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "LET THERE BE LIGHT MY PIPE",
+  "pivot_index": 3,
+  "pivot": "LIGHT",
+  "pivot_conf": 0.75,
+  "before": "LET THERE BE LIGHT",
+  "after": "LIGHT MY PIPE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "LET'S PAINT THE TOWN RED WHITE & BLUE",
+  "pivot_index": 4,
+  "pivot": "RED",
+  "pivot_conf": 0.66,
+  "before": "LET'S PAINT THE TOWN RED",
+  "after": "RED WHITE & BLUE",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "LET'S PLAY IT BY EAR NOSE & THROAT DOCTOR",
+  "pivot_index": 4,
+  "pivot": "EAR",
+  "pivot_conf": 0.98,
+  "before": "LET'S PLAY IT BY EAR",
+  "after": "EAR NOSE & THROAT DOCTOR",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "LITTLE BOY BLUE RIDGE MOUNTAINS OF VIRGINIA",
+  "pivot_index": 2,
+  "pivot": "BLUE",
+  "pivot_conf": 0.81,
+  "before": "LITTLE BOY BLUE",
+  "after": "BLUE RIDGE MOUNTAINS OF VIRGINIA",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "LITTLE HOUSE ON THE PRAIRIE DOG",
+  "pivot_index": 4,
+  "pivot": "PRAIRIE",
+  "pivot_conf": 0.72,
+  "before": "LITTLE HOUSE ON THE PRAIRIE",
+  "after": "PRAIRIE DOG",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "LOCK STOCK AND BARREL OF MONKEYS",
+  "pivot_index": 3,
+  "pivot": "BARREL",
+  "pivot_conf": 0.5,
+  "before": "LOCK STOCK AND BARREL",
+  "after": "BARREL OF MONKEYS",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "LONDON BRIDGE OVER TROUBLED WATER",
+  "pivot_index": 2,
+  "pivot": "OVER",
+  "pivot_conf": 0.51,
+  "before": "LONDON BRIDGE OVER",
+  "after": "OVER TROUBLED WATER",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "LONG DISTANCE PHONE BILL CLINTON",
+  "pivot_index": 3,
+  "pivot": "BILL",
+  "pivot_conf": 0.96,
+  "before": "LONG DISTANCE PHONE BILL",
+  "after": "BILL CLINTON",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "LONG ISLAND SOUND ADVICE",
+  "pivot_index": 2,
+  "pivot": "SOUND",
+  "pivot_conf": 0.96,
+  "before": "LONG ISLAND SOUND",
+  "after": "SOUND ADVICE",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "LUCKY RABBIT'S FOOT DOCTOR",
+  "pivot_index": 2,
+  "pivot": "FOOT",
+  "pivot_conf": 0.98,
+  "before": "LUCKY RABBIT'S FOOT",
+  "after": "FOOT DOCTOR",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "LUMBERJACK HERO WITH BLUE OX",
+  "pivot_index": 1,
+  "pivot": "HERO",
+  "pivot_conf": 0.47,
+  "before": "LUMBERJACK HERO",
+  "after": "HERO WITH BLUE OX",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "MALCOLM IN THE MIDDLE AGES",
+  "pivot_index": 3,
+  "pivot": "MIDDLE",
+  "pivot_conf": 0.83,
+  "before": "MALCOLM IN THE MIDDLE",
+  "after": "MIDDLE AGES",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "MAN OH MAN OVERBOARD",
+  "pivot_index": 2,
+  "pivot": "MAN",
+  "pivot_conf": 0.98,
+  "before": "MAN OH MAN",
+  "after": "MAN OVERBOARD",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "MARTIAL & CULINARY ARTS",
+  "pivot_index": 1,
+  "pivot": "&",
+  "pivot_conf": 0.63,
+  "before": "MARTIAL &",
+  "after": "& CULINARY ARTS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "MARTIN LAWRENCE OF ARABIA",
+  "pivot_index": 1,
+  "pivot": "LAWRENCE",
+  "pivot_conf": 0.63,
+  "before": "MARTIN LAWRENCE",
+  "after": "LAWRENCE OF ARABIA",
+  "ba_score": 0.86
+ },
+ {
+  "phrase": "MATERNITY LEAVE IT TO BEAVER",
+  "pivot_index": 2,
+  "pivot": "IT",
+  "pivot_conf": 0.62,
+  "before": "MATERNITY LEAVE IT",
+  "after": "IT TO BEAVER",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "MAY I HAVE THIS DANCE INSTRUCTOR",
+  "pivot_index": 4,
+  "pivot": "DANCE",
+  "pivot_conf": 0.63,
+  "before": "MAY I HAVE THIS DANCE",
+  "after": "DANCE INSTRUCTOR",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "MEET ME IN ST. LOUIS ARMSTRONG",
+  "pivot_index": 4,
+  "pivot": "LOUIS",
+  "pivot_conf": 0.69,
+  "before": "MEET ME IN ST. LOUIS",
+  "after": "LOUIS ARMSTRONG",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "MELBA TOAST OF THE TOWN",
+  "pivot_index": 1,
+  "pivot": "TOAST",
+  "pivot_conf": 0.77,
+  "before": "MELBA TOAST",
+  "after": "TOAST OF THE TOWN",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "MEN IN BLACK STAR WILL SMITH",
+  "pivot_index": 3,
+  "pivot": "STAR",
+  "pivot_conf": 0.91,
+  "before": "MEN IN BLACK STAR",
+  "after": "STAR WILL SMITH",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "MOM & POP GOES THE WEASEL",
+  "pivot_index": 3,
+  "pivot": "GOES",
+  "pivot_conf": 0.66,
+  "before": "MOM & POP GOES",
+  "after": "GOES THE WEASEL",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "MONTEREY JACK AND JILL WENT UP THE HILL",
+  "pivot_index": 2,
+  "pivot": "AND",
+  "pivot_conf": 0.52,
+  "before": "MONTEREY JACK AND",
+  "after": "AND JILL WENT UP THE HILL",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "MORNING TALK SHOW THE VIEW",
+  "pivot_index": 2,
+  "pivot": "SHOW",
+  "pivot_conf": 0.61,
+  "before": "MORNING TALK SHOW",
+  "after": "SHOW THE VIEW",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "MOST VALUABLE PLAYER PIANO",
+  "pivot_index": 2,
+  "pivot": "PLAYER",
+  "pivot_conf": 0.98,
+  "before": "MOST VALUABLE PLAYER",
+  "after": "PLAYER PIANO",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "MOTHER GOOSE DOWN PILLOWS",
+  "pivot_index": 2,
+  "pivot": "DOWN",
+  "pivot_conf": 0.65,
+  "before": "MOTHER GOOSE DOWN",
+  "after": "DOWN PILLOWS",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "MUTINY ON THE BOUNTY PAPER TOWELS",
+  "pivot_index": 3,
+  "pivot": "BOUNTY",
+  "pivot_conf": 0.59,
+  "before": "MUTINY ON THE BOUNTY",
+  "after": "BOUNTY PAPER TOWELS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "MY BETTER HALF AND HALF",
+  "pivot_index": 2,
+  "pivot": "HALF",
+  "pivot_conf": 0.99,
+  "before": "MY BETTER HALF",
+  "after": "HALF AND HALF",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "MY CUP RUNNETH OVER THE RAINBOW",
+  "pivot_index": 3,
+  "pivot": "OVER",
+  "pivot_conf": 0.58,
+  "before": "MY CUP RUNNETH OVER",
+  "after": "OVER THE RAINBOW",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "MY MIND'S A COMPLETE BLANK CHECK",
+  "pivot_index": 4,
+  "pivot": "BLANK",
+  "pivot_conf": 0.82,
+  "before": "MY MIND'S A COMPLETE BLANK",
+  "after": "BLANK CHECK",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "MY MIND'S A TOTAL BLANK CHECK",
+  "pivot_index": 4,
+  "pivot": "BLANK",
+  "pivot_conf": 0.78,
+  "before": "MY MIND'S A TOTAL BLANK",
+  "after": "BLANK CHECK",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "MY NOSE IS RUNNING FOR PRESIDENT",
+  "pivot_index": 3,
+  "pivot": "RUNNING",
+  "pivot_conf": 0.76,
+  "before": "MY NOSE IS RUNNING",
+  "after": "RUNNING FOR PRESIDENT",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "MY WATCH IS RUNNING FAST ASLEEP",
+  "pivot_index": 4,
+  "pivot": "FAST",
+  "pivot_conf": 0.8,
+  "before": "MY WATCH IS RUNNING FAST",
+  "after": "FAST ASLEEP",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "NAME THAT TUNE THE PIANO",
+  "pivot_index": 2,
+  "pivot": "TUNE",
+  "pivot_conf": 0.78,
+  "before": "NAME THAT TUNE",
+  "after": "TUNE THE PIANO",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "NATURAL SPRING WATER BUFFALO",
+  "pivot_index": 2,
+  "pivot": "WATER",
+  "pivot_conf": 0.74,
+  "before": "NATURAL SPRING WATER",
+  "after": "WATER BUFFALO",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "NEANDERTHAL MAN OF MY DREAMS",
+  "pivot_index": 1,
+  "pivot": "MAN",
+  "pivot_conf": 0.79,
+  "before": "NEANDERTHAL MAN",
+  "after": "MAN OF MY DREAMS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "NEW YORK CITY VILLAGE OR MEAN TIME",
+  "pivot_index": 4,
+  "pivot": "OR",
+  "pivot_conf": 0.4,
+  "before": "NEW YORK CITY VILLAGE OR",
+  "after": "OR MEAN TIME",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "NIGHT OF THE LIVING DEAD-END JOB",
+  "pivot_index": 4,
+  "pivot": "DEAD-END",
+  "pivot_conf": 0.53,
+  "before": "NIGHT OF THE LIVING DEAD-END",
+  "after": "DEAD-END JOB",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "NIP IT IN THE BUD LIGHT",
+  "pivot_index": 4,
+  "pivot": "BUD",
+  "pivot_conf": 0.86,
+  "before": "NIP IT IN THE BUD",
+  "after": "BUD LIGHT",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "NOBEL PRIZE FOR MEDICINE CHEST",
+  "pivot_index": 3,
+  "pivot": "MEDICINE",
+  "pivot_conf": 0.85,
+  "before": "NOBEL PRIZE FOR MEDICINE",
+  "after": "MEDICINE CHEST",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "OH MY ACHING BACK-SEAT DRIVER",
+  "pivot_index": 3,
+  "pivot": "BACK-SEAT",
+  "pivot_conf": 0.66,
+  "before": "OH MY ACHING BACK-SEAT",
+  "after": "BACK-SEAT DRIVER",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "OIL CHANGE YOUR MIND",
+  "pivot_index": 1,
+  "pivot": "CHANGE",
+  "pivot_conf": 0.79,
+  "before": "OIL CHANGE",
+  "after": "CHANGE YOUR MIND",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "OLD KING COLE SLAW",
+  "pivot_index": 2,
+  "pivot": "COLE",
+  "pivot_conf": 0.93,
+  "before": "OLD KING COLE",
+  "after": "COLE SLAW",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "OLIVER TWIST OF LEMON",
+  "pivot_index": 1,
+  "pivot": "TWIST",
+  "pivot_conf": 0.47,
+  "before": "OLIVER TWIST",
+  "after": "TWIST OF LEMON",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "ON CLOUD NINE-HOLE GOLF COURSE",
+  "pivot_index": 2,
+  "pivot": "NINE-HOLE",
+  "pivot_conf": 0.97,
+  "before": "ON CLOUD NINE-HOLE",
+  "after": "NINE-HOLE GOLF COURSE",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "ON COMET ON CUPID ON DONDER AND BLITZEN",
+  "pivot_index": 2,
+  "pivot": "ON",
+  "pivot_conf": 0.62,
+  "before": "ON COMET ON",
+  "after": "ON CUPID ON DONDER AND BLITZEN",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "ON THE HOME FRONT AND CENTER",
+  "pivot_index": 3,
+  "pivot": "FRONT",
+  "pivot_conf": 0.48,
+  "before": "ON THE HOME FRONT",
+  "after": "FRONT AND CENTER",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "ON THE PLUS SIDE BY SIDE",
+  "pivot_index": 3,
+  "pivot": "SIDE",
+  "pivot_conf": 0.93,
+  "before": "ON THE PLUS SIDE",
+  "after": "SIDE BY SIDE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "ONCE UPON A TIME OUT",
+  "pivot_index": 3,
+  "pivot": "TIME",
+  "pivot_conf": 0.91,
+  "before": "ONCE UPON A TIME",
+  "after": "TIME OUT",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "ONE SIZE FITS ALL THE KING'S HORSES",
+  "pivot_index": 3,
+  "pivot": "ALL",
+  "pivot_conf": 0.76,
+  "before": "ONE SIZE FITS ALL",
+  "after": "ALL THE KING'S HORSES",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "ONE TWO BUCKLE MY SHOE SALESMAN",
+  "pivot_index": 4,
+  "pivot": "SHOE",
+  "pivot_conf": 0.81,
+  "before": "ONE TWO BUCKLE MY SHOE",
+  "after": "SHOE SALESMAN",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "OPEN WIDE BITE DOWN RINSE & SPIT",
+  "pivot_index": 2,
+  "pivot": "BITE",
+  "pivot_conf": 0.43,
+  "before": "OPEN WIDE BITE",
+  "after": "BITE DOWN RINSE & SPIT",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "ORCHESTRA PIT OF MY STOMACH",
+  "pivot_index": 1,
+  "pivot": "PIT",
+  "pivot_conf": 0.57,
+  "before": "ORCHESTRA PIT",
+  "after": "PIT OF MY STOMACH",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "OSCAR WINNER KIRK'S SON FATAL ATTRACTION",
+  "pivot_index": 3,
+  "pivot": "SON",
+  "pivot_conf": 0.58,
+  "before": "OSCAR WINNER KIRK'S SON",
+  "after": "SON FATAL ATTRACTION",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "OVER THE RAINBOW COALITION",
+  "pivot_index": 2,
+  "pivot": "RAINBOW",
+  "pivot_conf": 0.77,
+  "before": "OVER THE RAINBOW",
+  "after": "RAINBOW COALITION",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "PAID IN FULL OF MISCHIEF",
+  "pivot_index": 2,
+  "pivot": "FULL",
+  "pivot_conf": 0.65,
+  "before": "PAID IN FULL",
+  "after": "FULL OF MISCHIEF",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "PAINT THE TOWN RED LIPSTICK",
+  "pivot_index": 3,
+  "pivot": "RED",
+  "pivot_conf": 0.99,
+  "before": "PAINT THE TOWN RED",
+  "after": "RED LIPSTICK",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "PARDON MY FRENCH ONION SOUP",
+  "pivot_index": 2,
+  "pivot": "FRENCH",
+  "pivot_conf": 0.47,
+  "before": "PARDON MY FRENCH",
+  "after": "FRENCH ONION SOUP",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "PATRIOTIC AMERICAN BEAUTY ROSE",
+  "pivot_index": 2,
+  "pivot": "BEAUTY",
+  "pivot_conf": 0.45,
+  "before": "PATRIOTIC AMERICAN BEAUTY",
+  "after": "BEAUTY ROSE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "PAY TO THE ORDER OF THEE I SING",
+  "pivot_index": 5,
+  "pivot": "THEE",
+  "pivot_conf": 0.65,
+  "before": "PAY TO THE ORDER OF THEE",
+  "after": "THEE I SING",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "PEKING DUCK FOR COVER",
+  "pivot_index": 1,
+  "pivot": "DUCK",
+  "pivot_conf": 0.83,
+  "before": "PEKING DUCK",
+  "after": "DUCK FOR COVER",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "PEWS CATHEDRAL IRISH SAINT FIFTH AVE",
+  "pivot_index": 3,
+  "pivot": "SAINT",
+  "pivot_conf": 0.45,
+  "before": "PEWS CATHEDRAL IRISH SAINT",
+  "after": "SAINT FIFTH AVE",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "PICKET AND CRUISE LINE",
+  "pivot_index": 1,
+  "pivot": "AND",
+  "pivot_conf": 0.58,
+  "before": "PICKET AND",
+  "after": "AND CRUISE LINE",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "PIKES PEAK OR BUST VAIL RIVER RAFTING",
+  "pivot_index": 4,
+  "pivot": "VAIL",
+  "pivot_conf": 0.44,
+  "before": "PIKES PEAK OR BUST VAIL",
+  "after": "VAIL RIVER RAFTING",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "PINK TROPICAL BIRD WEB-FOOTED LONG-LEGGED",
+  "pivot_index": 2,
+  "pivot": "BIRD",
+  "pivot_conf": 0.77,
+  "before": "PINK TROPICAL BIRD",
+  "after": "BIRD WEB-FOOTED LONG-LEGGED",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "PLAYING IN THE SUPER BOWL OF CHILI",
+  "pivot_index": 4,
+  "pivot": "BOWL",
+  "pivot_conf": 0.75,
+  "before": "PLAYING IN THE SUPER BOWL",
+  "after": "BOWL OF CHILI",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "PLEASE PASS THE BUTTER ME UP",
+  "pivot_index": 4,
+  "pivot": "ME",
+  "pivot_conf": 0.46,
+  "before": "PLEASE PASS THE BUTTER ME",
+  "after": "ME UP",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "PLYMOUTH ROCK & ROLL",
+  "pivot_index": 1,
+  "pivot": "ROCK",
+  "pivot_conf": 0.95,
+  "before": "PLYMOUTH ROCK",
+  "after": "ROCK & ROLL",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "POINT OF NO RETURN OF THE JEDI",
+  "pivot_index": 4,
+  "pivot": "OF",
+  "pivot_conf": 0.78,
+  "before": "POINT OF NO RETURN OF",
+  "after": "OF THE JEDI",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "POOP DECK OF CARDS",
+  "pivot_index": 1,
+  "pivot": "DECK",
+  "pivot_conf": 0.6,
+  "before": "POOP DECK",
+  "after": "DECK OF CARDS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "POPEYE THE SAILOR MAN OF LA MANCHA",
+  "pivot_index": 3,
+  "pivot": "MAN",
+  "pivot_conf": 0.73,
+  "before": "POPEYE THE SAILOR MAN",
+  "after": "MAN OF LA MANCHA",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "PORT OF CALL FORWARDING",
+  "pivot_index": 2,
+  "pivot": "CALL",
+  "pivot_conf": 0.99,
+  "before": "PORT OF CALL",
+  "after": "CALL FORWARDING",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "PRACTICE MAKES PERFECT STRANGERS",
+  "pivot_index": 2,
+  "pivot": "PERFECT",
+  "pivot_conf": 0.9,
+  "before": "PRACTICE MAKES PERFECT",
+  "after": "PERFECT STRANGERS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "PRIVATE FIRST CLASS CLOWN",
+  "pivot_index": 2,
+  "pivot": "CLASS",
+  "pivot_conf": 0.79,
+  "before": "PRIVATE FIRST CLASS",
+  "after": "CLASS CLOWN",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "PUCKER UP UP AND AWAY",
+  "pivot_index": 2,
+  "pivot": "UP",
+  "pivot_conf": 0.46,
+  "before": "PUCKER UP UP",
+  "after": "UP AND AWAY",
+  "ba_score": 0.88
+ },
+ {
+  "phrase": "PURE AS THE DRIVEN SNOW BLOWER",
+  "pivot_index": 4,
+  "pivot": "SNOW",
+  "pivot_conf": 0.78,
+  "before": "PURE AS THE DRIVEN SNOW",
+  "after": "SNOW BLOWER",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "PUT ON A HAPPY FACE LIFT",
+  "pivot_index": 4,
+  "pivot": "FACE",
+  "pivot_conf": 0.92,
+  "before": "PUT ON A HAPPY FACE",
+  "after": "FACE LIFT",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "QUITTING COLD TURKEY SANDWICH",
+  "pivot_index": 2,
+  "pivot": "TURKEY",
+  "pivot_conf": 0.91,
+  "before": "QUITTING COLD TURKEY",
+  "after": "TURKEY SANDWICH",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "RAZOR BLADE OF GRASS",
+  "pivot_index": 1,
+  "pivot": "BLADE",
+  "pivot_conf": 0.59,
+  "before": "RAZOR BLADE",
+  "after": "BLADE OF GRASS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "RING THE BELL PEPPER",
+  "pivot_index": 2,
+  "pivot": "BELL",
+  "pivot_conf": 0.98,
+  "before": "RING THE BELL",
+  "after": "BELL PEPPER",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "ROBERT STACK OF PANCAKES",
+  "pivot_index": 1,
+  "pivot": "STACK",
+  "pivot_conf": 0.74,
+  "before": "ROBERT STACK",
+  "after": "STACK OF PANCAKES",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "ROCK AND ROLL UP YOUR SLEEVES",
+  "pivot_index": 2,
+  "pivot": "ROLL",
+  "pivot_conf": 0.53,
+  "before": "ROCK AND ROLL",
+  "after": "ROLL UP YOUR SLEEVES",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "ROCKY MOUNTAIN HIGH HEELS",
+  "pivot_index": 2,
+  "pivot": "HIGH",
+  "pivot_conf": 0.93,
+  "before": "ROCKY MOUNTAIN HIGH",
+  "after": "HIGH HEELS",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "SADDLE UP MY HORSE FLIES",
+  "pivot_index": 3,
+  "pivot": "HORSE",
+  "pivot_conf": 0.92,
+  "before": "SADDLE UP MY HORSE",
+  "after": "HORSE FLIES",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "SALLY FIELD OF DREAMS",
+  "pivot_index": 1,
+  "pivot": "FIELD",
+  "pivot_conf": 0.92,
+  "before": "SALLY FIELD",
+  "after": "FIELD OF DREAMS",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "SAVE YOUR SOUL FOOD",
+  "pivot_index": 2,
+  "pivot": "SOUL",
+  "pivot_conf": 0.9,
+  "before": "SAVE YOUR SOUL",
+  "after": "SOUL FOOD",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SAVED BY THE BELL BOOK AND CANDLE",
+  "pivot_index": 3,
+  "pivot": "BELL",
+  "pivot_conf": 0.65,
+  "before": "SAVED BY THE BELL",
+  "after": "BELL BOOK AND CANDLE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SAVED BY THE BELL PEPPER",
+  "pivot_index": 3,
+  "pivot": "BELL",
+  "pivot_conf": 0.99,
+  "before": "SAVED BY THE BELL",
+  "after": "BELL PEPPER",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "SAVED BY THE BELL-BOTTOM JEANS",
+  "pivot_index": 3,
+  "pivot": "BELL-BOTTOM",
+  "pivot_conf": 0.67,
+  "before": "SAVED BY THE BELL-BOTTOM",
+  "after": "BELL-BOTTOM JEANS",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "SEAT BELT OUT A SONG",
+  "pivot_index": 2,
+  "pivot": "OUT",
+  "pivot_conf": 0.45,
+  "before": "SEAT BELT OUT",
+  "after": "OUT A SONG",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "SECRETARY OF STATE FLOWER",
+  "pivot_index": 2,
+  "pivot": "STATE",
+  "pivot_conf": 0.94,
+  "before": "SECRETARY OF STATE",
+  "after": "STATE FLOWER",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SECRETARY OF THE INTERIOR DECORATOR",
+  "pivot_index": 3,
+  "pivot": "INTERIOR",
+  "pivot_conf": 0.96,
+  "before": "SECRETARY OF THE INTERIOR",
+  "after": "INTERIOR DECORATOR",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "SESAME STREET GROUCH OR A FAMOUS FILM TROPHY",
+  "pivot_index": 3,
+  "pivot": "OR",
+  "pivot_conf": 0.63,
+  "before": "SESAME STREET GROUCH OR",
+  "after": "OR A FAMOUS FILM TROPHY",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SHAKESPEARE IN LOVE BOAT",
+  "pivot_index": 2,
+  "pivot": "LOVE",
+  "pivot_conf": 0.65,
+  "before": "SHAKESPEARE IN LOVE",
+  "after": "LOVE BOAT",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "SHELLEY LONG JOHN SILVER",
+  "pivot_index": 1,
+  "pivot": "LONG",
+  "pivot_conf": 0.47,
+  "before": "SHELLEY LONG",
+  "after": "LONG JOHN SILVER",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "SHOPPING CENTER OF GRAVITY",
+  "pivot_index": 1,
+  "pivot": "CENTER",
+  "pivot_conf": 0.7,
+  "before": "SHOPPING CENTER",
+  "after": "CENTER OF GRAVITY",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "SHORE LEAVE IT TO BEAVER",
+  "pivot_index": 2,
+  "pivot": "IT",
+  "pivot_conf": 0.56,
+  "before": "SHORE LEAVE IT",
+  "after": "IT TO BEAVER",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "SIGN ON THE DOTTED LINE OF SCRIMMAGE",
+  "pivot_index": 4,
+  "pivot": "LINE",
+  "pivot_conf": 0.83,
+  "before": "SIGN ON THE DOTTED LINE",
+  "after": "LINE OF SCRIMMAGE",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "SILENCE IS GOLDEN RETRIEVER",
+  "pivot_index": 2,
+  "pivot": "GOLDEN",
+  "pivot_conf": 0.93,
+  "before": "SILENCE IS GOLDEN",
+  "after": "GOLDEN RETRIEVER",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "SILK SLIP OF THE TONGUE",
+  "pivot_index": 1,
+  "pivot": "SLIP",
+  "pivot_conf": 0.68,
+  "before": "SILK SLIP",
+  "after": "SLIP OF THE TONGUE",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "SINK OR SWIM TRUNKS",
+  "pivot_index": 2,
+  "pivot": "SWIM",
+  "pivot_conf": 0.74,
+  "before": "SINK OR SWIM",
+  "after": "SWIM TRUNKS",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "SKATING ON THIN ICE CREAM",
+  "pivot_index": 3,
+  "pivot": "ICE",
+  "pivot_conf": 0.91,
+  "before": "SKATING ON THIN ICE",
+  "after": "ICE CREAM",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "SKATING ON THIN ICE CREAM CONE",
+  "pivot_index": 3,
+  "pivot": "ICE",
+  "pivot_conf": 0.93,
+  "before": "SKATING ON THIN ICE",
+  "after": "ICE CREAM CONE",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SLEEPING BAG OF PEANUTS",
+  "pivot_index": 1,
+  "pivot": "BAG",
+  "pivot_conf": 0.48,
+  "before": "SLEEPING BAG",
+  "after": "BAG OF PEANUTS",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SMOKEY THE BEAR RUG",
+  "pivot_index": 2,
+  "pivot": "BEAR",
+  "pivot_conf": 0.93,
+  "before": "SMOKEY THE BEAR",
+  "after": "BEAR RUG",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SNICKERS BAR AND GRILL",
+  "pivot_index": 1,
+  "pivot": "BAR",
+  "pivot_conf": 0.66,
+  "before": "SNICKERS BAR",
+  "after": "BAR AND GRILL",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SOLID GOLD CHAIN OF EVENTS",
+  "pivot_index": 2,
+  "pivot": "CHAIN",
+  "pivot_conf": 0.53,
+  "before": "SOLID GOLD CHAIN",
+  "after": "CHAIN OF EVENTS",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "SOME LIKE IT HOT TAMALE",
+  "pivot_index": 3,
+  "pivot": "HOT",
+  "pivot_conf": 0.89,
+  "before": "SOME LIKE IT HOT",
+  "after": "HOT TAMALE",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "SOMEWHERE OVER THE RAINBOW TROUT",
+  "pivot_index": 3,
+  "pivot": "RAINBOW",
+  "pivot_conf": 0.94,
+  "before": "SOMEWHERE OVER THE RAINBOW",
+  "after": "RAINBOW TROUT",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "SOUTH AMERICAN BIG CAT OR LUXURY CAR",
+  "pivot_index": 4,
+  "pivot": "OR",
+  "pivot_conf": 0.48,
+  "before": "SOUTH AMERICAN BIG CAT OR",
+  "after": "OR LUXURY CAR",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "SOUTH OF THE BORDER PATROL",
+  "pivot_index": 3,
+  "pivot": "BORDER",
+  "pivot_conf": 0.93,
+  "before": "SOUTH OF THE BORDER",
+  "after": "BORDER PATROL",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "SOUTHERN COOKING UP AN EXCUSE",
+  "pivot_index": 2,
+  "pivot": "UP",
+  "pivot_conf": 0.62,
+  "before": "SOUTHERN COOKING UP",
+  "after": "UP AN EXCUSE",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "SPEAK YOUR PIECE OF APPLE PIE",
+  "pivot_index": 2,
+  "pivot": "PIECE",
+  "pivot_conf": 0.75,
+  "before": "SPEAK YOUR PIECE",
+  "after": "PIECE OF APPLE PIE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SPEAKER OF THE HOUSE PLANTS",
+  "pivot_index": 3,
+  "pivot": "HOUSE",
+  "pivot_conf": 0.95,
+  "before": "SPEAKER OF THE HOUSE",
+  "after": "HOUSE PLANTS",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "SPEAKING OUT OF TURN SIGNAL",
+  "pivot_index": 3,
+  "pivot": "TURN",
+  "pivot_conf": 0.99,
+  "before": "SPEAKING OUT OF TURN",
+  "after": "TURN SIGNAL",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SPRING BREAK INTO SONG",
+  "pivot_index": 1,
+  "pivot": "BREAK",
+  "pivot_conf": 0.54,
+  "before": "SPRING BREAK",
+  "after": "BREAK INTO SONG",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SPRING BREAK THE HABIT",
+  "pivot_index": 1,
+  "pivot": "BREAK",
+  "pivot_conf": 0.55,
+  "before": "SPRING BREAK",
+  "after": "BREAK THE HABIT",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "SQUARE ROOT BEER FLOAT",
+  "pivot_index": 2,
+  "pivot": "BEER",
+  "pivot_conf": 0.43,
+  "before": "SQUARE ROOT BEER",
+  "after": "BEER FLOAT",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "STANDING ON SHAKY GROUND RULES",
+  "pivot_index": 3,
+  "pivot": "GROUND",
+  "pivot_conf": 0.91,
+  "before": "STANDING ON SHAKY GROUND",
+  "after": "GROUND RULES",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "STANLEY CUP OF SOUP",
+  "pivot_index": 1,
+  "pivot": "CUP",
+  "pivot_conf": 0.9,
+  "before": "STANLEY CUP",
+  "after": "CUP OF SOUP",
+  "ba_score": 0.82
+ },
+ {
+  "phrase": "START SPREADIN' THE NEWS TEAM",
+  "pivot_index": 3,
+  "pivot": "NEWS",
+  "pivot_conf": 0.61,
+  "before": "START SPREADIN' THE NEWS",
+  "after": "NEWS TEAM",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "STEREO SPEAKER OF THE HOUSE",
+  "pivot_index": 1,
+  "pivot": "SPEAKER",
+  "pivot_conf": 0.93,
+  "before": "STEREO SPEAKER",
+  "after": "SPEAKER OF THE HOUSE",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "STICK SHIFT THE BLAME",
+  "pivot_index": 1,
+  "pivot": "SHIFT",
+  "pivot_conf": 0.45,
+  "before": "STICK SHIFT",
+  "after": "SHIFT THE BLAME",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "STRIKING OIL OF OLAY",
+  "pivot_index": 1,
+  "pivot": "OIL",
+  "pivot_conf": 0.66,
+  "before": "STRIKING OIL",
+  "after": "OIL OF OLAY",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "STUFFING THE CHRISTMAS GOOSE BUMPS",
+  "pivot_index": 3,
+  "pivot": "GOOSE",
+  "pivot_conf": 0.96,
+  "before": "STUFFING THE CHRISTMAS GOOSE",
+  "after": "GOOSE BUMPS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "STUNT DOUBLE OR NOTHING",
+  "pivot_index": 2,
+  "pivot": "OR",
+  "pivot_conf": 0.51,
+  "before": "STUNT DOUBLE OR",
+  "after": "OR NOTHING",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "SUNNY SIDE UP THE CREEK",
+  "pivot_index": 2,
+  "pivot": "UP",
+  "pivot_conf": 0.89,
+  "before": "SUNNY SIDE UP",
+  "after": "UP THE CREEK",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "SUNNY-SIDE UP EGG ROLL",
+  "pivot_index": 2,
+  "pivot": "EGG",
+  "pivot_conf": 0.42,
+  "before": "SUNNY-SIDE UP EGG",
+  "after": "EGG ROLL",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "SWALLOW YOUR PRIDE AND PREJUDICE",
+  "pivot_index": 2,
+  "pivot": "PRIDE",
+  "pivot_conf": 0.42,
+  "before": "SWALLOW YOUR PRIDE",
+  "after": "PRIDE AND PREJUDICE",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "TAKE A DEEP BREATH MINT",
+  "pivot_index": 3,
+  "pivot": "BREATH",
+  "pivot_conf": 0.87,
+  "before": "TAKE A DEEP BREATH",
+  "after": "BREATH MINT",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "TAKE A WALK ON THE WILD SIDE OF BACON",
+  "pivot_index": 6,
+  "pivot": "SIDE",
+  "pivot_conf": 0.55,
+  "before": "TAKE A WALK ON THE WILD SIDE",
+  "after": "SIDE OF BACON",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "TAKE FIVE O'CLOCK SHADOW",
+  "pivot_index": 2,
+  "pivot": "O'CLOCK",
+  "pivot_conf": 0.48,
+  "before": "TAKE FIVE O'CLOCK",
+  "after": "O'CLOCK SHADOW",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "TAKE IT EASY CHAIR",
+  "pivot_index": 2,
+  "pivot": "EASY",
+  "pivot_conf": 0.69,
+  "before": "TAKE IT EASY",
+  "after": "EASY CHAIR",
+  "ba_score": 0.85
+ },
+ {
+  "phrase": "TAKE THE CAR OUT FOR A SPIN CYCLE",
+  "pivot_index": 6,
+  "pivot": "SPIN",
+  "pivot_conf": 0.7,
+  "before": "TAKE THE CAR OUT FOR A SPIN",
+  "after": "SPIN CYCLE",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "TELEPHONE JACK AND JILL",
+  "pivot_index": 1,
+  "pivot": "JACK",
+  "pivot_conf": 0.51,
+  "before": "TELEPHONE JACK",
+  "after": "JACK AND JILL",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "THAT ABOUT SUMS IT UP",
+  "pivot_index": 3,
+  "pivot": "IT",
+  "pivot_conf": 0.55,
+  "before": "THAT ABOUT SUMS IT",
+  "after": "IT UP",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "THAT'S USING YOUR HEAD OF LETTUCE",
+  "pivot_index": 3,
+  "pivot": "HEAD",
+  "pivot_conf": 0.98,
+  "before": "THAT'S USING YOUR HEAD",
+  "after": "HEAD OF LETTUCE",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "THE BIG APPLE TURNOVER",
+  "pivot_index": 2,
+  "pivot": "APPLE",
+  "pivot_conf": 0.92,
+  "before": "THE BIG APPLE",
+  "after": "APPLE TURNOVER",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "THE COMMON COLD BEER",
+  "pivot_index": 2,
+  "pivot": "COLD",
+  "pivot_conf": 0.92,
+  "before": "THE COMMON COLD",
+  "after": "COLD BEER",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "THE EARTH'S CRUST OF BREAD",
+  "pivot_index": 2,
+  "pivot": "CRUST",
+  "pivot_conf": 0.89,
+  "before": "THE EARTH'S CRUST",
+  "after": "CRUST OF BREAD",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "THE FARMER IN THE DELL COMPUTER",
+  "pivot_index": 4,
+  "pivot": "DELL",
+  "pivot_conf": 0.89,
+  "before": "THE FARMER IN THE DELL",
+  "after": "DELL COMPUTER",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "THE FIRST TIME EVER I SAW YOUR FACE CREAM",
+  "pivot_index": 7,
+  "pivot": "FACE",
+  "pivot_conf": 0.8,
+  "before": "THE FIRST TIME EVER I SAW YOUR FACE",
+  "after": "FACE CREAM",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "THE GRATEFUL DEAD MEN TELL NO TALES",
+  "pivot_index": 2,
+  "pivot": "DEAD",
+  "pivot_conf": 0.68,
+  "before": "THE GRATEFUL DEAD",
+  "after": "DEAD MEN TELL NO TALES",
+  "ba_score": 0.83
+ },
+ {
+  "phrase": "THE GULF STREAM OF CONSCIOUSNESS",
+  "pivot_index": 2,
+  "pivot": "STREAM",
+  "pivot_conf": 0.59,
+  "before": "THE GULF STREAM",
+  "after": "STREAM OF CONSCIOUSNESS",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "THE HANDWRITING'S ON THE WALL STREET",
+  "pivot_index": 4,
+  "pivot": "WALL",
+  "pivot_conf": 0.8,
+  "before": "THE HANDWRITING'S ON THE WALL",
+  "after": "WALL STREET",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "THE INVISIBLE MAN-TO-MAN COVERAGE",
+  "pivot_index": 2,
+  "pivot": "MAN-TO-MAN",
+  "pivot_conf": 0.88,
+  "before": "THE INVISIBLE MAN-TO-MAN",
+  "after": "MAN-TO-MAN COVERAGE",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "THE JET SET THE TABLE",
+  "pivot_index": 2,
+  "pivot": "SET",
+  "pivot_conf": 0.94,
+  "before": "THE JET SET",
+  "after": "SET THE TABLE",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "THE KING AND I LOVE LUCY",
+  "pivot_index": 3,
+  "pivot": "I",
+  "pivot_conf": 0.54,
+  "before": "THE KING AND I",
+  "after": "I LOVE LUCY",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "THE LINCOLN TUNNEL OF LOVE",
+  "pivot_index": 2,
+  "pivot": "TUNNEL",
+  "pivot_conf": 0.44,
+  "before": "THE LINCOLN TUNNEL",
+  "after": "TUNNEL OF LOVE",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "THE LONE STAR STATE OF MIND",
+  "pivot_index": 3,
+  "pivot": "STATE",
+  "pivot_conf": 0.65,
+  "before": "THE LONE STAR STATE",
+  "after": "STATE OF MIND",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "THE MAGNIFICENT SEVEN DWARFS",
+  "pivot_index": 2,
+  "pivot": "SEVEN",
+  "pivot_conf": 0.69,
+  "before": "THE MAGNIFICENT SEVEN",
+  "after": "SEVEN DWARFS",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "THE MAN OF STEEL WOOL",
+  "pivot_index": 3,
+  "pivot": "STEEL",
+  "pivot_conf": 0.87,
+  "before": "THE MAN OF STEEL",
+  "after": "STEEL WOOL",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "THE NURSING FIELD OF DREAMS",
+  "pivot_index": 2,
+  "pivot": "FIELD",
+  "pivot_conf": 0.85,
+  "before": "THE NURSING FIELD",
+  "after": "FIELD OF DREAMS",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "THE NUTCRACKER SUITE OF OFFICES",
+  "pivot_index": 2,
+  "pivot": "SUITE",
+  "pivot_conf": 0.9,
+  "before": "THE NUTCRACKER SUITE",
+  "after": "SUITE OF OFFICES",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "THE PUGET SOUND OF MUSIC",
+  "pivot_index": 2,
+  "pivot": "SOUND",
+  "pivot_conf": 0.94,
+  "before": "THE PUGET SOUND",
+  "after": "SOUND OF MUSIC",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "THE RAT RACE TRACK",
+  "pivot_index": 2,
+  "pivot": "RACE",
+  "pivot_conf": 0.81,
+  "before": "THE RAT RACE",
+  "after": "RACE TRACK",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "THE SHALLOW END OF THE POOL TABLE",
+  "pivot_index": 5,
+  "pivot": "POOL",
+  "pivot_conf": 0.63,
+  "before": "THE SHALLOW END OF THE POOL",
+  "after": "POOL TABLE",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "THE STRAW THAT BROKE THE CAMEL'S BACK SCRATCHER",
+  "pivot_index": 6,
+  "pivot": "BACK",
+  "pivot_conf": 0.99,
+  "before": "THE STRAW THAT BROKE THE CAMEL'S BACK",
+  "after": "BACK SCRATCHER",
+  "ba_score": 0.83
+ },
+ {
+  "phrase": "THERE'S SOMETHING IN MY EYE DOCTOR",
+  "pivot_index": 4,
+  "pivot": "EYE",
+  "pivot_conf": 0.94,
+  "before": "THERE'S SOMETHING IN MY EYE",
+  "after": "EYE DOCTOR",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "THOUSAND ISLAND DRESSING ROOM",
+  "pivot_index": 2,
+  "pivot": "DRESSING",
+  "pivot_conf": 0.69,
+  "before": "THOUSAND ISLAND DRESSING",
+  "after": "DRESSING ROOM",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "THREE-PEAT IS SWEET FOR L.A. LAKERS",
+  "pivot_index": 2,
+  "pivot": "SWEET",
+  "pivot_conf": 0.46,
+  "before": "THREE-PEAT IS SWEET",
+  "after": "SWEET FOR L.A. LAKERS",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "TIME ON MY HANDS AND FEET",
+  "pivot_index": 3,
+  "pivot": "HANDS",
+  "pivot_conf": 0.52,
+  "before": "TIME ON MY HANDS",
+  "after": "HANDS AND FEET",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "TO HAVE AND TO HOLD BUTTON",
+  "pivot_index": 4,
+  "pivot": "HOLD",
+  "pivot_conf": 0.75,
+  "before": "TO HAVE AND TO HOLD",
+  "after": "HOLD BUTTON",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "TO MARKET TO MARKET TO BUY A FAT PIG",
+  "pivot_index": 3,
+  "pivot": "MARKET",
+  "pivot_conf": 0.59,
+  "before": "TO MARKET TO MARKET",
+  "after": "MARKET TO BUY A FAT PIG",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "TOUCHED BY AN ANGEL FOOD CAKE",
+  "pivot_index": 3,
+  "pivot": "ANGEL",
+  "pivot_conf": 0.73,
+  "before": "TOUCHED BY AN ANGEL",
+  "after": "ANGEL FOOD CAKE",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "TRAINED SEAL OF APPROVAL",
+  "pivot_index": 1,
+  "pivot": "SEAL",
+  "pivot_conf": 0.82,
+  "before": "TRAINED SEAL",
+  "after": "SEAL OF APPROVAL",
+  "ba_score": 0.8
+ },
+ {
+  "phrase": "TRENCH COAT OF ARMS",
+  "pivot_index": 1,
+  "pivot": "COAT",
+  "pivot_conf": 0.55,
+  "before": "TRENCH COAT",
+  "after": "COAT OF ARMS",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "TROPICAL FISH TANK TOP",
+  "pivot_index": 2,
+  "pivot": "TANK",
+  "pivot_conf": 0.82,
+  "before": "TROPICAL FISH TANK",
+  "after": "TANK TOP",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "WE DON'T SEE EYE TO EYE SHADOW",
+  "pivot_index": 5,
+  "pivot": "EYE",
+  "pivot_conf": 0.57,
+  "before": "WE DON'T SEE EYE TO EYE",
+  "after": "EYE SHADOW",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "WE'LL BE RIGHT BACK OFF",
+  "pivot_index": 3,
+  "pivot": "BACK",
+  "pivot_conf": 0.86,
+  "before": "WE'LL BE RIGHT BACK",
+  "after": "BACK OFF",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "WE'RE GAINING GROUND SQUIRREL",
+  "pivot_index": 2,
+  "pivot": "GROUND",
+  "pivot_conf": 0.98,
+  "before": "WE'RE GAINING GROUND",
+  "after": "GROUND SQUIRREL",
+  "ba_score": 0.78
+ },
+ {
+  "phrase": "WE'RE HAVING A BABY GRAND PIANO",
+  "pivot_index": 3,
+  "pivot": "BABY",
+  "pivot_conf": 0.43,
+  "before": "WE'RE HAVING A BABY",
+  "after": "BABY GRAND PIANO",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "WE'RE IN TOUCH SO YOU BE IN TOUCH",
+  "pivot_index": 2,
+  "pivot": "TOUCH",
+  "pivot_conf": 0.74,
+  "before": "WE'RE IN TOUCH",
+  "after": "TOUCH SO YOU BE IN TOUCH",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "WE'RE ON A ROLL OF QUARTERS",
+  "pivot_index": 3,
+  "pivot": "ROLL",
+  "pivot_conf": 0.82,
+  "before": "WE'RE ON A ROLL",
+  "after": "ROLL OF QUARTERS",
+  "ba_score": 0.7
+ },
+ {
+  "phrase": "WILD WEST SHOW AND TELL",
+  "pivot_index": 2,
+  "pivot": "SHOW",
+  "pivot_conf": 0.59,
+  "before": "WILD WEST SHOW",
+  "after": "SHOW AND TELL",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "WIN BY A NOSE OUT OF JOINT",
+  "pivot_index": 3,
+  "pivot": "NOSE",
+  "pivot_conf": 0.57,
+  "before": "WIN BY A NOSE",
+  "after": "NOSE OUT OF JOINT",
+  "ba_score": 0.81
+ },
+ {
+  "phrase": "WITH A NAME LIKE SMUCKER'S IT HAS TO BE GOOD",
+  "pivot_index": 4,
+  "pivot": "SMUCKER'S",
+  "pivot_conf": 0.44,
+  "before": "WITH A NAME LIKE SMUCKER'S",
+  "after": "SMUCKER'S IT HAS TO BE GOOD",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "WITH RECKLESS ABANDON SHIP",
+  "pivot_index": 2,
+  "pivot": "ABANDON",
+  "pivot_conf": 0.95,
+  "before": "WITH RECKLESS ABANDON",
+  "after": "ABANDON SHIP",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "WORLD WIDE & SPIDER WEB",
+  "pivot_index": 1,
+  "pivot": "WIDE",
+  "pivot_conf": 0.55,
+  "before": "WORLD WIDE",
+  "after": "WIDE & SPIDER WEB",
+  "ba_score": 0.75
+ },
+ {
+  "phrase": "WRIGLEY'S SPEARMINT GUM UP THE WORKS",
+  "pivot_index": 3,
+  "pivot": "UP",
+  "pivot_conf": 0.56,
+  "before": "WRIGLEY'S SPEARMINT GUM UP",
+  "after": "UP THE WORKS",
+  "ba_score": 0.73
+ },
+ {
+  "phrase": "YOU CAN COUNT ON ME TARZAN",
+  "pivot_index": 4,
+  "pivot": "ME",
+  "pivot_conf": 0.77,
+  "before": "YOU CAN COUNT ON ME",
+  "after": "ME TARZAN",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "YOU CAN'T TOP THE COPPER TOP",
+  "pivot_index": 2,
+  "pivot": "TOP",
+  "pivot_conf": 0.75,
+  "before": "YOU CAN'T TOP",
+  "after": "TOP THE COPPER TOP",
+  "ba_score": 0.79
+ },
+ {
+  "phrase": "YOU CRACK ME UP YOUR SLEEVE",
+  "pivot_index": 3,
+  "pivot": "UP",
+  "pivot_conf": 0.81,
+  "before": "YOU CRACK ME UP",
+  "after": "UP YOUR SLEEVE",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "YOU HIT THE NAIL ON THE HEAD OF THE CLASS",
+  "pivot_index": 6,
+  "pivot": "HEAD",
+  "pivot_conf": 0.91,
+  "before": "YOU HIT THE NAIL ON THE HEAD",
+  "after": "HEAD OF THE CLASS",
+  "ba_score": 0.82
+ },
+ {
+  "phrase": "YOU MADE YOUR BED NOW LIE IN IT",
+  "pivot_index": 3,
+  "pivot": "BED",
+  "pivot_conf": 0.61,
+  "before": "YOU MADE YOUR BED",
+  "after": "BED NOW LIE IN IT",
+  "ba_score": 0.71
+ },
+ {
+  "phrase": "YOU MAY KISS THE BRIDE OF FRANKENSTEIN",
+  "pivot_index": 4,
+  "pivot": "BRIDE",
+  "pivot_conf": 0.48,
+  "before": "YOU MAY KISS THE BRIDE",
+  "after": "BRIDE OF FRANKENSTEIN",
+  "ba_score": 0.76
+ },
+ {
+  "phrase": "YOU MISSED THE POINT ME IN THE RIGHT DIRECTION",
+  "pivot_index": 3,
+  "pivot": "POINT",
+  "pivot_conf": 0.75,
+  "before": "YOU MISSED THE POINT",
+  "after": "POINT ME IN THE RIGHT DIRECTION",
+  "ba_score": 0.74
+ },
+ {
+  "phrase": "YOU'RE DRIVING ME WILD BILL HICKOK",
+  "pivot_index": 3,
+  "pivot": "WILD",
+  "pivot_conf": 0.62,
+  "before": "YOU'RE DRIVING ME WILD",
+  "after": "WILD BILL HICKOK",
+  "ba_score": 0.72
+ },
+ {
+  "phrase": "YOU'RE MAKING MY HEAD SPIN THE WHEEL",
+  "pivot_index": 4,
+  "pivot": "SPIN",
+  "pivot_conf": 0.82,
+  "before": "YOU'RE MAKING MY HEAD SPIN",
+  "after": "SPIN THE WHEEL",
+  "ba_score": 0.77
+ },
+ {
+  "phrase": "ZIP CODE OF CONDUCT",
+  "pivot_index": 1,
+  "pivot": "CODE",
+  "pivot_conf": 0.46,
+  "before": "ZIP CODE",
+  "after": "CODE OF CONDUCT",
+  "ba_score": 0.71
+ }
+]

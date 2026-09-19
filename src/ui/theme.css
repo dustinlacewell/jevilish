@@ -1,0 +1,66 @@
+/* Jevlish — a Victorian broadsheet that happens to print classifier telemetry. */
+:root {
+  --ink: #1c1917;
+  --ink-soft: #57534e;
+  --ink-faint: #a8a29e;
+  --paper: #f5f1e8;
+  --paper-deep: #ebe4d6;
+  --rule: #d6cdb9;
+  --gold: #9a7b25;
+  --gold-bright: #c9a227;
+  --seal: #8c2f2f;
+  --green: #3f6212;
+  --shadow: rgba(28, 25, 23, 0.14);
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", Georgia, serif;
+  --mono: "SF Mono", "Cascadia Mono", Consolas, "Roboto Mono", monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ink: #ede8dc;
+    --ink-soft: #b5ad9c;
+    --ink-faint: #6b6558;
+    --paper: #16150f;
+    --paper-deep: #1f1d15;
+    --rule: #3a362a;
+    --gold: #d9b64a;
+    --gold-bright: #f0cf6a;
+    --seal: #c4605a;
+    --green: #9ccc4f;
+    --shadow: rgba(0, 0, 0, 0.5);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Faint laid-paper texture so the board reads as printed, not rendered. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0 3px, var(--shadow) 3px 4px);
+  mix-blend-mode: multiply;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) body::before { mix-blend-mode: screen; opacity: 0.25; }
+}
+
+button { font-family: inherit; color: inherit; cursor: pointer; }
+button:focus-visible, input:focus-visible {
+  outline: 2px solid var(--gold-bright);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

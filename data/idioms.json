@@ -1,0 +1,8557 @@
+[
+{
+"phrase": "HOLD YOUR TONGUE",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "THE REAL DEAL",
+"conf": 0.97,
+"fam": 0.85
+},
+{
+"phrase": "DON'T BE A WET BLANKET",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "IT'S CALLED THE MOTHER OF INVENTION",
+"conf": 0.99,
+"fam": 0.67
+},
+{
+"phrase": "WIPE THE SLATE CLEAN",
+"conf": 0.99,
+"fam": 0.66
+},
+{
+"phrase": "YOU'VE GOT IT MADE",
+"conf": 0.99,
+"fam": 0.69
+},
+{
+"phrase": "COME ONE COME ALL",
+"conf": 0.94,
+"fam": 0.88
+},
+{
+"phrase": "PRESENCE OF MIND",
+"conf": 0.92,
+"fam": 0.8
+},
+{
+"phrase": "HAPPY AS A LARK",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "RESTING ON YOUR LAURELS",
+"conf": 1.0,
+"fam": 0.62
+},
+{
+"phrase": "EATS LIKE A BIRD",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "I JUMPED AT THE CHANCE",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "ON AUTOMATIC PILOT",
+"conf": 0.97,
+"fam": 0.81
+},
+{
+"phrase": "LOVE 'EM AND LEAVE 'EM",
+"conf": 0.97,
+"fam": 0.72
+},
+{
+"phrase": "LOOK SHARP",
+"conf": 0.88,
+"fam": 0.75
+},
+{
+"phrase": "EVERY MINUTE COUNTS",
+"conf": 0.95,
+"fam": 0.84
+},
+{
+"phrase": "THE GOING RATE",
+"conf": 0.71,
+"fam": 0.69
+},
+{
+"phrase": "YOU'LL BE THE FIRST TO KNOW",
+"conf": 0.77,
+"fam": 0.81
+},
+{
+"phrase": "YOU'RE GETTING ON MY NERVES",
+"conf": 0.98,
+"fam": 0.89
+},
+{
+"phrase": "CRYSTAL CLEAR",
+"conf": 0.81,
+"fam": 0.89
+},
+{
+"phrase": "A CUT ABOVE THE REST",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "TO YOUR HEART'S CONTENT",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "DRIVE A HARD BARGAIN",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "QUIT YAPPING",
+"conf": 0.73,
+"fam": 0.63
+},
+{
+"phrase": "CUT OFF YOUR NOSE TO SPITE YOUR FACE",
+"conf": 1.0,
+"fam": 0.61
+},
+{
+"phrase": "DON'T SPEND IT ALL IN ONE PLACE",
+"conf": 0.8,
+"fam": 0.59
+},
+{
+"phrase": "HEART AND SOUL",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "COLD AS ICE",
+"conf": 1.0,
+"fam": 0.93
+},
+{
+"phrase": "SHE'S A REAL PEOPLE PERSON",
+"conf": 0.88,
+"fam": 0.79
+},
+{
+"phrase": "JUST WHAT THE DOCTOR ORDERED",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "THE WHOLE WORLD AT YOUR FINGERTIPS",
+"conf": 0.98,
+"fam": 0.7
+},
+{
+"phrase": "KEEP YOUR NOSE TO THE GRINDSTONE",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "DON'T LET ANYTHING STAND IN YOUR WAY",
+"conf": 0.83,
+"fam": 0.76
+},
+{
+"phrase": "HERE I COME TO SAVE THE DAY",
+"conf": 0.72,
+"fam": 0.76
+},
+{
+"phrase": "SEETHING WITH ANGER",
+"conf": 0.85,
+"fam": 0.81
+},
+{
+"phrase": "LAY IT ON THICK",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "RACKING MY BRAINS",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "THE MOVERS AND THE SHAKERS",
+"conf": 0.97,
+"fam": 0.73
+},
+{
+"phrase": "DON'T LET IT SLIP AWAY",
+"conf": 0.79,
+"fam": 0.65
+},
+{
+"phrase": "DAMNED IF YOU DO AND DAMNED IF YOU DON'T",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "LET'S CUT TO THE CHASE",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "MAKE YOUR MARK",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "NOW I'VE SEEN EVERYTHING",
+"conf": 0.94,
+"fam": 0.82
+},
+{
+"phrase": "GETTING A HEAD START",
+"conf": 0.94,
+"fam": 0.84
+},
+{
+"phrase": "YOU CAN SAY THAT AGAIN",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "IT TOWERS ABOVE THE REST",
+"conf": 0.89,
+"fam": 0.64
+},
+{
+"phrase": "AS FAR AS THE EYE CAN SEE",
+"conf": 0.97,
+"fam": 0.88
+},
+{
+"phrase": "SPRING FORWARD FALL BACK",
+"conf": 0.88,
+"fam": 0.63
+},
+{
+"phrase": "THIS IS MY LUCKY DAY",
+"conf": 0.89,
+"fam": 0.91
+},
+{
+"phrase": "GRINNING FROM EAR TO EAR",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "NINE TIMES OUT OF TEN",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "HAVEN'T GOT AN INKLING",
+"conf": 1.0,
+"fam": 0.62
+},
+{
+"phrase": "I'LL MAKE IT WORTH YOUR WHILE",
+"conf": 0.95,
+"fam": 0.74
+},
+{
+"phrase": "ALL WRAPPED UP",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "DUCKING THE ISSUE",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "JUST SHOOT ME",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "YOU CAN'T TEACH AN OLD DOG NEW TRICKS",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "STATE OF THE ART",
+"conf": 0.9,
+"fam": 0.9
+},
+{
+"phrase": "IT'S HIT OR MISS",
+"conf": 0.97,
+"fam": 0.7
+},
+{
+"phrase": "I CAN READ YOU LIKE A BOOK",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "CHOO-CHOO TRAIN OF THOUGHT",
+"conf": 0.91,
+"fam": 0.51
+},
+{
+"phrase": "THE NIGHT IS YOUNG",
+"conf": 0.93,
+"fam": 0.5
+},
+{
+"phrase": "DON'T BE SUCH A WORRYWART",
+"conf": 0.9,
+"fam": 0.76
+},
+{
+"phrase": "GETTING YOUR SIGNALS CROSSED",
+"conf": 0.97,
+"fam": 0.63
+},
+{
+"phrase": "YOU'RE DRIVING ME CRAZY",
+"conf": 0.98,
+"fam": 0.9
+},
+{
+"phrase": "SAVE THE DATE",
+"conf": 0.82,
+"fam": 0.92
+},
+{
+"phrase": "GETTING IN OVER YOUR HEAD",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "LOOK OUT BELOW",
+"conf": 0.75,
+"fam": 0.82
+},
+{
+"phrase": "RIGHT BEFORE MY VERY EYES",
+"conf": 0.94,
+"fam": 0.77
+},
+{
+"phrase": "MEAT AND POTATOES",
+"conf": 0.85,
+"fam": 0.85
+},
+{
+"phrase": "I COULD WRITE A BOOK",
+"conf": 0.89,
+"fam": 0.86
+},
+{
+"phrase": "WALKING ON AIR",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "IF IT AIN'T BROKE DON'T FIX IT",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "KNOWING WHERE TO DRAW THE LINE",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "ON THE CUTTING EDGE",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "GOOD THINGS COME IN SMALL PACKAGES",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "SWIMMING AGAINST THE TIDE",
+"conf": 0.88,
+"fam": 0.77
+},
+{
+"phrase": "POETIC JUSTICE",
+"conf": 0.98,
+"fam": 0.69
+},
+{
+"phrase": "BEATING AROUND THE BUSH",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "TAKING THE EASY WAY OUT",
+"conf": 0.96,
+"fam": 0.87
+},
+{
+"phrase": "I'M BOWING OUT",
+"conf": 0.92,
+"fam": 0.79
+},
+{
+"phrase": "I'M PUTTING MY FOOT DOWN",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "THIRD TIME'S THE CHARM",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "GETTING A JUMP ON THE COMPETITION",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "THIRST FOR KNOWLEDGE",
+"conf": 0.84,
+"fam": 0.83
+},
+{
+"phrase": "WIPE THAT SMILE OFF YOUR FACE",
+"conf": 0.79,
+"fam": 0.83
+},
+{
+"phrase": "NOW THAT'S MORE LIKE IT",
+"conf": 0.81,
+"fam": 0.78
+},
+{
+"phrase": "THE RESULTS ARE IN",
+"conf": 0.87,
+"fam": 0.91
+},
+{
+"phrase": "PAPER-THIN",
+"conf": 0.72,
+"fam": 0.88
+},
+{
+"phrase": "DRIVING LIKE A MANIAC",
+"conf": 0.81,
+"fam": 0.81
+},
+{
+"phrase": "WHAT'S THE SCOOP?",
+"conf": 0.98,
+"fam": 0.66
+},
+{
+"phrase": "SO CLEAN YOU COULD EAT OFF THE FLOOR",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "BY THE SWEAT OF YOUR BROW",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "STIR UP A HORNET'S NEST",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "LET'S TALK TURKEY",
+"conf": 0.93,
+"fam": 0.6
+},
+{
+"phrase": "I'M ALL CHOKED UP",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "NITTY-GRITTY",
+"conf": 0.98,
+"fam": 0.67
+},
+{
+"phrase": "FINDERS KEEPERS",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "SOLID AS A ROCK",
+"conf": 1.0,
+"fam": 0.92
+},
+{
+"phrase": "KNOCK 'EM DEAD",
+"conf": 0.99,
+"fam": 0.66
+},
+{
+"phrase": "CAUGHT WITH HIS PANTS DOWN",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "DON'T QUOTE ME ON THAT",
+"conf": 0.95,
+"fam": 0.61
+},
+{
+"phrase": "GOING CRAZY",
+"conf": 0.94,
+"fam": 0.9
+},
+{
+"phrase": "PROVERB",
+"conf": 0.95,
+"fam": 0.85
+},
+{
+"phrase": "MOOT POINT",
+"conf": 0.91,
+"fam": 0.71
+},
+{
+"phrase": "THEY'RE OFF",
+"conf": 0.75,
+"fam": 0.85
+},
+{
+"phrase": "FLIRTING WITH DANGER",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "I HAVEN'T THE FOGGIEST IDEA",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "OKEY-DOKEY",
+"conf": 0.96,
+"fam": 0.83
+},
+{
+"phrase": "I'VE GOT A HUNCH",
+"conf": 0.93,
+"fam": 0.8
+},
+{
+"phrase": "A FACE ONLY A MOTHER COULD LOVE",
+"conf": 0.94,
+"fam": 0.83
+},
+{
+"phrase": "I NEED A MOMENT TO COLLECT MY THOUGHTS",
+"conf": 0.72,
+"fam": 0.82
+},
+{
+"phrase": "MONDAY MORNING QUARTERBACK",
+"conf": 0.98,
+"fam": 0.59
+},
+{
+"phrase": "ROME WASN'T BUILT IN A DAY",
+"conf": 0.85,
+"fam": 0.87
+},
+{
+"phrase": "THAT'S ONE FOR THE RECORD BOOKS",
+"conf": 0.98,
+"fam": 0.74
+},
+{
+"phrase": "YOU'LL NEVER GUESS IN A MILLION YEARS",
+"conf": 0.92,
+"fam": 0.55
+},
+{
+"phrase": "KEEPING A LOW PROFILE",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "EVERY WHICH WAY",
+"conf": 0.88,
+"fam": 0.79
+},
+{
+"phrase": "FALLING FROM GRACE",
+"conf": 0.98,
+"fam": 0.65
+},
+{
+"phrase": "IN THE PUBLIC EYE",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "YOU CAN'T HAVE YOUR CAKE AND EAT IT TOO",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "LIVE AND LEARN",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "DON'T MAKE A MOUNTAIN OUT OF A MOLEHILL",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "A STEP IN THE RIGHT DIRECTION",
+"conf": 0.93,
+"fam": 0.85
+},
+{
+"phrase": "PULLED THE RUG OUT FROM UNDER ME",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "SAVE THE BEST FOR LAST",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "LIVING HIGH ON THE HOG",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "HAPPY BIRTHDAY SUIT",
+"conf": 0.92,
+"fam": 0.75
+},
+{
+"phrase": "A SIGHT FOR SORE EYES",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "SOUR GRAPES",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "IT'S JUST WHAT THE DOCTOR ORDERED",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "EASY DOES IT",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "SPRING FEVER",
+"conf": 0.77,
+"fam": 0.81
+},
+{
+"phrase": "TURN THAT FROWN UPSIDE DOWN",
+"conf": 0.86,
+"fam": 0.77
+},
+{
+"phrase": "COMING DOWN THE HOMESTRETCH",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "HANG LOOSE",
+"conf": 0.98,
+"fam": 0.65
+},
+{
+"phrase": "HERE TODAY GONE TOMORROW",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "HATS OFF TO YOU",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "HE TOLD A BIG WHOPPER",
+"conf": 0.99,
+"fam": 0.64
+},
+{
+"phrase": "GETTING YOUR DUCKS IN A ROW",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "HARBORING A GRUDGE",
+"conf": 0.94,
+"fam": 0.79
+},
+{
+"phrase": "RULE OF THUMB",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "I'M THRILLED TO PIECES",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "MONEY ISN'T EVERYTHING",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "I KNEW IT ALL ALONG",
+"conf": 0.72,
+"fam": 0.9
+},
+{
+"phrase": "HOLY MACKEREL",
+"conf": 0.98,
+"fam": 0.66
+},
+{
+"phrase": "RAZZLE-DAZZLE",
+"conf": 0.93,
+"fam": 0.78
+},
+{
+"phrase": "MY FEET ARE KILLING ME",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "I BRANCHED OUT",
+"conf": 0.97,
+"fam": 0.74
+},
+{
+"phrase": "ART FOR ART'S SAKE",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "THE BEST OF THE BUNCH",
+"conf": 0.74,
+"fam": 0.7
+},
+{
+"phrase": "GOOD LUCK",
+"conf": 0.76,
+"fam": 0.95
+},
+{
+"phrase": "I'M OFF THE HOOK",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "STRIKE IT RICH",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "TAKING CENTER STAGE",
+"conf": 0.94,
+"fam": 0.81
+},
+{
+"phrase": "GOING OFF THE DEEP END",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "CLEAN UP YOUR ACT",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "HIT THE NAIL ON THE HEAD",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "THE BUCK STOPS HERE",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "READY OR NOT HERE I COME",
+"conf": 0.8,
+"fam": 0.79
+},
+{
+"phrase": "TURNING BACK THE CLOCK",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "THE PLOT THICKENS",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "CAN YOU FILL ME IN?",
+"conf": 0.72,
+"fam": 0.8
+},
+{
+"phrase": "I HEAR YOU LOUD AND CLEAR",
+"conf": 0.92,
+"fam": 0.88
+},
+{
+"phrase": "LOOK WHO'S TALKING",
+"conf": 0.94,
+"fam": 0.83
+},
+{
+"phrase": "SPREADING YOURSELF TOO THIN",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "A KID AT HEART",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "I SAW IT COMING A MILE AWAY",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "ON THE SURFACE",
+"conf": 0.86,
+"fam": 0.89
+},
+{
+"phrase": "LEND A HELPING HAND",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "I COULD KICK MYSELF",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "HAVING A CHECKERED PAST",
+"conf": 0.98,
+"fam": 0.66
+},
+{
+"phrase": "A BANNER YEAR",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "GOOD NIGHT AND SWEET DREAMS",
+"conf": 0.73,
+"fam": 0.91
+},
+{
+"phrase": "POWER CORRUPTS",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "HOCUS-POCUS",
+"conf": 0.91,
+"fam": 0.82
+},
+{
+"phrase": "I THINK I'VE CREATED A MONSTER",
+"conf": 0.72,
+"fam": 0.67
+},
+{
+"phrase": "SAVING THE BEST FOR LAST",
+"conf": 0.97,
+"fam": 0.89
+},
+{
+"phrase": "PRESSED FOR TIME",
+"conf": 0.93,
+"fam": 0.88
+},
+{
+"phrase": "SPENDING TIME BEHIND BARS",
+"conf": 0.85,
+"fam": 0.78
+},
+{
+"phrase": "WHY DIDN'T I THINK OF THAT?",
+"conf": 0.7,
+"fam": 0.86
+},
+{
+"phrase": "PICTURE PERFECT",
+"conf": 0.95,
+"fam": 0.82
+},
+{
+"phrase": "I DOZED OFF",
+"conf": 0.74,
+"fam": 0.88
+},
+{
+"phrase": "NO KIDDING",
+"conf": 0.98,
+"fam": 0.9
+},
+{
+"phrase": "IT'LL DO YOU A WORLD OF GOOD",
+"conf": 1.0,
+"fam": 0.54
+},
+{
+"phrase": "HEART-TO-HEART TALK",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "LEND ME YOUR EARS",
+"conf": 0.84,
+"fam": 0.81
+},
+{
+"phrase": "WHISPERED SWEET NOTHINGS IN MY EAR",
+"conf": 0.77,
+"fam": 0.7
+},
+{
+"phrase": "WE HIT IT OFF",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "ARMED TO THE TEETH",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "ONE THING LEADS TO ANOTHER",
+"conf": 0.81,
+"fam": 0.84
+},
+{
+"phrase": "JUST AROUND THE CORNER",
+"conf": 0.97,
+"fam": 0.88
+},
+{
+"phrase": "A BAD CASE OF THE SNIFFLES",
+"conf": 0.9,
+"fam": 0.81
+},
+{
+"phrase": "ROOTING FOR THE UNDERDOG",
+"conf": 0.95,
+"fam": 0.82
+},
+{
+"phrase": "NEVER IN A MILLION YEARS",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "STAKE YOUR CLAIM",
+"conf": 0.97,
+"fam": 0.7
+},
+{
+"phrase": "JOG MY MEMORY",
+"conf": 0.95,
+"fam": 0.79
+},
+{
+"phrase": "DON'T MENTION IT",
+"conf": 0.96,
+"fam": 0.92
+},
+{
+"phrase": "IT DOESN'T HURT TO ASK",
+"conf": 0.95,
+"fam": 0.89
+},
+{
+"phrase": "THAT'S A LOAD OFF MY MIND",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "HOME IS WHERE THE HEART IS",
+"conf": 1.0,
+"fam": 0.93
+},
+{
+"phrase": "BLOWING OFF STEAM",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "FREE AND EASY",
+"conf": 0.84,
+"fam": 0.83
+},
+{
+"phrase": "IT GIVES ME THE CREEPS",
+"conf": 0.97,
+"fam": 0.89
+},
+{
+"phrase": "SKELETON CREW",
+"conf": 0.82,
+"fam": 0.7
+},
+{
+"phrase": "THERE'S MORE TO THIS THAN MEETS THE EYE",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "JOCKEY FOR POSITION",
+"conf": 0.96,
+"fam": 0.52
+},
+{
+"phrase": "STEP UP TO THE PLATE",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "NOW YOU SEE IT NOW YOU DON'T",
+"conf": 0.95,
+"fam": 0.81
+},
+{
+"phrase": "LOWEST COMMON DENOMINATOR",
+"conf": 0.86,
+"fam": 0.7
+},
+{
+"phrase": "GRAB A BITE",
+"conf": 0.87,
+"fam": 0.87
+},
+{
+"phrase": "I'M GETTING MY SECOND WIND",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "GIVE IT ALL YOU'VE GOT",
+"conf": 0.96,
+"fam": 0.91
+},
+{
+"phrase": "I'M LOOKING FORWARD TO IT",
+"conf": 0.75,
+"fam": 0.92
+},
+{
+"phrase": "PUT IN A GOOD WORD FOR ME",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "WHEN THEY MADE YOU THEY BROKE THE MOLD",
+"conf": 1.0,
+"fam": 0.61
+},
+{
+"phrase": "WITH WARMEST REGARDS",
+"conf": 0.8,
+"fam": 0.84
+},
+{
+"phrase": "WISH YOU WERE HERE",
+"conf": 0.85,
+"fam": 0.9
+},
+{
+"phrase": "GUNG-HO ATTITUDE",
+"conf": 0.94,
+"fam": 0.54
+},
+{
+"phrase": "TWIST MY ARM",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "THAT'S WHAT FRIENDS ARE FOR",
+"conf": 0.73,
+"fam": 0.85
+},
+{
+"phrase": "ON THE BLINK",
+"conf": 0.98,
+"fam": 0.5
+},
+{
+"phrase": "MULL IT OVER",
+"conf": 0.9,
+"fam": 0.8
+},
+{
+"phrase": "A BLAST FROM THE PAST",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "A SHOT IN THE DARK",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "THE COAST IS CLEAR",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "DUCK FOR COVER",
+"conf": 0.81,
+"fam": 0.78
+},
+{
+"phrase": "BREAKING NEW GROUND",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "BURST INTO SONG",
+"conf": 0.91,
+"fam": 0.82
+},
+{
+"phrase": "I'VE GOT NOTHING BUT TIME",
+"conf": 0.73,
+"fam": 0.62
+},
+{
+"phrase": "LET'S GIVE IT A SHOT",
+"conf": 0.96,
+"fam": 0.85
+},
+{
+"phrase": "NO-HOLDS-BARRED",
+"conf": 0.95,
+"fam": 0.77
+},
+{
+"phrase": "HISTORY IN THE MAKING",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "IN A STATE OF FLUX",
+"conf": 0.94,
+"fam": 0.63
+},
+{
+"phrase": "I'LL WHIP UP A QUICK SNACK",
+"conf": 0.7,
+"fam": 0.78
+},
+{
+"phrase": "I'M CAUGHT BETWEEN A ROCK AND A HARD PLACE",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "HEAR ME OUT",
+"conf": 0.86,
+"fam": 0.86
+},
+{
+"phrase": "ON-THE-SPOT DECISION",
+"conf": 0.82,
+"fam": 0.79
+},
+{
+"phrase": "IT COULDN'T HAPPEN TO A NICER GUY",
+"conf": 0.93,
+"fam": 0.63
+},
+{
+"phrase": "YOU'LL GET A REAL KICK OUT OF IT",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "PUT YOUR MONEY WHERE YOUR MOUTH IS",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "SOUNDS FISHY TO ME",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "DYED-IN-THE-WOOL",
+"conf": 1.0,
+"fam": 0.59
+},
+{
+"phrase": "JUST FOR KICKS",
+"conf": 0.99,
+"fam": 0.63
+},
+{
+"phrase": "HOW MUCH WOOD WOULD A WOODCHUCK CHUCK",
+"conf": 0.83,
+"fam": 0.77
+},
+{
+"phrase": "I HIT PAY DIRT",
+"conf": 0.99,
+"fam": 0.52
+},
+{
+"phrase": "THAT'S PUTTING IT MILDLY",
+"conf": 0.97,
+"fam": 0.76
+},
+{
+"phrase": "LET THE CAT OUT OF THE BAG",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "LANDSLIDE VICTORY",
+"conf": 0.82,
+"fam": 0.75
+},
+{
+"phrase": "PULL A PRANK",
+"conf": 0.86,
+"fam": 0.88
+},
+{
+"phrase": "IT'S NO LAUGHING MATTER",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "DOWN HOME",
+"conf": 0.76,
+"fam": 0.78
+},
+{
+"phrase": "BY ALL MEANS",
+"conf": 0.95,
+"fam": 0.87
+},
+{
+"phrase": "CAN YOU TOP THAT",
+"conf": 0.72,
+"fam": 0.78
+},
+{
+"phrase": "WORKING UP AN APPETITE",
+"conf": 0.89,
+"fam": 0.84
+},
+{
+"phrase": "HASTE MAKES WASTE",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "JUST JOKING",
+"conf": 0.73,
+"fam": 0.93
+},
+{
+"phrase": "GETTING A HANDLE ON THE SITUATION",
+"conf": 0.98,
+"fam": 0.76
+},
+{
+"phrase": "SCATTERED TO THE WINDS",
+"conf": 0.99,
+"fam": 0.54
+},
+{
+"phrase": "ARE YOU PUTTING ME ON?",
+"conf": 0.98,
+"fam": 0.77
+},
+{
+"phrase": "IF I KNEW THEN WHAT I KNOW NOW",
+"conf": 0.77,
+"fam": 0.63
+},
+{
+"phrase": "A GOOD SPORT",
+"conf": 0.79,
+"fam": 0.88
+},
+{
+"phrase": "WHAT ARE YOU GETTING AT?",
+"conf": 0.9,
+"fam": 0.83
+},
+{
+"phrase": "WE'RE AT A STANDSTILL",
+"conf": 0.97,
+"fam": 0.88
+},
+{
+"phrase": "CHANGE OF HEART",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "HEY HOLD YOUR HORSES",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "JUST BETWEEN YOU AND ME",
+"conf": 0.85,
+"fam": 0.92
+},
+{
+"phrase": "THEY COME IN ALL SHAPES AND SIZES",
+"conf": 0.88,
+"fam": 0.9
+},
+{
+"phrase": "TWO OUT OF THREE AIN'T BAD",
+"conf": 0.96,
+"fam": 0.68
+},
+{
+"phrase": "YOU TOOK THE WORDS RIGHT OUT OF MY MOUTH",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "MY EYES ARE BIGGER THAN MY STOMACH",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "IT ALL BOILS DOWN TO THIS",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "TRAMPLED UNDERFOOT",
+"conf": 0.77,
+"fam": 0.58
+},
+{
+"phrase": "GETTING THE ROYAL TREATMENT",
+"conf": 0.96,
+"fam": 0.7
+},
+{
+"phrase": "IT'S ALWAYS DARKEST BEFORE THE DAWN",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "MAKE IT QUICK",
+"conf": 0.83,
+"fam": 0.83
+},
+{
+"phrase": "HOW DOES THAT GRAB YOU",
+"conf": 0.9,
+"fam": 0.72
+},
+{
+"phrase": "FAIR AND SQUARE",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "I'M ON THE EDGE OF MY SEAT",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "I'VE CREATED A MONSTER",
+"conf": 0.7,
+"fam": 0.73
+},
+{
+"phrase": "PRETTY PLEASE WITH SUGAR ON TOP",
+"conf": 0.9,
+"fam": 0.81
+},
+{
+"phrase": "A FAIR SHAKE",
+"conf": 0.96,
+"fam": 0.79
+},
+{
+"phrase": "TAKING A CATNAP",
+"conf": 0.93,
+"fam": 0.83
+},
+{
+"phrase": "SOUND OFF",
+"conf": 0.75,
+"fam": 0.58
+},
+{
+"phrase": "HOLY SMOKE",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "ABSENCE MAKES THE HEART GROW FONDER",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "UNDER FALSE PRETENSES",
+"conf": 0.84,
+"fam": 0.74
+},
+{
+"phrase": "THAT'S ALL THERE IS TO IT",
+"conf": 0.91,
+"fam": 0.86
+},
+{
+"phrase": "GET YOUR REAR IN GEAR",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "A TON OF FUN",
+"conf": 0.9,
+"fam": 0.85
+},
+{
+"phrase": "QUICK AS LIGHTNING",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "HOLD YOUR HORSES",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "WALK THE WALK AND TALK THE TALK",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "WEARING YOUR HEART ON YOUR SLEEVE",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "GIVE IT HALF A CHANCE",
+"conf": 0.89,
+"fam": 0.55
+},
+{
+"phrase": "STICK TO YOUR GUNS",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "THAT'S A NEW ONE ON ME",
+"conf": 0.97,
+"fam": 0.79
+},
+{
+"phrase": "BUNDLE OF ENERGY",
+"conf": 0.77,
+"fam": 0.77
+},
+{
+"phrase": "ON TO BIGGER AND BETTER THINGS",
+"conf": 0.71,
+"fam": 0.76
+},
+{
+"phrase": "THAT DID THE TRICK",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "SAY NO MORE",
+"conf": 0.92,
+"fam": 0.85
+},
+{
+"phrase": "A FORCE TO BE RECKONED WITH",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "IT MAY SOUND CORNY BUT IT'S TRUE",
+"conf": 0.9,
+"fam": 0.78
+},
+{
+"phrase": "TEARS OF JOY",
+"conf": 0.77,
+"fam": 0.87
+},
+{
+"phrase": "NO SUCH LUCK",
+"conf": 0.9,
+"fam": 0.81
+},
+{
+"phrase": "EVERYONE SMILE & SAY CHEESE",
+"conf": 0.72,
+"fam": 0.88
+},
+{
+"phrase": "KICKING BACK",
+"conf": 0.98,
+"fam": 0.78
+},
+{
+"phrase": "YOU DON'T SAY",
+"conf": 0.86,
+"fam": 0.91
+},
+{
+"phrase": "TO THE VICTOR BELONG THE SPOILS",
+"conf": 0.99,
+"fam": 0.5
+},
+{
+"phrase": "WHEN YOU'RE HERE YOU'RE FAMILY",
+"conf": 0.76,
+"fam": 0.73
+},
+{
+"phrase": "FORCE OF HABIT",
+"conf": 0.71,
+"fam": 0.86
+},
+{
+"phrase": "HIP HIP HOORAY",
+"conf": 0.98,
+"fam": 0.9
+},
+{
+"phrase": "IT'S THE THOUGHT THAT COUNTS",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "AFTER THE FACT",
+"conf": 0.9,
+"fam": 0.81
+},
+{
+"phrase": "IF THE SHOE FITS WEAR IT",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "RUNNING GAG",
+"conf": 0.82,
+"fam": 0.82
+},
+{
+"phrase": "I HAD NO IDEA",
+"conf": 0.72,
+"fam": 0.95
+},
+{
+"phrase": "A LION'S DEN",
+"conf": 0.78,
+"fam": 0.81
+},
+{
+"phrase": "KEEP IT HUSH-HUSH",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "HE HIT HIS STRIDE",
+"conf": 0.99,
+"fam": 0.51
+},
+{
+"phrase": "WISH ME LUCK",
+"conf": 0.79,
+"fam": 0.91
+},
+{
+"phrase": "COMING SOON TO A THEATER NEAR YOU",
+"conf": 0.94,
+"fam": 0.88
+},
+{
+"phrase": "SOB STORY",
+"conf": 0.7,
+"fam": 0.71
+},
+{
+"phrase": "I'M COMPLETELY STUMPED",
+"conf": 0.87,
+"fam": 0.83
+},
+{
+"phrase": "A CASE OF THE BLAHS",
+"conf": 0.94,
+"fam": 0.58
+},
+{
+"phrase": "ALWAYS A STEP AHEAD",
+"conf": 0.94,
+"fam": 0.55
+},
+{
+"phrase": "JUST A STONE'S THROW AWAY",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "HORNS OF A DILEMMA",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "WAITING FOR THE OTHER SHOE TO DROP",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "SEALED WITH A KISS",
+"conf": 0.85,
+"fam": 0.75
+},
+{
+"phrase": "A STAND-UP GUY",
+"conf": 0.94,
+"fam": 0.78
+},
+{
+"phrase": "DADDY'S LITTLE GIRL",
+"conf": 0.71,
+"fam": 0.82
+},
+{
+"phrase": "MONEY TO BURN",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "WATCH THE BIRDIE",
+"conf": 0.91,
+"fam": 0.61
+},
+{
+"phrase": "TO TELL THE TRUTH",
+"conf": 0.82,
+"fam": 0.92
+},
+{
+"phrase": "BACK TO SQUARE ONE",
+"conf": 0.92,
+"fam": 0.86
+},
+{
+"phrase": "BLAZING THE TRAIL",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "SIMMER DOWN",
+"conf": 0.97,
+"fam": 0.77
+},
+{
+"phrase": "IF YOU'VE GOT IT FLAUNT IT",
+"conf": 0.95,
+"fam": 0.73
+},
+{
+"phrase": "CURVE BALL",
+"conf": 0.95,
+"fam": 0.77
+},
+{
+"phrase": "WILD HORSES COULDN'T DRAG ME",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "EAT YOUR HEART OUT",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "BEEF IT UP",
+"conf": 0.97,
+"fam": 0.62
+},
+{
+"phrase": "ONCE AND AGAIN",
+"conf": 0.74,
+"fam": 0.92
+},
+{
+"phrase": "PREGNANT PAUSE",
+"conf": 0.93,
+"fam": 0.76
+},
+{
+"phrase": "A HORSE OF A DIFFERENT COLOR",
+"conf": 0.94,
+"fam": 0.54
+},
+{
+"phrase": "A WOLF IN SHEEP'S CLOTHING",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "BURNING ISSUE",
+"conf": 0.92,
+"fam": 0.8
+},
+{
+"phrase": "TAKING THE LAW INTO YOUR OWN HANDS",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "SO FAR SO GOOD",
+"conf": 0.97,
+"fam": 0.9
+},
+{
+"phrase": "PHONEY-BALONEY",
+"conf": 0.82,
+"fam": 0.51
+},
+{
+"phrase": "BIRDS OF A FEATHER FLOCK TOGETHER",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "SHOW 'EM WHO'S BOSS",
+"conf": 0.96,
+"fam": 0.76
+},
+{
+"phrase": "IT'S AN INSIDE JOKE",
+"conf": 0.97,
+"fam": 0.87
+},
+{
+"phrase": "GIVING A PEP TALK",
+"conf": 0.79,
+"fam": 0.81
+},
+{
+"phrase": "FULL SPEED AHEAD",
+"conf": 0.88,
+"fam": 0.85
+},
+{
+"phrase": "LIVING PROOF",
+"conf": 0.96,
+"fam": 0.77
+},
+{
+"phrase": "LOVE THE SKIN YOU'RE IN",
+"conf": 0.98,
+"fam": 0.65
+},
+{
+"phrase": "NOTHING COULD BE FARTHER FROM THE TRUTH",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "LIKE FATHER LIKE SON",
+"conf": 0.99,
+"fam": 0.9
+},
+{
+"phrase": "SOLD DOWN THE RIVER",
+"conf": 0.98,
+"fam": 0.55
+},
+{
+"phrase": "YOU'RE PULLING MY LEG",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "RUNNING OUT OF TIME",
+"conf": 0.76,
+"fam": 0.94
+},
+{
+"phrase": "HAVING THE UPPER HAND",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "BURSTING WITH ENERGY",
+"conf": 0.79,
+"fam": 0.84
+},
+{
+"phrase": "PLANS ARE SHAPING UP",
+"conf": 0.96,
+"fam": 0.74
+},
+{
+"phrase": "I DIDN'T SLEEP A WINK",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "LIKE PUTTY IN MY HANDS",
+"conf": 0.99,
+"fam": 0.51
+},
+{
+"phrase": "IN THE SPOTLIGHT",
+"conf": 0.93,
+"fam": 0.86
+},
+{
+"phrase": "SADDER BUT WISER",
+"conf": 0.89,
+"fam": 0.72
+},
+{
+"phrase": "IT COULDN'T HAPPEN TO A NICER PERSON",
+"conf": 0.97,
+"fam": 0.7
+},
+{
+"phrase": "SPARE ME THE DETAILS",
+"conf": 0.78,
+"fam": 0.8
+},
+{
+"phrase": "FRONT AND CENTER",
+"conf": 0.88,
+"fam": 0.86
+},
+{
+"phrase": "THE BIG CHEESE",
+"conf": 0.98,
+"fam": 0.74
+},
+{
+"phrase": "WHAT YOU SEE IS WHAT YOU GET",
+"conf": 0.97,
+"fam": 0.86
+},
+{
+"phrase": "GUILT BY ASSOCIATION",
+"conf": 0.95,
+"fam": 0.73
+},
+{
+"phrase": "COMING UNGLUED",
+"conf": 0.94,
+"fam": 0.71
+},
+{
+"phrase": "THEY'RE LIKE TWO PEAS IN A POD",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "FOR RICHER FOR POORER",
+"conf": 0.88,
+"fam": 0.84
+},
+{
+"phrase": "TRUER WORDS WERE NEVER SPOKEN",
+"conf": 0.78,
+"fam": 0.65
+},
+{
+"phrase": "I OWE IT ALL TO YOU",
+"conf": 0.8,
+"fam": 0.75
+},
+{
+"phrase": "YOU LOOK LIKE A MILLION BUCKS",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "PURE AND SIMPLE",
+"conf": 0.91,
+"fam": 0.89
+},
+{
+"phrase": "DON'T HOLD YOUR BREATH",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "BURNING THE MIDNIGHT OIL",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "THERE AREN'T ENOUGH HOURS IN THE DAY",
+"conf": 0.93,
+"fam": 0.92
+},
+{
+"phrase": "EARLY TO BED AND EARLY TO RISE",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "GETTING MORE THAN YOU BARGAINED FOR",
+"conf": 0.98,
+"fam": 0.64
+},
+{
+"phrase": "HAVING A WONDERFUL TIME WISH YOU WERE HERE",
+"conf": 0.77,
+"fam": 0.58
+},
+{
+"phrase": "ON THE SPUR OF THE MOMENT",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "TWISTED AROUND MY LITTLE FINGER",
+"conf": 1.0,
+"fam": 0.65
+},
+{
+"phrase": "NOTHING TO SNEEZE AT",
+"conf": 0.99,
+"fam": 0.6
+},
+{
+"phrase": "HAVE YOU FLIPPED YOUR LID",
+"conf": 1.0,
+"fam": 0.56
+},
+{
+"phrase": "WAIT TILL I GET MY HANDS ON YOU",
+"conf": 0.91,
+"fam": 0.81
+},
+{
+"phrase": "HAVING AN ACE UP YOUR SLEEVE",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "BEYOND THE REALM OF POSSIBILITY",
+"conf": 0.85,
+"fam": 0.59
+},
+{
+"phrase": "TO ERR IS HUMAN TO FORGIVE DIVINE",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "IT'S NOW OR NEVER",
+"conf": 0.92,
+"fam": 0.89
+},
+{
+"phrase": "LET'S GO OUT WITH A BANG",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "HOT STUFF",
+"conf": 0.92,
+"fam": 0.84
+},
+{
+"phrase": "LEAVE NOTHING TO CHANCE",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "TO BORROW AN OLD CLICHE",
+"conf": 0.86,
+"fam": 0.73
+},
+{
+"phrase": "SEARCHING HIGH AND LOW",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "WHEW THAT WAS A CLOSE CALL",
+"conf": 0.83,
+"fam": 0.89
+},
+{
+"phrase": "LIFE IS FULL OF SURPRISES",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "YOU'LL BE GLAD YOU DID",
+"conf": 0.7,
+"fam": 0.86
+},
+{
+"phrase": "I GOT SIDETRACKED",
+"conf": 0.85,
+"fam": 0.8
+},
+{
+"phrase": "OPPOSITES ATTRACT",
+"conf": 0.99,
+"fam": 0.91
+},
+{
+"phrase": "GOOD FOR THE SOUL",
+"conf": 0.94,
+"fam": 0.69
+},
+{
+"phrase": "UNITED WE STAND DIVIDED WE FALL",
+"conf": 0.96,
+"fam": 0.69
+},
+{
+"phrase": "PRETTY AS A PICTURE",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "GOD HELPS THOSE WHO HELP THEMSELVES",
+"conf": 0.93,
+"fam": 0.88
+},
+{
+"phrase": "DRUMMING UP SUPPORT",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "LISTEN TO REASON",
+"conf": 0.84,
+"fam": 0.85
+},
+{
+"phrase": "MY HAT'S OFF TO YOU",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "IN THE KNOW",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "TALKED TILL I WAS BLUE IN THE FACE",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "GENEROUS TO A FAULT",
+"conf": 0.98,
+"fam": 0.54
+},
+{
+"phrase": "YOU'RE ON A ROLL",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "FALLING ALL OVER THEMSELVES",
+"conf": 0.99,
+"fam": 0.59
+},
+{
+"phrase": "GOOD GRIEF",
+"conf": 0.96,
+"fam": 0.86
+},
+{
+"phrase": "GET INTO THE SWING OF THINGS",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "MARK MY WORDS",
+"conf": 0.93,
+"fam": 0.86
+},
+{
+"phrase": "IT'S JUST TO DIE FOR",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "IT'S ALL THE RAGE",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "THE ODDS ARE IN YOUR FAVOR",
+"conf": 0.94,
+"fam": 0.76
+},
+{
+"phrase": "IT NEVER CEASES TO AMAZE ME",
+"conf": 0.89,
+"fam": 0.87
+},
+{
+"phrase": "AS YOU SOW SO WILL YOU REAP",
+"conf": 1.0,
+"fam": 0.64
+},
+{
+"phrase": "I JUST CAN'T THANK YOU ENOUGH",
+"conf": 0.82,
+"fam": 0.84
+},
+{
+"phrase": "I'LL BE THERE WITH BELLS ON",
+"conf": 0.99,
+"fam": 0.65
+},
+{
+"phrase": "CAN'T SEE THE FOREST FOR THE TREES",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "WELL I THINK I'M GOING OUT OF MY HEAD",
+"conf": 0.96,
+"fam": 0.66
+},
+{
+"phrase": "SITTING ON A GOLD MINE",
+"conf": 0.98,
+"fam": 0.69
+},
+{
+"phrase": "WHAT ARE THE ODDS OF THAT?",
+"conf": 0.83,
+"fam": 0.86
+},
+{
+"phrase": "RIGHT-HAND MAN",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "LOOK MA NO HANDS",
+"conf": 0.73,
+"fam": 0.66
+},
+{
+"phrase": "I'M GETTING THE HANG OF IT",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "THE LOVE OF MY LIFE",
+"conf": 0.82,
+"fam": 0.92
+},
+{
+"phrase": "UNDERSTANDING THE BIG PICTURE",
+"conf": 0.84,
+"fam": 0.85
+},
+{
+"phrase": "ON A SILVER PLATTER",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "A CLASS ACT",
+"conf": 0.91,
+"fam": 0.79
+},
+{
+"phrase": "TURNABOUT IS FAIR PLAY",
+"conf": 1.0,
+"fam": 0.61
+},
+{
+"phrase": "FORGE AHEAD",
+"conf": 0.89,
+"fam": 0.71
+},
+{
+"phrase": "SHOOT THE BREEZE",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "OUT AND ABOUT",
+"conf": 0.73,
+"fam": 0.87
+},
+{
+"phrase": "BOY AM I BUSHED",
+"conf": 0.93,
+"fam": 0.52
+},
+{
+"phrase": "THE SKY IS FALLING",
+"conf": 0.72,
+"fam": 0.81
+},
+{
+"phrase": "A RED-LETTER DAY",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "A PASSING FANCY",
+"conf": 0.73,
+"fam": 0.69
+},
+{
+"phrase": "I'D DO IT IN A HEARTBEAT",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "DUE TO CIRCUMSTANCES BEYOND MY CONTROL",
+"conf": 0.77,
+"fam": 0.82
+},
+{
+"phrase": "WORKS LIKE MAGIC",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "HANGING ON MY EVERY WORD",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "DROP EVERYTHING",
+"conf": 0.85,
+"fam": 0.86
+},
+{
+"phrase": "PUT YOUR FOOT DOWN",
+"conf": 0.96,
+"fam": 0.75
+},
+{
+"phrase": "UNITED WE STAND",
+"conf": 0.94,
+"fam": 0.83
+},
+{
+"phrase": "MAKING GOO-GOO EYES",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "YOU'RE PUTTING ME ON",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "LET ME FILL YOU IN",
+"conf": 0.91,
+"fam": 0.85
+},
+{
+"phrase": "IT SPEAKS VOLUMES",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "TO EACH HIS OWN",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "TRICKS OF THE TRADE",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "DRESSED TO KILL",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "LIKE A KID IN A CANDY STORE",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "IF YOU PLAY YOUR CARDS RIGHT",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "I CAN'T HEAR MYSELF THINK",
+"conf": 0.95,
+"fam": 0.82
+},
+{
+"phrase": "JUST USE YOUR IMAGINATION",
+"conf": 0.8,
+"fam": 0.89
+},
+{
+"phrase": "I DREW A BLANK",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "EBB AND FLOW",
+"conf": 0.8,
+"fam": 0.85
+},
+{
+"phrase": "MONEY CAN'T BUY HAPPINESS",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "NO BED OF ROSES",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "PUTTING AWAY A LITTLE NEST EGG",
+"conf": 0.93,
+"fam": 0.67
+},
+{
+"phrase": "BLOWN OUT OF PROPORTION",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "ZEST FOR LIFE",
+"conf": 0.81,
+"fam": 0.82
+},
+{
+"phrase": "WHY SETTLE FOR ANYTHING LESS",
+"conf": 0.84,
+"fam": 0.77
+},
+{
+"phrase": "HOPING AGAINST HOPE",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "LONG LIVE THE KING",
+"conf": 0.81,
+"fam": 0.79
+},
+{
+"phrase": "FORGIVE AND FORGET",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "YOU MUST BE READING MY MIND",
+"conf": 0.79,
+"fam": 0.66
+},
+{
+"phrase": "TALKING A MILE A MINUTE",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "STARING ME RIGHT IN THE FACE",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "GETTING DOWN TO THE NITTY-GRITTY",
+"conf": 1.0,
+"fam": 0.56
+},
+{
+"phrase": "TAKING THE LION'S SHARE",
+"conf": 0.99,
+"fam": 0.66
+},
+{
+"phrase": "GET OFF MY CASE",
+"conf": 0.91,
+"fam": 0.6
+},
+{
+"phrase": "SOME THINGS ARE BETTER LEFT UNSAID",
+"conf": 0.95,
+"fam": 0.85
+},
+{
+"phrase": "RIDING OUT THE STORM",
+"conf": 0.94,
+"fam": 0.77
+},
+{
+"phrase": "QUALITY NOT QUANTITY",
+"conf": 0.96,
+"fam": 0.76
+},
+{
+"phrase": "SPACED OUT",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "MADE IN THE SHADE",
+"conf": 0.81,
+"fam": 0.5
+},
+{
+"phrase": "ARE YOU OUT OF YOUR MIND",
+"conf": 0.97,
+"fam": 0.92
+},
+{
+"phrase": "WE'VE COME FULL CIRCLE",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "PIECE OF CAKE",
+"conf": 1.0,
+"fam": 0.92
+},
+{
+"phrase": "COMING APART AT THE SEAMS",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "YOU SCARED ME HALF TO DEATH",
+"conf": 0.99,
+"fam": 0.9
+},
+{
+"phrase": "PUTTING THE CART BEFORE THE HORSE",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "THE WAVE OF THE FUTURE",
+"conf": 0.91,
+"fam": 0.65
+},
+{
+"phrase": "BRANCHING OUT",
+"conf": 0.89,
+"fam": 0.76
+},
+{
+"phrase": "BY WORD OF MOUTH",
+"conf": 0.94,
+"fam": 0.86
+},
+{
+"phrase": "OUT OF PLACE",
+"conf": 0.77,
+"fam": 0.88
+},
+{
+"phrase": "I'VE LEARNED MY LESSON",
+"conf": 0.87,
+"fam": 0.91
+},
+{
+"phrase": "ROMANTIC TRIANGLE",
+"conf": 0.87,
+"fam": 0.72
+},
+{
+"phrase": "CLOSE BUT NO CIGAR",
+"conf": 0.98,
+"fam": 0.5
+},
+{
+"phrase": "SLEIGHT OF HAND",
+"conf": 0.93,
+"fam": 0.82
+},
+{
+"phrase": "JUST FOR THE FUN OF IT",
+"conf": 0.76,
+"fam": 0.89
+},
+{
+"phrase": "WHET YOUR APPETITE",
+"conf": 0.97,
+"fam": 0.86
+},
+{
+"phrase": "OUT OF THE FRYING PAN AND INTO THE FIRE",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "ACCIDENTS WILL HAPPEN",
+"conf": 0.98,
+"fam": 0.89
+},
+{
+"phrase": "HITCH A RIDE",
+"conf": 0.78,
+"fam": 0.84
+},
+{
+"phrase": "ALL DECKED OUT IN YOUR SUNDAY BEST",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "SURE-FIRE METHOD",
+"conf": 0.86,
+"fam": 0.73
+},
+{
+"phrase": "I'VE SEARCHED HIGH AND LOW",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "FOR ARGUMENT'S SAKE",
+"conf": 0.98,
+"fam": 0.72
+},
+{
+"phrase": "TWO OF A KIND",
+"conf": 0.96,
+"fam": 0.84
+},
+{
+"phrase": "OUT OF THE ORDINARY",
+"conf": 0.85,
+"fam": 0.85
+},
+{
+"phrase": "DON'T KNOCK IT TILL YOU'VE TRIED IT",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "OUT OF COMMISSION",
+"conf": 0.91,
+"fam": 0.65
+},
+{
+"phrase": "INTO EACH LIFE SOME RAIN MUST FALL",
+"conf": 0.75,
+"fam": 0.53
+},
+{
+"phrase": "GENTLEMAN'S AGREEMENT",
+"conf": 0.89,
+"fam": 0.71
+},
+{
+"phrase": "DON'T LOSE ANY SLEEP OVER IT",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "YOU HAVE YOUR WORK CUT OUT FOR YOU",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "SHIP AHOY",
+"conf": 0.82,
+"fam": 0.73
+},
+{
+"phrase": "WITH LIBERTY AND JUSTICE FOR ALL",
+"conf": 0.76,
+"fam": 0.9
+},
+{
+"phrase": "OUT OF A CLEAR SKY",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "YOU DON'T KNOW WHAT YOU'RE MISSING",
+"conf": 0.75,
+"fam": 0.81
+},
+{
+"phrase": "THAT'S THE OLDEST TRICK IN THE BOOK",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "MOVING RIGHT ALONG",
+"conf": 0.8,
+"fam": 0.7
+},
+{
+"phrase": "IS THERE A DOCTOR IN THE HOUSE",
+"conf": 0.76,
+"fam": 0.79
+},
+{
+"phrase": "WE'RE ALL IN THE SAME BOAT",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "KICK BACK AND RELAX",
+"conf": 0.87,
+"fam": 0.89
+},
+{
+"phrase": "IN A BIG HURRY",
+"conf": 0.89,
+"fam": 0.86
+},
+{
+"phrase": "HAVING A MIND OF YOUR OWN",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "BIT BY BIT",
+"conf": 0.93,
+"fam": 0.71
+},
+{
+"phrase": "HOLY COW",
+"conf": 0.99,
+"fam": 0.9
+},
+{
+"phrase": "STRAIGHT FROM THE HORSE'S MOUTH",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "I MUST BE HEARING THINGS",
+"conf": 0.86,
+"fam": 0.78
+},
+{
+"phrase": "WE'LL BE RIGHT BACK AND FORTH",
+"conf": 0.72,
+"fam": 0.58
+},
+{
+"phrase": "KICK UP YOUR HEELS",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "YOU'VE NEVER LOOKED BETTER",
+"conf": 0.71,
+"fam": 0.79
+},
+{
+"phrase": "I NEED A LITTLE R AND R",
+"conf": 0.95,
+"fam": 0.74
+},
+{
+"phrase": "WORKS LIKE A CHARM",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "YOU KEEP ME IN STITCHES",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "PUCKER UP",
+"conf": 0.92,
+"fam": 0.76
+},
+{
+"phrase": "TAKE A WILD GUESS",
+"conf": 0.94,
+"fam": 0.84
+},
+{
+"phrase": "GIVING IT YOUR ALL",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "ANYTHING'S POSSIBLE",
+"conf": 0.89,
+"fam": 0.9
+},
+{
+"phrase": "ALL SYSTEMS GO",
+"conf": 0.98,
+"fam": 0.79
+},
+{
+"phrase": "GOING BY THE BOOK",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "DEPENDS ON WHICH WAY THE WIND'S BLOWING",
+"conf": 0.89,
+"fam": 0.69
+},
+{
+"phrase": "WHAT'S YOUR TAKE ON IT?",
+"conf": 0.77,
+"fam": 0.8
+},
+{
+"phrase": "DON'T BE A STRANGER",
+"conf": 0.95,
+"fam": 0.9
+},
+{
+"phrase": "BIRDBRAIN",
+"conf": 0.89,
+"fam": 0.78
+},
+{
+"phrase": "BY PROCESS OF ELIMINATION",
+"conf": 0.71,
+"fam": 0.8
+},
+{
+"phrase": "I'M REALLY GETTING THE HANG OF IT",
+"conf": 0.97,
+"fam": 0.86
+},
+{
+"phrase": "HUSTLE AND BUSTLE",
+"conf": 0.97,
+"fam": 0.85
+},
+{
+"phrase": "NEITHER A BORROWER NOR A LENDER BE",
+"conf": 0.7,
+"fam": 0.5
+},
+{
+"phrase": "FAMILIARITY BREEDS CONTEMPT",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "IN ACCORD",
+"conf": 0.75,
+"fam": 0.77
+},
+{
+"phrase": "FOREVER AND A DAY",
+"conf": 0.97,
+"fam": 0.54
+},
+{
+"phrase": "KEEP IN SHAPE",
+"conf": 0.84,
+"fam": 0.9
+},
+{
+"phrase": "I'VE GOT TO HAND IT TO YOU",
+"conf": 0.98,
+"fam": 0.7
+},
+{
+"phrase": "TAKE THINGS IN STRIDE",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "BUILT TO LAST",
+"conf": 0.82,
+"fam": 0.88
+},
+{
+"phrase": "GET OFF YOUR HIGH HORSE",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "THAT'S MY STORY AND I'M STICKING TO IT",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "I COULD USE A LITTLE R AND R",
+"conf": 0.97,
+"fam": 0.79
+},
+{
+"phrase": "SET THE RECORD STRAIGHT",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "TONGUE IN CHEEK",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "SLAM DUNK",
+"conf": 0.94,
+"fam": 0.86
+},
+{
+"phrase": "LOOKS CAN BE DECEIVING",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "GOOD NIGHT SLEEP TIGHT",
+"conf": 0.91,
+"fam": 0.85
+},
+{
+"phrase": "MORE BANG FOR YOUR BUCK",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "OUT OF REACH",
+"conf": 0.74,
+"fam": 0.86
+},
+{
+"phrase": "WILD-GOOSE CHASE",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "CHANCE OF A LIFETIME",
+"conf": 0.94,
+"fam": 0.85
+},
+{
+"phrase": "TAKE A CHANCE",
+"conf": 0.88,
+"fam": 0.9
+},
+{
+"phrase": "NOT A MOMENT TOO SOON",
+"conf": 0.96,
+"fam": 0.65
+},
+{
+"phrase": "VICTORY LAP",
+"conf": 0.84,
+"fam": 0.75
+},
+{
+"phrase": "IF YOU HAVE YOUR HEALTH YOU HAVE EVERYTHING",
+"conf": 0.99,
+"fam": 0.64
+},
+{
+"phrase": "IN VOGUE",
+"conf": 0.78,
+"fam": 0.76
+},
+{
+"phrase": "I HAVE A BONE TO PICK WITH YOU",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "YOU CAN LEAD A HORSE TO WATER",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "NICKELS & DIMES",
+"conf": 0.91,
+"fam": 0.77
+},
+{
+"phrase": "CHALK IT UP TO EXPERIENCE",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "JUMPING ON THE BANDWAGON",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "GET IT OFF YOUR CHEST",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "IT'S SO QUIET YOU CAN HEAR A PIN DROP",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "GO FIGURE",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "IN MORE WAYS THAN ONE",
+"conf": 0.79,
+"fam": 0.72
+},
+{
+"phrase": "THAT'S NONE OF YOUR BUSINESS",
+"conf": 0.74,
+"fam": 0.93
+},
+{
+"phrase": "HAVING A LOT OF IRONS IN THE FIRE",
+"conf": 1.0,
+"fam": 0.55
+},
+{
+"phrase": "HOPE SPRINGS ETERNAL",
+"conf": 0.88,
+"fam": 0.67
+},
+{
+"phrase": "GRASPING AT STRAWS",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "FED UP",
+"conf": 0.93,
+"fam": 0.91
+},
+{
+"phrase": "A WHALE OF A TALE",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "WHY DON'T YOU SLEEP ON IT?",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "IT CAME AS A COMPLETE SURPRISE",
+"conf": 0.83,
+"fam": 0.89
+},
+{
+"phrase": "TO THINE OWN SELF BE TRUE",
+"conf": 0.73,
+"fam": 0.76
+},
+{
+"phrase": "JUMP THE GUN",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "LET YOUR CONSCIENCE BE YOUR GUIDE",
+"conf": 0.98,
+"fam": 0.64
+},
+{
+"phrase": "CAME THROUGH WITH FLYING COLORS",
+"conf": 1.0,
+"fam": 0.6
+},
+{
+"phrase": "THOU SHALT NOT STEAL",
+"conf": 0.7,
+"fam": 0.64
+},
+{
+"phrase": "BLOWN AWAY",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "BEEN THERE DONE THAT",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "MAKING WAVES",
+"conf": 0.94,
+"fam": 0.77
+},
+{
+"phrase": "HANDS OFF",
+"conf": 0.87,
+"fam": 0.9
+},
+{
+"phrase": "YOU'RE ON SHAKY GROUND",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "THE BEST THAT MONEY CAN BUY",
+"conf": 0.84,
+"fam": 0.77
+},
+{
+"phrase": "YOUR HOME AWAY FROM HOME",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "WHAT GOES AROUND COMES AROUND",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "NEVER A DULL MOMENT",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "STOP AT NOTHING",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "IT'S ALL WITHIN YOUR REACH",
+"conf": 0.94,
+"fam": 0.75
+},
+{
+"phrase": "ALL PRESENT AND ACCOUNTED FOR",
+"conf": 0.91,
+"fam": 0.69
+},
+{
+"phrase": "ABOVE AND BEYOND",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "REKINDLE AN OLD FLAME",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "NOTHING DOING",
+"conf": 0.96,
+"fam": 0.82
+},
+{
+"phrase": "ROUGH-AND-TUMBLE",
+"conf": 0.92,
+"fam": 0.63
+},
+{
+"phrase": "I'M NOT BUDGING",
+"conf": 0.91,
+"fam": 0.85
+},
+{
+"phrase": "THESE WALLS ARE PAPER-THIN",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "CAUGHT OFF GUARD",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "I GOT A REAL KICK OUT OF IT",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "THANK GOD IT'S FRIDAY",
+"conf": 0.9,
+"fam": 0.91
+},
+{
+"phrase": "GOING OFF ON A TANGENT",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "COUNT YOUR BLESSINGS",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "REARS ITS UGLY HEAD",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "WHIPPED THE CROWD INTO A FRENZY",
+"conf": 0.95,
+"fam": 0.59
+},
+{
+"phrase": "THAT'S ALL FOLKS",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "BEYOND MY WILDEST EXPECTATIONS",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "HITS THE SPOT",
+"conf": 0.99,
+"fam": 0.75
+},
+{
+"phrase": "TIGHT-LIPPED",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "LET'S GET DOWN TO BUSINESS",
+"conf": 0.98,
+"fam": 0.89
+},
+{
+"phrase": "OUT WITH THE OLD IN WITH THE NEW",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "I'M FEELING A LITTLE WEAK IN THE KNEES",
+"conf": 0.87,
+"fam": 0.87
+},
+{
+"phrase": "YOU SCARED THE LIVING DAYLIGHTS OUT OF ME",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "LEATHER ARMCHAIR QUARTERBACK",
+"conf": 0.83,
+"fam": 0.54
+},
+{
+"phrase": "OFF THE CUFF",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "IT'S A MIRACLE OF MODERN SCIENCE",
+"conf": 0.88,
+"fam": 0.81
+},
+{
+"phrase": "THE FEELING IS MUTUAL",
+"conf": 0.92,
+"fam": 0.84
+},
+{
+"phrase": "IT WAS RIGHT ON THE TIP OF MY TONGUE",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "MANY HAPPY RETURNS",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "SHE HAS A REAL KNACK FOR IT",
+"conf": 0.95,
+"fam": 0.78
+},
+{
+"phrase": "ONE HAND WASHES THE OTHER",
+"conf": 0.98,
+"fam": 0.51
+},
+{
+"phrase": "RUNNING NECK AND NECK",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "LAUGH IT UP",
+"conf": 0.85,
+"fam": 0.81
+},
+{
+"phrase": "BIG-HEARTED",
+"conf": 0.76,
+"fam": 0.85
+},
+{
+"phrase": "THANKS BUT NO THANKS",
+"conf": 0.88,
+"fam": 0.86
+},
+{
+"phrase": "TWO HEARTS THAT BEAT AS ONE",
+"conf": 0.95,
+"fam": 0.75
+},
+{
+"phrase": "THE NUMBERS JUST DON'T ADD UP",
+"conf": 0.98,
+"fam": 0.89
+},
+{
+"phrase": "ON THE AIR",
+"conf": 0.88,
+"fam": 0.88
+},
+{
+"phrase": "ACT OF GOD",
+"conf": 0.89,
+"fam": 0.85
+},
+{
+"phrase": "BALL & CHAIN",
+"conf": 0.9,
+"fam": 0.73
+},
+{
+"phrase": "I NEED TO UNWIND",
+"conf": 0.84,
+"fam": 0.87
+},
+{
+"phrase": "THAT HAS A FAMILIAR RING TO IT",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "IT'S NOTHING TO SNEEZE AT",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "LETTING OFF STEAM",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "PARTNER IN CRIME",
+"conf": 0.91,
+"fam": 0.84
+},
+{
+"phrase": "IGNORANCE IS BLISS",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "GOING THE EXTRA MILE",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "SET THE WORLD ON FIRE",
+"conf": 0.95,
+"fam": 0.56
+},
+{
+"phrase": "DON'T KNOCK IT TILL YOU TRY IT",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "THE WHOLE SHEBANG",
+"conf": 1.0,
+"fam": 0.68
+},
+{
+"phrase": "WHIPPING THE CROWD INTO A FRENZY",
+"conf": 0.93,
+"fam": 0.58
+},
+{
+"phrase": "RESPECT YOUR ELDERS",
+"conf": 0.87,
+"fam": 0.92
+},
+{
+"phrase": "BEACON OF LIGHT",
+"conf": 0.89,
+"fam": 0.75
+},
+{
+"phrase": "GO WITH THE FLOW",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "AT FIRST BLUSH",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "EVERY CLOUD HAS A SILVER LINING",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "JUST TO BE ON THE SAFE SIDE",
+"conf": 0.92,
+"fam": 0.88
+},
+{
+"phrase": "MOVERS AND SHAKERS",
+"conf": 0.97,
+"fam": 0.81
+},
+{
+"phrase": "I'LL CROSS THAT BRIDGE WHEN I COME TO IT",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "AT MY WIT'S END",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "HITTING THE BOOKS",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "GOOFING OFF",
+"conf": 0.96,
+"fam": 0.83
+},
+{
+"phrase": "HEAVY-HANDED",
+"conf": 0.86,
+"fam": 0.79
+},
+{
+"phrase": "NOTHING VENTURED NOTHING GAINED",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "WHAT'S NOT TO LIKE?",
+"conf": 0.86,
+"fam": 0.81
+},
+{
+"phrase": "SAFETY NET",
+"conf": 0.7,
+"fam": 0.85
+},
+{
+"phrase": "HANGING ON EVERY WORD",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "DULL AS DISHWATER",
+"conf": 0.99,
+"fam": 0.52
+},
+{
+"phrase": "JUMPING THROUGH HOOPS",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "YOU MADE YOUR BED NOW LIE IN IT",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "BUSY AS A BEE",
+"conf": 1.0,
+"fam": 0.92
+},
+{
+"phrase": "NOTHING TO LOSE AND EVERYTHING TO GAIN",
+"conf": 0.98,
+"fam": 0.73
+},
+{
+"phrase": "THIS WON'T HURT A BIT",
+"conf": 0.92,
+"fam": 0.85
+},
+{
+"phrase": "DRAW YOUR OWN CONCLUSIONS",
+"conf": 0.93,
+"fam": 0.84
+},
+{
+"phrase": "THERE'S BEEN SOME HANKY-PANKY GOING ON",
+"conf": 1.0,
+"fam": 0.65
+},
+{
+"phrase": "IT WILL MAKE YOUR HAIR STAND ON END",
+"conf": 0.99,
+"fam": 0.75
+},
+{
+"phrase": "FATHER FIGURE",
+"conf": 0.73,
+"fam": 0.86
+},
+{
+"phrase": "THE GREAT OUTDOORS",
+"conf": 0.8,
+"fam": 0.86
+},
+{
+"phrase": "MOVERS & SHAKERS",
+"conf": 0.97,
+"fam": 0.74
+},
+{
+"phrase": "YOU HAVE THE RIGHT TO REMAIN SILENT",
+"conf": 0.79,
+"fam": 0.91
+},
+{
+"phrase": "TWO CAN PLAY THAT GAME",
+"conf": 0.7,
+"fam": 0.52
+},
+{
+"phrase": "DOUBLE-EDGED SWORD",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "THE JURY'S STILL OUT",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "I'M KEYED UP",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "I HAD A HUNCH",
+"conf": 0.85,
+"fam": 0.88
+},
+{
+"phrase": "IN A FOG",
+"conf": 0.95,
+"fam": 0.85
+},
+{
+"phrase": "BURYING THE COMPETITION",
+"conf": 0.98,
+"fam": 0.65
+},
+{
+"phrase": "I DON'T BUY THAT FOR A MINUTE",
+"conf": 0.99,
+"fam": 0.69
+},
+{
+"phrase": "OH MY GOSH",
+"conf": 0.8,
+"fam": 0.91
+},
+{
+"phrase": "STEW IN YOUR OWN JUICE",
+"conf": 0.99,
+"fam": 0.5
+},
+{
+"phrase": "PUTTING TWO AND TWO TOGETHER",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "I HAD MY HEART SET ON IT",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "PRACTICE MAKES PERFECT",
+"conf": 1.0,
+"fam": 0.92
+},
+{
+"phrase": "GET A GRIP",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "DON'T EVEN THINK ABOUT IT",
+"conf": 0.72,
+"fam": 0.9
+},
+{
+"phrase": "BE ON THE LOOKOUT FOR",
+"conf": 0.95,
+"fam": 0.86
+},
+{
+"phrase": "INCH BY INCH",
+"conf": 0.91,
+"fam": 0.78
+},
+{
+"phrase": "WHAT ARE THE ODDS?",
+"conf": 0.75,
+"fam": 0.85
+},
+{
+"phrase": "IT TAKES A LICKING AND KEEPS ON TICKING",
+"conf": 0.88,
+"fam": 0.54
+},
+{
+"phrase": "WHEN IT RAINS IT POURS",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "ROLLING IN THE AISLES",
+"conf": 0.97,
+"fam": 0.75
+},
+{
+"phrase": "NODDING OFF",
+"conf": 0.86,
+"fam": 0.82
+},
+{
+"phrase": "PINCH ME I MUST BE DREAMING",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "HOLD THE PHONE",
+"conf": 0.86,
+"fam": 0.83
+},
+{
+"phrase": "CAN'T LIVE WITHOUT IT",
+"conf": 0.8,
+"fam": 0.87
+},
+{
+"phrase": "I HATE TO SAY I TOLD YOU SO BUT I TOLD YOU SO",
+"conf": 0.97,
+"fam": 0.74
+},
+{
+"phrase": "THE BEST OF BOTH WORLDS",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "AS GOOD AS IT GETS",
+"conf": 0.78,
+"fam": 0.88
+},
+{
+"phrase": "YOU'VE COME TO THE RIGHT PLACE",
+"conf": 0.77,
+"fam": 0.89
+},
+{
+"phrase": "DINNER'S ON ME",
+"conf": 0.92,
+"fam": 0.9
+},
+{
+"phrase": "FUN FOR THE WHOLE FAMILY",
+"conf": 0.76,
+"fam": 0.92
+},
+{
+"phrase": "WILLY-NILLY",
+"conf": 0.87,
+"fam": 0.62
+},
+{
+"phrase": "THE CRACK OF DAWN",
+"conf": 0.85,
+"fam": 0.84
+},
+{
+"phrase": "BIG WIGS",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "ON A DIFFERENT WAVELENGTH",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "PLAY THE FOOL",
+"conf": 0.85,
+"fam": 0.64
+},
+{
+"phrase": "THE OTHER WHITE MEAT",
+"conf": 0.79,
+"fam": 0.67
+},
+{
+"phrase": "LEAVES NOTHING TO THE IMAGINATION",
+"conf": 0.97,
+"fam": 0.7
+},
+{
+"phrase": "LEVEL THE PLAYING FIELD",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "AN OLD FLAME",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "STEALING THE SPOTLIGHT",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "IT SUDDENLY DAWNED ON ME",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "WHAT YOU DON'T KNOW WON'T HURT YOU",
+"conf": 0.96,
+"fam": 0.56
+},
+{
+"phrase": "ALWAYS A BRIDESMAID NEVER A BRIDE",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "IT'S BEYOND MY WILDEST DREAMS",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "CLEAN AS A WHISTLE",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "HE'S UP TO HIS OLD TRICKS",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "A THRILL A MINUTE",
+"conf": 0.85,
+"fam": 0.61
+},
+{
+"phrase": "AT THE STROKE OF MIDNIGHT",
+"conf": 0.75,
+"fam": 0.83
+},
+{
+"phrase": "I'LL TAKE THAT AS A YES",
+"conf": 0.76,
+"fam": 0.84
+},
+{
+"phrase": "BRIDGE THE GAP",
+"conf": 0.96,
+"fam": 0.83
+},
+{
+"phrase": "POP THE QUESTION",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "A HEART OF GOLD",
+"conf": 0.96,
+"fam": 0.87
+},
+{
+"phrase": "HE DIDN'T BAT AN EYE",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "IT ALL ADDS UP",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "TOP BRASS",
+"conf": 0.96,
+"fam": 0.76
+},
+{
+"phrase": "GIVE AND TAKE",
+"conf": 0.92,
+"fam": 0.88
+},
+{
+"phrase": "SEE FOR YOURSELF",
+"conf": 0.93,
+"fam": 0.91
+},
+{
+"phrase": "FROM THE WORD GO",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "BREAKING THE DEADLOCK",
+"conf": 0.75,
+"fam": 0.68
+},
+{
+"phrase": "I'M KEEPING MY OPTIONS OPEN",
+"conf": 0.92,
+"fam": 0.86
+},
+{
+"phrase": "I'M DEAD SERIOUS",
+"conf": 0.97,
+"fam": 0.91
+},
+{
+"phrase": "I WOULDN'T STEER YOU WRONG",
+"conf": 0.96,
+"fam": 0.71
+},
+{
+"phrase": "WHEN THE CAT'S AWAY THE MICE WILL PLAY",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "SPEAK NO EVIL SEE NO EVIL HEAR NO EVIL",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "TO MAKE A LONG STORY SHORT",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "SPLIT SECOND",
+"conf": 0.78,
+"fam": 0.89
+},
+{
+"phrase": "FROM A TO Z",
+"conf": 0.76,
+"fam": 0.92
+},
+{
+"phrase": "OUT OF JOINT",
+"conf": 0.91,
+"fam": 0.78
+},
+{
+"phrase": "LAST-DITCH EFFORT",
+"conf": 0.94,
+"fam": 0.8
+},
+{
+"phrase": "CATCH YOUR BREATH",
+"conf": 0.82,
+"fam": 0.89
+},
+{
+"phrase": "IT SLIPPED MY MIND",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "TAKEN BY SURPRISE",
+"conf": 0.85,
+"fam": 0.92
+},
+{
+"phrase": "DON'T FLATTER YOURSELF",
+"conf": 0.97,
+"fam": 0.79
+},
+{
+"phrase": "BACK-SEAT DRIVER",
+"conf": 0.93,
+"fam": 0.7
+},
+{
+"phrase": "WHICH CAME FIRST THE CHICKEN OR THE EGG",
+"conf": 0.88,
+"fam": 0.92
+},
+{
+"phrase": "FAST-FORWARD TO THE GOOD PART",
+"conf": 0.89,
+"fam": 0.77
+},
+{
+"phrase": "AT EACH OTHER'S THROATS",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "NOT JUST ANOTHER PRETTY FACE",
+"conf": 0.89,
+"fam": 0.75
+},
+{
+"phrase": "GOING AGAINST THE GRAIN",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "THAT'S THE LEAST OF MY WORRIES",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "A PHOTOGRAPHIC MEMORY",
+"conf": 0.83,
+"fam": 0.87
+},
+{
+"phrase": "HIT THE BOOKS",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "ON A WHIM",
+"conf": 0.91,
+"fam": 0.75
+},
+{
+"phrase": "TOUCH BASE",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "GET-RICH-QUICK SCHEME",
+"conf": 0.74,
+"fam": 0.84
+},
+{
+"phrase": "HAS A MIND LIKE A STEEL TRAP",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "TAKING A WALK IN THE PARK",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "BACK TO THE DRAWING BOARD",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "YOU SHOULD HAVE YOUR HEAD EXAMINED",
+"conf": 0.95,
+"fam": 0.78
+},
+{
+"phrase": "KINDRED SPIRIT",
+"conf": 0.87,
+"fam": 0.78
+},
+{
+"phrase": "THINK TWICE",
+"conf": 0.96,
+"fam": 0.92
+},
+{
+"phrase": "IT'S ALL THE SAME TO ME",
+"conf": 0.76,
+"fam": 0.89
+},
+{
+"phrase": "IRONING OUT THE DIFFICULTIES",
+"conf": 0.97,
+"fam": 0.56
+},
+{
+"phrase": "SECOND TO NONE",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "STRAIGHT FROM THE HEART",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "FIRST THINGS FIRST",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "SAFETY FIRST",
+"conf": 0.95,
+"fam": 0.92
+},
+{
+"phrase": "ON YOUR MARK GET SET GO",
+"conf": 0.77,
+"fam": 0.84
+},
+{
+"phrase": "IN THE DARK",
+"conf": 0.77,
+"fam": 0.92
+},
+{
+"phrase": "BEYOND BELIEF",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "I'M LEAVING MY OPTIONS OPEN",
+"conf": 0.89,
+"fam": 0.74
+},
+{
+"phrase": "MAKE YOURSELF COMFORTABLE",
+"conf": 0.71,
+"fam": 0.93
+},
+{
+"phrase": "I'LL NEVER SAY NEVER AGAIN",
+"conf": 0.74,
+"fam": 0.54
+},
+{
+"phrase": "MIND YOUR P'S AND Q'S",
+"conf": 0.99,
+"fam": 0.59
+},
+{
+"phrase": "JUST LIKE OLD TIMES",
+"conf": 0.93,
+"fam": 0.82
+},
+{
+"phrase": "THAT'S THE TICKET",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "STANDING ROOM ONLY",
+"conf": 0.89,
+"fam": 0.87
+},
+{
+"phrase": "VANISHED INTO THIN AIR",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "I'M BUSHED",
+"conf": 0.97,
+"fam": 0.74
+},
+{
+"phrase": "THROUGH THICK AND THIN",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "PET PEEVE",
+"conf": 0.74,
+"fam": 0.84
+},
+{
+"phrase": "JUST WHAT YOU'VE BEEN LOOKING FOR",
+"conf": 0.71,
+"fam": 0.82
+},
+{
+"phrase": "IN MINT CONDITION",
+"conf": 0.87,
+"fam": 0.82
+},
+{
+"phrase": "A MUSICAL BLAST FROM THE PAST",
+"conf": 0.88,
+"fam": 0.77
+},
+{
+"phrase": "A TOUGH ACT TO FOLLOW",
+"conf": 0.87,
+"fam": 0.68
+},
+{
+"phrase": "THINK BEFORE YOU SPEAK",
+"conf": 0.72,
+"fam": 0.92
+},
+{
+"phrase": "HAIR-RAISING EXPERIENCE",
+"conf": 0.9,
+"fam": 0.73
+},
+{
+"phrase": "CHAPTER AND VERSE",
+"conf": 0.98,
+"fam": 0.55
+},
+{
+"phrase": "LET'S SHAKE ON IT",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "STICK WITH IT",
+"conf": 0.98,
+"fam": 0.89
+},
+{
+"phrase": "KEEP UP THE GOOD WORK",
+"conf": 0.91,
+"fam": 0.92
+},
+{
+"phrase": "THE EARLY BIRD CATCHES THE WORM",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "WASH YOUR MOUTH OUT WITH SOAP",
+"conf": 0.88,
+"fam": 0.63
+},
+{
+"phrase": "IN A JIFFY",
+"conf": 0.99,
+"fam": 0.75
+},
+{
+"phrase": "YOU'RE NOT OUT OF THE WOODS YET",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "SMOTHERED WITH KISSES",
+"conf": 0.92,
+"fam": 0.75
+},
+{
+"phrase": "BUSINESS AS USUAL",
+"conf": 0.98,
+"fam": 0.91
+},
+{
+"phrase": "PATIENCE IS A VIRTUE",
+"conf": 1.0,
+"fam": 0.92
+},
+{
+"phrase": "ALL DRESSED UP",
+"conf": 0.89,
+"fam": 0.84
+},
+{
+"phrase": "PUSHING THE ENVELOPE",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "DIG IN",
+"conf": 0.88,
+"fam": 0.84
+},
+{
+"phrase": "THE GOOSE THAT LAID THE GOLDEN EGGS",
+"conf": 0.79,
+"fam": 0.7
+},
+{
+"phrase": "RUNNING TRUE TO FORM",
+"conf": 0.97,
+"fam": 0.58
+},
+{
+"phrase": "I'M TOYING WITH THE IDEA",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "STRAPPED FOR CASH",
+"conf": 0.96,
+"fam": 0.8
+},
+{
+"phrase": "PUT IN AN APPEARANCE",
+"conf": 0.88,
+"fam": 0.8
+},
+{
+"phrase": "BRINGING HOME THE BACON",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "ALL'S RIGHT WITH THE WORLD",
+"conf": 0.87,
+"fam": 0.51
+},
+{
+"phrase": "THE GOLDEN RULE",
+"conf": 0.91,
+"fam": 0.86
+},
+{
+"phrase": "KNOCK KNOCK WHO'S THERE",
+"conf": 0.7,
+"fam": 0.91
+},
+{
+"phrase": "SEEK AND YE SHALL FIND",
+"conf": 0.97,
+"fam": 0.79
+},
+{
+"phrase": "ARE YOU THINKING WHAT I'M THINKING?",
+"conf": 0.8,
+"fam": 0.71
+},
+{
+"phrase": "HAVING YOUR HEAD IN THE CLOUDS",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "SLUG IT OUT",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "IT WAS GREAT WHILE IT LASTED",
+"conf": 0.87,
+"fam": 0.88
+},
+{
+"phrase": "GREASE MY PALM",
+"conf": 1.0,
+"fam": 0.52
+},
+{
+"phrase": "CLEAR AS A BELL",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "TRAVELING INCOGNITO",
+"conf": 0.71,
+"fam": 0.55
+},
+{
+"phrase": "IT WOULD BE MY PLEASURE",
+"conf": 0.81,
+"fam": 0.93
+},
+{
+"phrase": "IF LOOKS COULD KILL",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "TONGUE-TIED",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "SPEAK SOFTLY AND CARRY A BIG STICK",
+"conf": 0.97,
+"fam": 0.73
+},
+{
+"phrase": "READ MY LIPS",
+"conf": 0.73,
+"fam": 0.84
+},
+{
+"phrase": "THE HANDWRITING'S ON THE WALL",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "TAKE IT FROM THE TOP",
+"conf": 0.78,
+"fam": 0.8
+},
+{
+"phrase": "TIE THE KNOT",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "I KNOW A GOOD THING WHEN I SEE IT",
+"conf": 0.92,
+"fam": 0.76
+},
+{
+"phrase": "HAVE A BALL",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "PRIME THE PUMP",
+"conf": 0.98,
+"fam": 0.53
+},
+{
+"phrase": "I ONLY HAVE EYES FOR YOU",
+"conf": 0.86,
+"fam": 0.85
+},
+{
+"phrase": "THE WORLD IS MY OYSTER",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "I'M BEGINNING TO GET THE PICTURE",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "FAR AND WIDE",
+"conf": 0.94,
+"fam": 0.87
+},
+{
+"phrase": "MOVING TO GREENER PASTURES",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "MONEY'S NO OBJECT",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "COVER ALL THE BASES",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "YOU'RE ONLY YOUNG ONCE",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "YOU'RE MISSING THE POINT",
+"conf": 0.9,
+"fam": 0.85
+},
+{
+"phrase": "TWO-FACED",
+"conf": 0.77,
+"fam": 0.88
+},
+{
+"phrase": "APRIL SHOWERS BRING MAY FLOWERS",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "THE HONEYMOON IS OVER",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "KEEP BOTH FEET OFF THE GROUND",
+"conf": 0.7,
+"fam": 0.65
+},
+{
+"phrase": "I WOULDN'T HAVE IT ANY OTHER WAY",
+"conf": 0.95,
+"fam": 0.82
+},
+{
+"phrase": "I COULDN'T HAVE SAID BETTER MYSELF",
+"conf": 0.86,
+"fam": 0.74
+},
+{
+"phrase": "IT TOOK ME BY SURPRISE",
+"conf": 0.96,
+"fam": 0.91
+},
+{
+"phrase": "IT TOOK ON A LIFE OF ITS OWN",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "DREAM TEAM",
+"conf": 0.73,
+"fam": 0.88
+},
+{
+"phrase": "STILL WATERS RUN DEEP",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "YOU'RE DARN TOOTIN'",
+"conf": 0.99,
+"fam": 0.64
+},
+{
+"phrase": "LET ME BE FRANK",
+"conf": 0.93,
+"fam": 0.81
+},
+{
+"phrase": "ROOM AT THE TOP",
+"conf": 0.86,
+"fam": 0.7
+},
+{
+"phrase": "A HUNG JURY",
+"conf": 0.79,
+"fam": 0.62
+},
+{
+"phrase": "HIGH AND DRY",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "THE GAME GOES INTO EXTRA INNINGS",
+"conf": 0.98,
+"fam": 0.62
+},
+{
+"phrase": "GETTING THE SHORT END OF THE STICK",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "TWO HEADS ARE BETTER THAN ONE",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "CHUCK IT",
+"conf": 0.79,
+"fam": 0.61
+},
+{
+"phrase": "GET INTO THE ACT",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "HIGH JINKS",
+"conf": 0.96,
+"fam": 0.54
+},
+{
+"phrase": "JACK OF ALL TRADES",
+"conf": 0.8,
+"fam": 0.85
+},
+{
+"phrase": "THERE'S MORE WHERE THAT CAME FROM",
+"conf": 0.89,
+"fam": 0.63
+},
+{
+"phrase": "ON THE DOUBLE",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "DON'T MAKE SNAP JUDGMENTS",
+"conf": 0.94,
+"fam": 0.77
+},
+{
+"phrase": "GIVE ME LIBERTY OR GIVE ME DEATH",
+"conf": 0.7,
+"fam": 0.85
+},
+{
+"phrase": "TIME WILL TELL",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "OUT OF STEP",
+"conf": 0.92,
+"fam": 0.82
+},
+{
+"phrase": "KEEP AN EYE OUT FOR",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "BRANCH OUT",
+"conf": 0.81,
+"fam": 0.75
+},
+{
+"phrase": "SOMETHING'S NOT KOSHER",
+"conf": 0.98,
+"fam": 0.66
+},
+{
+"phrase": "RUNNING A TIGHT SHIP",
+"conf": 1.0,
+"fam": 0.54
+},
+{
+"phrase": "LEARNING THE INS AND OUTS",
+"conf": 0.96,
+"fam": 0.73
+},
+{
+"phrase": "WAY OFF BASE",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "I'M HIP TO IT",
+"conf": 0.99,
+"fam": 0.64
+},
+{
+"phrase": "ANTS IN YOUR PANTS",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "TWO FOR THE PRICE OF ONE",
+"conf": 0.7,
+"fam": 0.88
+},
+{
+"phrase": "YOU SNOOZE YOU LOSE",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "THE LIFE OF THE PARTY",
+"conf": 0.9,
+"fam": 0.83
+},
+{
+"phrase": "ON A HOT STREAK",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "GRAPEVINE",
+"conf": 0.81,
+"fam": 0.81
+},
+{
+"phrase": "MONEY DOESN'T GROW ON TREES",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "WIGGED OUT",
+"conf": 0.99,
+"fam": 0.5
+},
+{
+"phrase": "I'VE GOT THAT GOING FOR ME",
+"conf": 0.9,
+"fam": 0.65
+},
+{
+"phrase": "KEEP YOUR EYES PEELED",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "STRONG-ARM TACTICS",
+"conf": 0.95,
+"fam": 0.74
+},
+{
+"phrase": "PICK UP WHERE YOU LEFT OFF",
+"conf": 0.93,
+"fam": 0.86
+},
+{
+"phrase": "BOUNCE BACK",
+"conf": 0.81,
+"fam": 0.81
+},
+{
+"phrase": "JUMPING IN WITH BOTH FEET",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "RALLY ROUND THE FLAG BOYS",
+"conf": 0.84,
+"fam": 0.57
+},
+{
+"phrase": "A REAL TEAR-JERKER",
+"conf": 0.82,
+"fam": 0.79
+},
+{
+"phrase": "SWEPT OFF MY FEET",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "THE HUSTLE AND THE BUSTLE OF THE BIG CITY",
+"conf": 0.83,
+"fam": 0.81
+},
+{
+"phrase": "KEEP IT TO YOURSELF",
+"conf": 0.81,
+"fam": 0.9
+},
+{
+"phrase": "THEY'RE COMING OUT OF THE WOODWORK",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "IT COST A PRETTY PENNY",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "SINGING A DIFFERENT TUNE",
+"conf": 0.98,
+"fam": 0.73
+},
+{
+"phrase": "SHORT AND SWEET",
+"conf": 0.96,
+"fam": 0.87
+},
+{
+"phrase": "I'M TICKLED PINK",
+"conf": 1.0,
+"fam": 0.62
+},
+{
+"phrase": "IT'S THE ONLY GAME IN TOWN",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "AN EYE FOR AN EYE AND A TOOTH FOR A TOOTH",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "JUST KIDDING",
+"conf": 0.85,
+"fam": 0.93
+},
+{
+"phrase": "SO BE GOOD FOR GOODNESS SAKE",
+"conf": 0.89,
+"fam": 0.56
+},
+{
+"phrase": "GO THROUGH IT WITH A FINE-TOOTH COMB",
+"conf": 1.0,
+"fam": 0.57
+},
+{
+"phrase": "HE'S LIKE A BROTHER TO ME",
+"conf": 0.86,
+"fam": 0.9
+},
+{
+"phrase": "BLURT IT OUT",
+"conf": 0.85,
+"fam": 0.78
+},
+{
+"phrase": "BEATING YOUR HEAD AGAINST A WALL",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "THERE'S NO TIME LIKE THE PRESENT",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "HAVE IT ON GOOD AUTHORITY",
+"conf": 0.98,
+"fam": 0.51
+},
+{
+"phrase": "THE FIRST ORDER OF BUSINESS",
+"conf": 0.83,
+"fam": 0.61
+},
+{
+"phrase": "A PLACE FOR EVERYTHING AND EVERYTHING IN ITS PLACE",
+"conf": 0.96,
+"fam": 0.6
+},
+{
+"phrase": "TAKING THE SCENIC ROUTE",
+"conf": 0.87,
+"fam": 0.78
+},
+{
+"phrase": "STAGE-STRUCK",
+"conf": 0.84,
+"fam": 0.6
+},
+{
+"phrase": "JUST LAY IT ON THE LINE",
+"conf": 0.99,
+"fam": 0.55
+},
+{
+"phrase": "STRONG AS AN OX",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "SEIZE THE OPPORTUNITY",
+"conf": 0.71,
+"fam": 0.86
+},
+{
+"phrase": "THE SUSPENSE IS KILLING ME",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "PIE IN THE SKY",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "WELL I'LL BE A MONKEY'S UNCLE",
+"conf": 1.0,
+"fam": 0.51
+},
+{
+"phrase": "PULLING AN ALL-NIGHTER",
+"conf": 0.98,
+"fam": 0.79
+},
+{
+"phrase": "I CAN'T QUITE PUT MY FINGER ON IT",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "NOTHING BUT THE BEST",
+"conf": 0.88,
+"fam": 0.74
+},
+{
+"phrase": "THUMBS UP",
+"conf": 0.71,
+"fam": 0.93
+},
+{
+"phrase": "BEHIND CLOSED DOORS",
+"conf": 0.86,
+"fam": 0.87
+},
+{
+"phrase": "A CHIP OFF THE OLD BLOCK",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "I CAN DO IT WITH ONE HAND TIED BEHIND MY BACK",
+"conf": 0.94,
+"fam": 0.76
+},
+{
+"phrase": "PLAY FAIR",
+"conf": 0.92,
+"fam": 0.89
+},
+{
+"phrase": "BE CAREFUL WHAT YOU WISH FOR",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "I'M BOOKED UP",
+"conf": 0.79,
+"fam": 0.86
+},
+{
+"phrase": "RIGHT ON TARGET",
+"conf": 0.9,
+"fam": 0.77
+},
+{
+"phrase": "LOOK ON THE BRIGHT SIDE",
+"conf": 0.99,
+"fam": 0.91
+},
+{
+"phrase": "BEING IN THE RIGHT PLACE AT THE RIGHT TIME",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "I GAVE IT MY ALL",
+"conf": 0.99,
+"fam": 0.91
+},
+{
+"phrase": "FELL LIKE A TON OF BRICKS",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "EVERY SECOND COUNTS",
+"conf": 0.96,
+"fam": 0.85
+},
+{
+"phrase": "SMOOTH AS VELVET",
+"conf": 0.95,
+"fam": 0.8
+},
+{
+"phrase": "THE WAY TO A MAN'S HEART IS THROUGH HIS STOMACH",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "FOREGONE CONCLUSION",
+"conf": 0.91,
+"fam": 0.7
+},
+{
+"phrase": "BREAK THE BANK",
+"conf": 0.9,
+"fam": 0.75
+},
+{
+"phrase": "YOU CAN RUN BUT YOU CAN'T HIDE",
+"conf": 0.94,
+"fam": 0.82
+},
+{
+"phrase": "I'LL GIVE YOU A HEAD START",
+"conf": 0.95,
+"fam": 0.8
+},
+{
+"phrase": "SHE'S LIKE A SISTER TO ME",
+"conf": 0.75,
+"fam": 0.8
+},
+{
+"phrase": "SON OF A GUN",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "THERE'S SAFETY IN NUMBERS",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "TWO THUMBS UP",
+"conf": 0.89,
+"fam": 0.83
+},
+{
+"phrase": "MORAL VICTORY",
+"conf": 0.85,
+"fam": 0.79
+},
+{
+"phrase": "WHEN YOU GET RIGHT DOWN TO IT",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "WHISKED AWAY",
+"conf": 0.94,
+"fam": 0.78
+},
+{
+"phrase": "IN NO UNCERTAIN TERMS",
+"conf": 0.97,
+"fam": 0.62
+},
+{
+"phrase": "PLAYING PHONE TAG",
+"conf": 0.74,
+"fam": 0.64
+},
+{
+"phrase": "LAST BUT NOT LEAST",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "STARTING FROM SCRATCH",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "TAKING THE COUNTRY BY STORM",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "A HELPING HAND",
+"conf": 0.94,
+"fam": 0.89
+},
+{
+"phrase": "I'VE GOT MY HANDS FULL",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "DON'T LOSE ANY SLEEP ON IT",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "THE SKY'S THE LIMIT",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "AGED TO PERFECTION",
+"conf": 0.95,
+"fam": 0.67
+},
+{
+"phrase": "BE ON YOUR BEST BEHAVIOR",
+"conf": 0.77,
+"fam": 0.84
+},
+{
+"phrase": "STEER CLEAR",
+"conf": 0.93,
+"fam": 0.86
+},
+{
+"phrase": "WHAT'S THE CATCH",
+"conf": 0.87,
+"fam": 0.83
+},
+{
+"phrase": "BEAT THE HEAT",
+"conf": 0.91,
+"fam": 0.73
+},
+{
+"phrase": "FUNNY YOU SHOULD MENTION THAT",
+"conf": 0.87,
+"fam": 0.8
+},
+{
+"phrase": "GET YOUR MONEY'S WORTH",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "GOODNESS GRACIOUS",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "HAVING A FIELD DAY",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "SNUG AS A BUG",
+"conf": 0.99,
+"fam": 0.6
+},
+{
+"phrase": "THAT'S WHAT LITTLE GIRLS ARE MADE OF",
+"conf": 0.8,
+"fam": 0.5
+},
+{
+"phrase": "NOT BEEN SEEN NOR HEARD FROM SINCE",
+"conf": 0.88,
+"fam": 0.78
+},
+{
+"phrase": "SHE ACED IT",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "DON'T WAIT UP FOR ME",
+"conf": 0.8,
+"fam": 0.84
+},
+{
+"phrase": "THE TERRIBLE TWOS",
+"conf": 0.84,
+"fam": 0.72
+},
+{
+"phrase": "ARE YOU THINKING WHAT I THINK YOU'RE THINKING",
+"conf": 0.79,
+"fam": 0.53
+},
+{
+"phrase": "I ALMOST JUMPED OUT OF MY SKIN",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "HAVING ONE LAST FLING",
+"conf": 0.74,
+"fam": 0.67
+},
+{
+"phrase": "NECESSARY EVIL",
+"conf": 0.92,
+"fam": 0.83
+},
+{
+"phrase": "MY PATIENCE IS WEARING THIN",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "LEAVE WELL ENOUGH ALONE",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "AMBULANCE CHASER",
+"conf": 0.73,
+"fam": 0.62
+},
+{
+"phrase": "KICK IT UP A NOTCH",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "A TIME TO BE BORN AND A TIME TO DIE",
+"conf": 0.71,
+"fam": 0.76
+},
+{
+"phrase": "PLAYING CAT AND MOUSE",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "AVOID IT LIKE THE PLAGUE",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "WEIGHING THE PROS AND CONS",
+"conf": 0.86,
+"fam": 0.89
+},
+{
+"phrase": "YOU CAN'T FOOL MOTHER NATURE",
+"conf": 0.95,
+"fam": 0.73
+},
+{
+"phrase": "HAVE A CHILLING EFFECT",
+"conf": 0.91,
+"fam": 0.65
+},
+{
+"phrase": "THAT RINGS A BELL",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "JUST FOR THE RECORD",
+"conf": 0.85,
+"fam": 0.84
+},
+{
+"phrase": "CUT AND DRIED",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "SHE SELLS SEASHELLS BY THE SEASHORE",
+"conf": 0.79,
+"fam": 0.83
+},
+{
+"phrase": "MAKE LOVE NOT WAR",
+"conf": 0.79,
+"fam": 0.84
+},
+{
+"phrase": "SNEAK A PEEK",
+"conf": 0.81,
+"fam": 0.84
+},
+{
+"phrase": "YOU HAVE TO SEE IT TO BELIEVE IT",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "A GOOD TIME WAS HAD BY ALL",
+"conf": 0.72,
+"fam": 0.66
+},
+{
+"phrase": "THAT'S HALF THE BATTLE",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "EVERY TIME A BELL RINGS AN ANGEL GETS HIS WINGS",
+"conf": 0.83,
+"fam": 0.65
+},
+{
+"phrase": "YOU HEARD IT HERE FIRST",
+"conf": 0.92,
+"fam": 0.76
+},
+{
+"phrase": "WOE IS ME",
+"conf": 0.79,
+"fam": 0.74
+},
+{
+"phrase": "FORK IT OVER",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "HIGH HOPES",
+"conf": 0.77,
+"fam": 0.86
+},
+{
+"phrase": "ALL IN A DAY'S WORK",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "RISE AND SHINE",
+"conf": 0.98,
+"fam": 0.91
+},
+{
+"phrase": "NUTTY AS A FRUITCAKE",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "IT COULDN'T BE EASIER",
+"conf": 0.86,
+"fam": 0.88
+},
+{
+"phrase": "THE DRIVING FORCE",
+"conf": 0.72,
+"fam": 0.76
+},
+{
+"phrase": "KEEP ME COMPANY",
+"conf": 0.75,
+"fam": 0.87
+},
+{
+"phrase": "IT'S A TOUGH JOB BUT SOMEBODY'S GOT TO DO IT",
+"conf": 0.97,
+"fam": 0.85
+},
+{
+"phrase": "SHOWING YOUR TRUE COLORS",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "HALE AND HEARTY",
+"conf": 0.81,
+"fam": 0.77
+},
+{
+"phrase": "REFRESH MY MEMORY",
+"conf": 0.82,
+"fam": 0.85
+},
+{
+"phrase": "TAKE MATTERS INTO YOUR OWN HANDS",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "IF THE TRUTH BE KNOWN",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "STAY TUNED",
+"conf": 0.75,
+"fam": 0.93
+},
+{
+"phrase": "DEAD HEAT",
+"conf": 0.97,
+"fam": 0.81
+},
+{
+"phrase": "PUT ON THE SPOT",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "FAR-FETCHED IDEA",
+"conf": 0.87,
+"fam": 0.67
+},
+{
+"phrase": "THAT'S FOR ME TO KNOW AND YOU TO FIND OUT",
+"conf": 0.89,
+"fam": 0.57
+},
+{
+"phrase": "YOU MUST HAVE READ MY MIND",
+"conf": 0.88,
+"fam": 0.75
+},
+{
+"phrase": "NO PUN INTENDED",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "THAT'S THE BEAUTY OF IT",
+"conf": 0.82,
+"fam": 0.76
+},
+{
+"phrase": "YOU'RE WELCOME",
+"conf": 0.83,
+"fam": 0.95
+},
+{
+"phrase": "THAT TAKES THE CAKE",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "ONLY YOU CAN PREVENT FOREST FIRES",
+"conf": 0.86,
+"fam": 0.71
+},
+{
+"phrase": "TAKE A HIKE",
+"conf": 0.98,
+"fam": 0.78
+},
+{
+"phrase": "I WOULD IF I COULD BUT I CAN'T",
+"conf": 0.76,
+"fam": 0.75
+},
+{
+"phrase": "JUST SAY NO",
+"conf": 0.87,
+"fam": 0.87
+},
+{
+"phrase": "LIKE THERE'S NO TOMORROW",
+"conf": 0.96,
+"fam": 0.82
+},
+{
+"phrase": "LONG AGO AND FAR AWAY",
+"conf": 0.9,
+"fam": 0.81
+},
+{
+"phrase": "APPEARED OUT OF NOWHERE",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "GET LOST AND STAY LOST",
+"conf": 0.86,
+"fam": 0.61
+},
+{
+"phrase": "THEY NEVER KNEW WHAT HIT THEM",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "THE POSSIBILITIES ARE ENDLESS",
+"conf": 0.86,
+"fam": 0.8
+},
+{
+"phrase": "YOU'RE IN FOR A REAL TREAT",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "DO OR DIE",
+"conf": 0.99,
+"fam": 0.91
+},
+{
+"phrase": "IT JUST DAWNED ON ME",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "PASS THE BUCK",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "I WAS ON THE EDGE OF MY SEAT",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "FAMOUS LAST WORDS",
+"conf": 0.81,
+"fam": 0.76
+},
+{
+"phrase": "LOVE IS IN THE AIR",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "YOU'VE GOT THE BEST SEAT IN THE HOUSE",
+"conf": 0.9,
+"fam": 0.76
+},
+{
+"phrase": "PARTING COMPANY",
+"conf": 0.87,
+"fam": 0.71
+},
+{
+"phrase": "I'LL BE SEEING YOU",
+"conf": 0.76,
+"fam": 0.86
+},
+{
+"phrase": "OUT TO LUNCH",
+"conf": 0.7,
+"fam": 0.84
+},
+{
+"phrase": "A TWINKLE IN YOUR EYE",
+"conf": 0.98,
+"fam": 0.84
+},
+{
+"phrase": "YOU MADE MY DAY",
+"conf": 0.94,
+"fam": 0.87
+},
+{
+"phrase": "DON'T GOOF OFF",
+"conf": 0.74,
+"fam": 0.72
+},
+{
+"phrase": "LIGHTNING IN A BOTTLE",
+"conf": 0.99,
+"fam": 0.67
+},
+{
+"phrase": "IT'S ALL VERY HUSH-HUSH",
+"conf": 0.91,
+"fam": 0.64
+},
+{
+"phrase": "AS THE CROW FLIES",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "GETTING YOUR FOOT IN THE DOOR",
+"conf": 1.0,
+"fam": 0.77
+},
+{
+"phrase": "HIT IT BIG",
+"conf": 0.98,
+"fam": 0.62
+},
+{
+"phrase": "EVERY EXCUSE IN THE BOOK",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "HISTORY REPEATS ITSELF",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "IT'S A SLAM DUNK",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "GETTING IN ON THE GROUND FLOOR",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "IT TOTALLY BLEW ME AWAY",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "THINGS ARE LOOKING UP",
+"conf": 0.97,
+"fam": 0.81
+},
+{
+"phrase": "CHILL OUT",
+"conf": 0.97,
+"fam": 0.91
+},
+{
+"phrase": "FUN AND GAMES",
+"conf": 0.78,
+"fam": 0.88
+},
+{
+"phrase": "A FRIEND IN NEED IS A FRIEND INDEED",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "PLAYING SECOND FIDDLE",
+"conf": 1.0,
+"fam": 0.63
+},
+{
+"phrase": "AN EMBARRASSMENT OF RICHES",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "ACTIONS SPEAK LOUDER THAN WORDS",
+"conf": 1.0,
+"fam": 0.93
+},
+{
+"phrase": "YOU HAVE TO DRAW THE LINE SOMEWHERE",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "COUNT ON ME",
+"conf": 0.93,
+"fam": 0.87
+},
+{
+"phrase": "THOSE WERE THE GOOD OLD DAYS",
+"conf": 0.96,
+"fam": 0.93
+},
+{
+"phrase": "I SMELL A RAT",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "SUGAR-COATED",
+"conf": 0.89,
+"fam": 0.87
+},
+{
+"phrase": "CHECKERED PAST",
+"conf": 0.75,
+"fam": 0.62
+},
+{
+"phrase": "WANDERING AROUND IN A COMPLETE FOG",
+"conf": 0.88,
+"fam": 0.72
+},
+{
+"phrase": "SNAP OUT OF IT",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "POKER FACE",
+"conf": 0.86,
+"fam": 0.89
+},
+{
+"phrase": "YOU MISSED THE POINT",
+"conf": 0.89,
+"fam": 0.84
+},
+{
+"phrase": "POP THE CORK",
+"conf": 0.8,
+"fam": 0.68
+},
+{
+"phrase": "THE CAT'S MEOW",
+"conf": 0.89,
+"fam": 0.63
+},
+{
+"phrase": "DOWN TO THE WIRE",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "SIGNED SEALED AND DELIVERED",
+"conf": 0.98,
+"fam": 0.7
+},
+{
+"phrase": "A HOUSEHOLD NAME",
+"conf": 0.9,
+"fam": 0.88
+},
+{
+"phrase": "CAPTURES THE IMAGINATION",
+"conf": 0.83,
+"fam": 0.78
+},
+{
+"phrase": "YOUR HEART'S IN THE RIGHT PLACE",
+"conf": 0.98,
+"fam": 0.74
+},
+{
+"phrase": "OODLES OF MONEY",
+"conf": 0.74,
+"fam": 0.6
+},
+{
+"phrase": "PURE AS THE DRIVEN SNOW",
+"conf": 1.0,
+"fam": 0.57
+},
+{
+"phrase": "LET'S GET TO THE BOTTOM OF THIS",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "DON'T KEEP ME IN SUSPENSE",
+"conf": 0.92,
+"fam": 0.83
+},
+{
+"phrase": "PUT YOUR BEST FOOT FORWARD",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "GET TO THE CRUX OF THE MATTER",
+"conf": 1.0,
+"fam": 0.58
+},
+{
+"phrase": "DON'T PUT YOUR FOOT IN YOUR MOUTH",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "BEST-LAID PLANS",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "THE INFORMATION SUPERHIGHWAY",
+"conf": 0.83,
+"fam": 0.59
+},
+{
+"phrase": "YOU CAN TAKE THAT TO THE BANK",
+"conf": 0.98,
+"fam": 0.61
+},
+{
+"phrase": "LAUGH IT OFF",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "STRIKES THE RIGHT CHORD",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "AT THE DROP OF A HAT",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "NOT ENOUGH HOURS IN THE DAY",
+"conf": 0.89,
+"fam": 0.88
+},
+{
+"phrase": "SHAKE IT UP",
+"conf": 0.9,
+"fam": 0.83
+},
+{
+"phrase": "I NEVER THOUGHT I'D SEE THE DAY",
+"conf": 0.97,
+"fam": 0.87
+},
+{
+"phrase": "HANG IN THERE",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "NOT WORTH THE PAPER IT'S WRITTEN ON",
+"conf": 0.98,
+"fam": 0.62
+},
+{
+"phrase": "FLATTERY WILL GET YOU NOWHERE",
+"conf": 0.9,
+"fam": 0.52
+},
+{
+"phrase": "ALIVE AND KICKING",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "FANCY MEETING YOU HERE",
+"conf": 0.76,
+"fam": 0.81
+},
+{
+"phrase": "HANG ON",
+"conf": 0.71,
+"fam": 0.93
+},
+{
+"phrase": "MAKING INROADS",
+"conf": 0.98,
+"fam": 0.59
+},
+{
+"phrase": "TELLING TALL TALES",
+"conf": 0.97,
+"fam": 0.87
+},
+{
+"phrase": "THE BRAINS OF THE OPERATION",
+"conf": 0.95,
+"fam": 0.68
+},
+{
+"phrase": "NOW WE'RE GETTING SOMEWHERE",
+"conf": 0.85,
+"fam": 0.72
+},
+{
+"phrase": "IT TOOK MY BREATH AWAY",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "TOUGH IT OUT",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "A WORD TO THE WISE IS ENOUGH",
+"conf": 1.0,
+"fam": 0.62
+},
+{
+"phrase": "TELL IT LIKE IT IS",
+"conf": 0.96,
+"fam": 0.89
+},
+{
+"phrase": "SPLIT MY SIDES LAUGHING",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "I'M HAVING THE TIME OF MY LIFE",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "SHOP TILL YOU DROP",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "LET BYGONES BE BYGONES",
+"conf": 1.0,
+"fam": 0.86
+},
+{
+"phrase": "THAT'S A WRAP",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "DON'T BITE THE HAND THAT FEEDS YOU",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "HEAVEN ON EARTH",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "BULLY FOR YOU",
+"conf": 0.97,
+"fam": 0.55
+},
+{
+"phrase": "CHILD'S PLAY",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "DON'T MAKE A FEDERAL CASE OUT OF IT",
+"conf": 0.98,
+"fam": 0.67
+},
+{
+"phrase": "ON THE ROCKS",
+"conf": 0.93,
+"fam": 0.79
+},
+{
+"phrase": "WHAT A BUMMER",
+"conf": 0.93,
+"fam": 0.77
+},
+{
+"phrase": "RENDERED SPEECHLESS",
+"conf": 0.74,
+"fam": 0.76
+},
+{
+"phrase": "ONE GOOD TURN DESERVES ANOTHER",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "NEEDLESS TO SAY",
+"conf": 0.97,
+"fam": 0.89
+},
+{
+"phrase": "BARKING UP THE WRONG TREE",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "AT A FEVER PITCH",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "A HEART-TO-HEART TALK",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "READ THE FINE PRINT",
+"conf": 0.78,
+"fam": 0.88
+},
+{
+"phrase": "SPARE THE ROD AND SPOIL THE CHILD",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "RED-BLOODED AMERICANS",
+"conf": 0.81,
+"fam": 0.79
+},
+{
+"phrase": "LIGHTS CAMERA ACTION",
+"conf": 0.84,
+"fam": 0.88
+},
+{
+"phrase": "HE HAD ME IN STITCHES",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "COP OUT",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "NOT A CLOUD IN THE SKY",
+"conf": 0.85,
+"fam": 0.81
+},
+{
+"phrase": "BONE OF CONTENTION",
+"conf": 0.99,
+"fam": 0.6
+},
+{
+"phrase": "IN THE BUFF",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "YOU LUCKY DEVIL YOU",
+"conf": 0.83,
+"fam": 0.73
+},
+{
+"phrase": "ON THE SIDELINES",
+"conf": 0.91,
+"fam": 0.83
+},
+{
+"phrase": "DON'T UPSET THE APPLECART",
+"conf": 0.99,
+"fam": 0.58
+},
+{
+"phrase": "MAKING A FEDERAL CASE OUT OF IT",
+"conf": 0.98,
+"fam": 0.69
+},
+{
+"phrase": "ONWARD AND UPWARD",
+"conf": 0.95,
+"fam": 0.65
+},
+{
+"phrase": "FOR THE UMPTEENTH TIME",
+"conf": 0.84,
+"fam": 0.57
+},
+{
+"phrase": "SHRUG IT OFF",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "WELCOME ABOARD",
+"conf": 0.89,
+"fam": 0.89
+},
+{
+"phrase": "A MATCH MADE IN HEAVEN",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "IT'S MY PLEASURE",
+"conf": 0.88,
+"fam": 0.93
+},
+{
+"phrase": "LUCKED OUT",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "YEAH BABY",
+"conf": 0.78,
+"fam": 0.85
+},
+{
+"phrase": "HIT THE JACKPOT",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "TAKE IT OR LEAVE IT",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "PENNY PINCHER",
+"conf": 0.89,
+"fam": 0.79
+},
+{
+"phrase": "RED AS A LOBSTER",
+"conf": 0.94,
+"fam": 0.75
+},
+{
+"phrase": "HAVING THE INSIDE TRACK",
+"conf": 1.0,
+"fam": 0.59
+},
+{
+"phrase": "NEVER SAY NEVER",
+"conf": 0.97,
+"fam": 0.9
+},
+{
+"phrase": "GOING FROM BAD TO WORSE",
+"conf": 0.81,
+"fam": 0.89
+},
+{
+"phrase": "COUCH POTATO",
+"conf": 0.87,
+"fam": 0.92
+},
+{
+"phrase": "LOST WITHOUT A TRACE",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "BRIGHT IDEA",
+"conf": 0.82,
+"fam": 0.9
+},
+{
+"phrase": "BON APPETIT",
+"conf": 0.93,
+"fam": 0.87
+},
+{
+"phrase": "STEP UP THE PACE",
+"conf": 0.86,
+"fam": 0.83
+},
+{
+"phrase": "PULL A RABBIT OUT OF THE HAT",
+"conf": 0.82,
+"fam": 0.75
+},
+{
+"phrase": "DON'T TAKE IT TO HEART",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "TAKE CHARGE",
+"conf": 0.79,
+"fam": 0.89
+},
+{
+"phrase": "I REST MY CASE",
+"conf": 0.97,
+"fam": 0.82
+},
+{
+"phrase": "COMING ON STRONG",
+"conf": 0.97,
+"fam": 0.69
+},
+{
+"phrase": "YOU REALLY THREW ME FOR A LOOP",
+"conf": 1.0,
+"fam": 0.68
+},
+{
+"phrase": "TRAVEL FAR AND WIDE",
+"conf": 0.77,
+"fam": 0.78
+},
+{
+"phrase": "SHAKE THINGS UP",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "SEAL THE DEAL",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "SET THE WHEELS IN MOTION",
+"conf": 0.96,
+"fam": 0.72
+},
+{
+"phrase": "HAPPY HOLIDAYS",
+"conf": 0.79,
+"fam": 0.93
+},
+{
+"phrase": "IN ONE EAR AND OUT THE OTHER",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "IT'S RIGHT UNDER MY NOSE",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "THERE'S NO SUBSTITUTE",
+"conf": 0.88,
+"fam": 0.81
+},
+{
+"phrase": "YOU'RE IN LUCK",
+"conf": 0.95,
+"fam": 0.88
+},
+{
+"phrase": "RIDING OFF INTO THE SUNSET",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "BLOW THE LID OFF",
+"conf": 0.84,
+"fam": 0.59
+},
+{
+"phrase": "THERE ARE TWO SIDES TO EVERY STORY",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "IT MAKES CENTS",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "DON'T GET CARRIED AWAY",
+"conf": 0.98,
+"fam": 0.87
+},
+{
+"phrase": "GETTING OFF TO A GOOD START",
+"conf": 0.96,
+"fam": 0.83
+},
+{
+"phrase": "FIGHT FIRE WITH FIRE",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "NOW THAT YOU MENTION IT",
+"conf": 0.76,
+"fam": 0.87
+},
+{
+"phrase": "BEGINNER'S LUCK",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "IT GOES IN ONE EAR AND OUT THE OTHER",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "IT JUST DOESN'T GET ANY BETTER THAN THIS",
+"conf": 0.91,
+"fam": 0.85
+},
+{
+"phrase": "I'LL KEEP IT IN THE BACK OF MY MIND",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "PAY THE PIPER",
+"conf": 0.99,
+"fam": 0.53
+},
+{
+"phrase": "MAKE AMENDS",
+"conf": 0.76,
+"fam": 0.81
+},
+{
+"phrase": "GETTING A HOLE IN ONE",
+"conf": 0.88,
+"fam": 0.51
+},
+{
+"phrase": "KNOCK-DOWN DRAG-OUT FIGHT",
+"conf": 0.91,
+"fam": 0.71
+},
+{
+"phrase": "PULLING A RABBIT OUT OF A HAT",
+"conf": 0.88,
+"fam": 0.8
+},
+{
+"phrase": "YOU'RE WAY AHEAD OF THE GAME",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "DON'T MINCE WORDS",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "IT'S A MIRACLE",
+"conf": 0.91,
+"fam": 0.9
+},
+{
+"phrase": "SQUEAKY CLEAN",
+"conf": 0.79,
+"fam": 0.84
+},
+{
+"phrase": "GOBBLE IT UP",
+"conf": 0.7,
+"fam": 0.77
+},
+{
+"phrase": "ALL TALK AND NO ACTION",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "DRAWING BATTLE LINES",
+"conf": 0.97,
+"fam": 0.52
+},
+{
+"phrase": "MAD AS A HATTER",
+"conf": 0.87,
+"fam": 0.8
+},
+{
+"phrase": "TAKE THE PLUNGE",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "SEEING IS BELIEVING",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "ASK WHAT YOU CAN DO FOR YOUR COUNTRY",
+"conf": 0.71,
+"fam": 0.8
+},
+{
+"phrase": "PICTURE THIS",
+"conf": 0.8,
+"fam": 0.86
+},
+{
+"phrase": "TALK SHOP",
+"conf": 0.75,
+"fam": 0.5
+},
+{
+"phrase": "HOT AND BOTHERED",
+"conf": 0.95,
+"fam": 0.63
+},
+{
+"phrase": "PUT THE PEDAL TO THE METAL",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "WHY DON'T YOU PICK ON SOMEONE YOUR OWN SIZE",
+"conf": 0.82,
+"fam": 0.82
+},
+{
+"phrase": "IN DISGUISE",
+"conf": 0.75,
+"fam": 0.86
+},
+{
+"phrase": "I BURST OUT LAUGHING",
+"conf": 0.88,
+"fam": 0.93
+},
+{
+"phrase": "THOSE ARE MY THOUGHTS EXACTLY",
+"conf": 0.75,
+"fam": 0.87
+},
+{
+"phrase": "SEE YOU LATER ALLIGATOR",
+"conf": 0.93,
+"fam": 0.64
+},
+{
+"phrase": "ROCKING HORSE RACE",
+"conf": 0.74,
+"fam": 0.56
+},
+{
+"phrase": "OFF THE BEATEN PATH",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "TOO CLOSE FOR COMFORT",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "ARE YOU LEVELING WITH ME",
+"conf": 0.8,
+"fam": 0.66
+},
+{
+"phrase": "WHERE ON EARTH HAVE YOU BEEN",
+"conf": 0.84,
+"fam": 0.81
+},
+{
+"phrase": "MET WITH OPEN ARMS",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "HIT THE HAY",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "SAVING UP FOR A RAINY DAY",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "A DREAM COME TRUE",
+"conf": 0.99,
+"fam": 0.92
+},
+{
+"phrase": "IT'S A MYSTERY",
+"conf": 0.8,
+"fam": 0.87
+},
+{
+"phrase": "WHATEVER FLOATS YOUR BOAT",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "DON'T TRY AND BUTTER ME UP",
+"conf": 0.98,
+"fam": 0.63
+},
+{
+"phrase": "JUMP ON THE BANDWAGON",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "ONCE UPON A TIME",
+"conf": 0.95,
+"fam": 0.95
+},
+{
+"phrase": "DOUBLE WHAMMY",
+"conf": 0.98,
+"fam": 0.72
+},
+{
+"phrase": "THAT ABOUT SUMS IT UP",
+"conf": 0.95,
+"fam": 0.84
+},
+{
+"phrase": "IT'S ALL GOOD",
+"conf": 0.76,
+"fam": 0.9
+},
+{
+"phrase": "UPS AND DOWNS",
+"conf": 0.81,
+"fam": 0.87
+},
+{
+"phrase": "NEVER MIND",
+"conf": 0.89,
+"fam": 0.94
+},
+{
+"phrase": "I'LL NEVER LIVE IT DOWN",
+"conf": 1.0,
+"fam": 0.61
+},
+{
+"phrase": "SLOWLY BUT SURELY",
+"conf": 0.97,
+"fam": 0.88
+},
+{
+"phrase": "GOODNESS GRACIOUS GREAT BALLS OF FIRE",
+"conf": 0.93,
+"fam": 0.52
+},
+{
+"phrase": "IT LEFT A LASTING IMPRESSION",
+"conf": 0.92,
+"fam": 0.84
+},
+{
+"phrase": "ON THE FIRING LINE",
+"conf": 0.98,
+"fam": 0.55
+},
+{
+"phrase": "WISE UP",
+"conf": 0.96,
+"fam": 0.85
+},
+{
+"phrase": "PRIDE OF OWNERSHIP",
+"conf": 0.75,
+"fam": 0.68
+},
+{
+"phrase": "POUNDING THE PAVEMENT",
+"conf": 0.98,
+"fam": 0.73
+},
+{
+"phrase": "YOU NEVER KNOW UNLESS YOU TRY",
+"conf": 0.94,
+"fam": 0.79
+},
+{
+"phrase": "MAZEL TOV",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "CORNERING THE MARKET",
+"conf": 0.92,
+"fam": 0.65
+},
+{
+"phrase": "GUT INSTINCT",
+"conf": 0.87,
+"fam": 0.85
+},
+{
+"phrase": "THE FOUR CORNERS OF THE EARTH",
+"conf": 0.7,
+"fam": 0.58
+},
+{
+"phrase": "GO FOR BROKE",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "RAISE A RUCKUS",
+"conf": 0.99,
+"fam": 0.7
+},
+{
+"phrase": "A LEAP OF FAITH",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "DON'T CRAMP MY STYLE",
+"conf": 0.78,
+"fam": 0.52
+},
+{
+"phrase": "BOYS WILL BE BOYS",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "IT DIDN'T FAZE ME",
+"conf": 0.8,
+"fam": 0.82
+},
+{
+"phrase": "YOU'VE REALLY OUTDONE YOURSELF",
+"conf": 0.93,
+"fam": 0.81
+},
+{
+"phrase": "WINDOW OF OPPORTUNITY",
+"conf": 0.92,
+"fam": 0.84
+},
+{
+"phrase": "FIGMENT OF YOUR IMAGINATION",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "LAUGH AND THE WORLD LAUGHS WITH YOU",
+"conf": 0.97,
+"fam": 0.55
+},
+{
+"phrase": "IMMOVABLE OBJECT",
+"conf": 0.8,
+"fam": 0.8
+},
+{
+"phrase": "THE APPLE OF MY EYE",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "DO YOU CATCH MY DRIFT",
+"conf": 0.99,
+"fam": 0.71
+},
+{
+"phrase": "I CAN'T FOR THE LIFE OF ME",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "COME AND GET IT",
+"conf": 0.75,
+"fam": 0.81
+},
+{
+"phrase": "CAUGHT IN A TRAP",
+"conf": 0.83,
+"fam": 0.86
+},
+{
+"phrase": "STOP YOU'RE GIVING ME GOOSE BUMPS",
+"conf": 0.9,
+"fam": 0.74
+},
+{
+"phrase": "TRIED AND TRUE",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "RAZOR-THIN",
+"conf": 0.81,
+"fam": 0.73
+},
+{
+"phrase": "DON'T PRESS YOUR LUCK",
+"conf": 0.79,
+"fam": 0.68
+},
+{
+"phrase": "HAPPY AS A CLAM",
+"conf": 1.0,
+"fam": 0.56
+},
+{
+"phrase": "THINGS ARE HEATING UP",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "YOU ONLY LIVE ONCE",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "DON'T COUNT YOUR CHICKENS BEFORE THEY HATCH",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "GETTING THERE IS HALF THE FUN",
+"conf": 0.98,
+"fam": 0.66
+},
+{
+"phrase": "SELF-FULFILLING PROPHECY",
+"conf": 0.87,
+"fam": 0.66
+},
+{
+"phrase": "GONE BUT NOT FORGOTTEN",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "AS AMERICAN AS APPLE PIE",
+"conf": 0.95,
+"fam": 0.87
+},
+{
+"phrase": "LUCK OF THE DRAW",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "SETTING THE STAGE",
+"conf": 0.96,
+"fam": 0.81
+},
+{
+"phrase": "A STORM ON THE HORIZON",
+"conf": 0.72,
+"fam": 0.73
+},
+{
+"phrase": "SOONER OR LATER",
+"conf": 0.97,
+"fam": 0.93
+},
+{
+"phrase": "GAME SET AND MATCH",
+"conf": 0.94,
+"fam": 0.72
+},
+{
+"phrase": "ONCE-IN-A-LIFETIME OPPORTUNITY",
+"conf": 0.86,
+"fam": 0.89
+},
+{
+"phrase": "YOU TAKE MY BREATH AWAY",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "GOING BANANAS",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "SAY UNCLE",
+"conf": 0.95,
+"fam": 0.71
+},
+{
+"phrase": "HAS A FEW SCREWS LOOSE",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "ON THE FLY",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "WE PULLED IT OFF",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "UNDER A LOT OF PRESSURE",
+"conf": 0.72,
+"fam": 0.86
+},
+{
+"phrase": "NO HARM NO FOUL",
+"conf": 0.99,
+"fam": 0.6
+},
+{
+"phrase": "MY KINGDOM FOR A HORSE",
+"conf": 0.79,
+"fam": 0.6
+},
+{
+"phrase": "STRANGE AS IT SEEMS",
+"conf": 0.96,
+"fam": 0.78
+},
+{
+"phrase": "WAITING IN THE WINGS",
+"conf": 0.98,
+"fam": 0.58
+},
+{
+"phrase": "HAVE YOU LOST YOUR MARBLES",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "THE FABRIC OF OUR LIVES",
+"conf": 0.94,
+"fam": 0.59
+},
+{
+"phrase": "AFTER ALL IS SAID AND DONE",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "HE TIPPED ME OFF",
+"conf": 0.94,
+"fam": 0.74
+},
+{
+"phrase": "THE LIGHT AT THE END OF THE TUNNEL",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "CALLING THE SHOTS",
+"conf": 0.99,
+"fam": 0.75
+},
+{
+"phrase": "ALL MEN ARE CREATED EQUAL",
+"conf": 0.8,
+"fam": 0.9
+},
+{
+"phrase": "A LITTLE OF THIS AND A LITTLE OF THAT",
+"conf": 0.92,
+"fam": 0.86
+},
+{
+"phrase": "I SAW IT WITH MY OWN TWO EYES",
+"conf": 0.94,
+"fam": 0.88
+},
+{
+"phrase": "NEST EGG",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "I WON'T TAKE NO FOR AN ANSWER",
+"conf": 0.82,
+"fam": 0.81
+},
+{
+"phrase": "COVERS A MULTITUDE OF SINS",
+"conf": 0.95,
+"fam": 0.62
+},
+{
+"phrase": "TURNING THE WORLD UPSIDE DOWN",
+"conf": 0.92,
+"fam": 0.72
+},
+{
+"phrase": "LO AND BEHOLD",
+"conf": 0.95,
+"fam": 0.81
+},
+{
+"phrase": "AT THE ELEVENTH HOUR",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "NO SWEAT",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "DON'T HOLD BACK",
+"conf": 0.9,
+"fam": 0.88
+},
+{
+"phrase": "REPORTING FOR DUTY",
+"conf": 0.78,
+"fam": 0.78
+},
+{
+"phrase": "HUFF AND PUFF",
+"conf": 0.82,
+"fam": 0.87
+},
+{
+"phrase": "TAKE A BOW",
+"conf": 0.89,
+"fam": 0.87
+},
+{
+"phrase": "A PROMISE IS A PROMISE",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "KEEP A STIFF UPPER LIP",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "I WOULDN'T TOUCH THAT WITH A TEN-FOOT POLE",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "LIFE BEGINS AT FORTY",
+"conf": 0.99,
+"fam": 0.54
+},
+{
+"phrase": "WINE AND DINE",
+"conf": 0.98,
+"fam": 0.88
+},
+{
+"phrase": "STAR-STRUCK",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "BREAK THE ICE",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "TAKE THE MONEY AND RUN",
+"conf": 0.96,
+"fam": 0.85
+},
+{
+"phrase": "NOW WE'RE COOKIN'",
+"conf": 0.98,
+"fam": 0.76
+},
+{
+"phrase": "IN THE BLINK OF AN EYE",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "IT'S GOT ALL THE BELLS AND WHISTLES",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "I DON'T KNOW WHAT CAME OVER ME",
+"conf": 0.94,
+"fam": 0.8
+},
+{
+"phrase": "UNDER A SPELL",
+"conf": 0.96,
+"fam": 0.77
+},
+{
+"phrase": "EVERYTHING'S GOING TO PAN OUT",
+"conf": 0.96,
+"fam": 0.62
+},
+{
+"phrase": "NO PAIN NO GAIN",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "APPEARANCES CAN BE DECEIVING",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "QUICK AS A FLASH",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "HAVING ALL YOUR BASES COVERED",
+"conf": 0.78,
+"fam": 0.62
+},
+{
+"phrase": "PLAYING A VITAL ROLE",
+"conf": 0.77,
+"fam": 0.82
+},
+{
+"phrase": "CAN I TAKE A RAIN CHECK?",
+"conf": 0.99,
+"fam": 0.75
+},
+{
+"phrase": "HOT ON THE TRAIL",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "LAY IT ON THE LINE",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "I'M PULLING OUT ALL THE STOPS",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "SOCIAL BUTTERFLY",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "EVERYTHING'S COMING UP ROSES",
+"conf": 0.97,
+"fam": 0.51
+},
+{
+"phrase": "LIKE WATER OFF A DUCK'S BACK",
+"conf": 1.0,
+"fam": 0.68
+},
+{
+"phrase": "HANGING OUT",
+"conf": 0.89,
+"fam": 0.91
+},
+{
+"phrase": "LIVE TO A RIPE OLD AGE",
+"conf": 0.84,
+"fam": 0.85
+},
+{
+"phrase": "YOU'VE GOT EVERYTHING GOING FOR YOU",
+"conf": 0.92,
+"fam": 0.67
+},
+{
+"phrase": "IF MY MEMORY SERVES ME CORRECTLY",
+"conf": 0.94,
+"fam": 0.82
+},
+{
+"phrase": "FAMOUS THE WORLD OVER",
+"conf": 0.86,
+"fam": 0.76
+},
+{
+"phrase": "COMIN' IN ON A WING AND A PRAYER",
+"conf": 1.0,
+"fam": 0.66
+},
+{
+"phrase": "NOWHERE IN SIGHT",
+"conf": 0.81,
+"fam": 0.87
+},
+{
+"phrase": "IT'S A BREEZE",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "COOL AS A CUCUMBER",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "I FEEL IT IN MY BONES",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "AT THE CROSSROADS OF LIFE",
+"conf": 0.96,
+"fam": 0.61
+},
+{
+"phrase": "STANDING THE TEST OF TIME",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "WHATEVER YOUR HEART DESIRES",
+"conf": 0.83,
+"fam": 0.74
+},
+{
+"phrase": "WHEN YOU'RE HOT YOU'RE HOT",
+"conf": 0.85,
+"fam": 0.62
+},
+{
+"phrase": "MAKING A BIG SPLASH",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "WE'LL PLAY IT BY EAR",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "BRIGHT AND EARLY",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "RECHARGE YOUR BATTERIES",
+"conf": 0.9,
+"fam": 0.88
+},
+{
+"phrase": "AN OUNCE OF PREVENTION",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "LED DOWN THE GARDEN PATH",
+"conf": 0.97,
+"fam": 0.57
+},
+{
+"phrase": "HOT SHOT",
+"conf": 0.79,
+"fam": 0.82
+},
+{
+"phrase": "ADDING INSULT TO INJURY",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "SLEEP TIGHT",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "NOTHING COMES CLOSER TO HOME",
+"conf": 0.83,
+"fam": 0.56
+},
+{
+"phrase": "TRUE-BLUE",
+"conf": 0.95,
+"fam": 0.71
+},
+{
+"phrase": "HOW DOES THAT GRAB YOU?",
+"conf": 0.93,
+"fam": 0.7
+},
+{
+"phrase": "TWO WRONGS DON'T MAKE A RIGHT",
+"conf": 1.0,
+"fam": 0.89
+},
+{
+"phrase": "AND BABY MAKES THREE",
+"conf": 0.81,
+"fam": 0.75
+},
+{
+"phrase": "THE BIGGEST THING SINCE SLICED BREAD",
+"conf": 0.97,
+"fam": 0.71
+},
+{
+"phrase": "KEEP YOUR EAR TO THE GROUND",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "PAVING THE WAY",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "FOLLOW YOUR INSTINCTS",
+"conf": 0.86,
+"fam": 0.86
+},
+{
+"phrase": "IT'S OUT OF THIS WORLD",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "GRIND TO A HALT",
+"conf": 0.94,
+"fam": 0.76
+},
+{
+"phrase": "RUN THAT BY ME AGAIN",
+"conf": 0.75,
+"fam": 0.84
+},
+{
+"phrase": "THE JOKE'S ON ME",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "GREAT MINDS THINK ALIKE",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "TAKE MY WORD FOR IT",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "DRESSED TO THE NINES",
+"conf": 0.99,
+"fam": 0.65
+},
+{
+"phrase": "RISE TO THE OCCASION",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "WE'RE OFF TO A GREAT START",
+"conf": 0.76,
+"fam": 0.78
+},
+{
+"phrase": "FUNNY YOU SHOULD ASK",
+"conf": 0.88,
+"fam": 0.78
+},
+{
+"phrase": "IT RUNS IN THE FAMILY",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "RIGHT OFF THE BAT",
+"conf": 1.0,
+"fam": 0.57
+},
+{
+"phrase": "NIP AND TUCK",
+"conf": 0.92,
+"fam": 0.72
+},
+{
+"phrase": "SPLIT THE DIFFERENCE",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "KEEP AN OPEN MIND",
+"conf": 0.98,
+"fam": 0.9
+},
+{
+"phrase": "PUT ON A PEDESTAL",
+"conf": 0.99,
+"fam": 0.52
+},
+{
+"phrase": "NO NEWS IS GOOD NEWS",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "TWISTS AND TURNS",
+"conf": 0.85,
+"fam": 0.86
+},
+{
+"phrase": "UP THE CREEK WITHOUT A PADDLE",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "UP TO NO GOOD",
+"conf": 0.99,
+"fam": 0.83
+},
+{
+"phrase": "FITS LIKE A GLOVE",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "DON'T TWIDDLE YOUR THUMBS",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "DON'T PULL ANY PUNCHES",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "BUTT OUT",
+"conf": 0.98,
+"fam": 0.78
+},
+{
+"phrase": "I'M BACK ON TRACK",
+"conf": 0.91,
+"fam": 0.79
+},
+{
+"phrase": "DON'T FORCE THE ISSUE",
+"conf": 0.94,
+"fam": 0.73
+},
+{
+"phrase": "UP FOR GRABS",
+"conf": 0.99,
+"fam": 0.67
+},
+{
+"phrase": "OPEN UP AND SAY AH",
+"conf": 0.79,
+"fam": 0.89
+},
+{
+"phrase": "WORTH FIGHTING FOR",
+"conf": 0.71,
+"fam": 0.81
+},
+{
+"phrase": "THE ONLY THING WE HAVE TO FEAR IS FEAR ITSELF",
+"conf": 0.77,
+"fam": 0.88
+},
+{
+"phrase": "LET THE GOOD TIMES ROLL",
+"conf": 0.84,
+"fam": 0.81
+},
+{
+"phrase": "SWEAR ON A STACK OF BIBLES",
+"conf": 0.98,
+"fam": 0.64
+},
+{
+"phrase": "MY HOUSE IS YOUR HOUSE",
+"conf": 0.86,
+"fam": 0.77
+},
+{
+"phrase": "BEHIND THE SCENES",
+"conf": 0.76,
+"fam": 0.9
+},
+{
+"phrase": "A MAN IS KNOWN BY THE COMPANY HE KEEPS",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "BIG MAN ON CAMPUS",
+"conf": 0.95,
+"fam": 0.74
+},
+{
+"phrase": "GETTING THE GO-AHEAD",
+"conf": 0.96,
+"fam": 0.74
+},
+{
+"phrase": "IT THREW ME FOR A LOOP",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "BRAINS AND BRAWN",
+"conf": 0.76,
+"fam": 0.74
+},
+{
+"phrase": "STARK RAVING MAD",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "CAT GOT YOUR TONGUE",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "LET'S HIT THE ROAD",
+"conf": 0.97,
+"fam": 0.9
+},
+{
+"phrase": "IT'S THE KISS OF DEATH",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "LIKE A HOUSE AFIRE",
+"conf": 0.98,
+"fam": 0.54
+},
+{
+"phrase": "GETTING LOST IN THE CROWD",
+"conf": 0.78,
+"fam": 0.81
+},
+{
+"phrase": "THAT'S STRETCHING THE TRUTH",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "A MAN AFTER MY OWN HEART",
+"conf": 0.92,
+"fam": 0.65
+},
+{
+"phrase": "THINK NOTHING OF IT",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "DON'T LOOK NOW BUT",
+"conf": 0.8,
+"fam": 0.76
+},
+{
+"phrase": "ODDS AND ENDS",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "CUT ME SOME SLACK",
+"conf": 0.99,
+"fam": 0.77
+},
+{
+"phrase": "FEAST YOUR EYES ON THIS",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "STAND UP FOR WHAT YOU BELIEVE IN",
+"conf": 0.91,
+"fam": 0.87
+},
+{
+"phrase": "SHOOTIN' THE BREEZE",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "LAUGHING ALL THE WAY TO THE BANK",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "BEAR MARKET",
+"conf": 0.74,
+"fam": 0.65
+},
+{
+"phrase": "NEAR AND DEAR",
+"conf": 0.87,
+"fam": 0.67
+},
+{
+"phrase": "FIT TO BE TIED",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "TRUE-BLUE FANS",
+"conf": 0.76,
+"fam": 0.69
+},
+{
+"phrase": "SCARED OUT OF MY WITS",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "IT'S SHOWTIME",
+"conf": 0.92,
+"fam": 0.88
+},
+{
+"phrase": "STAND YOUR GROUND",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "REACH FOR THE SKY",
+"conf": 0.85,
+"fam": 0.78
+},
+{
+"phrase": "BUSINESS IS BOOMING",
+"conf": 0.84,
+"fam": 0.81
+},
+{
+"phrase": "STICK AROUND",
+"conf": 0.91,
+"fam": 0.86
+},
+{
+"phrase": "KNOCK ON WOOD",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "DEJA VU",
+"conf": 0.72,
+"fam": 0.88
+},
+{
+"phrase": "FANCY THAT",
+"conf": 0.97,
+"fam": 0.79
+},
+{
+"phrase": "THE FUN'S JUST BEGUN",
+"conf": 0.72,
+"fam": 0.74
+},
+{
+"phrase": "WARM AND FUZZY",
+"conf": 0.89,
+"fam": 0.76
+},
+{
+"phrase": "LOOKING AT THE BIG PICTURE",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "THE HEART OF THE MATTER",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "PARTY ANIMAL",
+"conf": 0.87,
+"fam": 0.86
+},
+{
+"phrase": "JUMP AT THE CHANCE",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "OUT OF BOUNDS",
+"conf": 0.71,
+"fam": 0.88
+},
+{
+"phrase": "I'VE LOOKED HIGH AND LOW",
+"conf": 1.0,
+"fam": 0.87
+},
+{
+"phrase": "A HIT OR A MISS",
+"conf": 0.73,
+"fam": 0.8
+},
+{
+"phrase": "SQUEAKY CLEAN AS A WHISTLE",
+"conf": 0.99,
+"fam": 0.52
+},
+{
+"phrase": "IT MAKES PERFECT SENSE",
+"conf": 0.77,
+"fam": 0.9
+},
+{
+"phrase": "DON'T DRINK AND DRIVE",
+"conf": 0.76,
+"fam": 0.96
+},
+{
+"phrase": "A WALKING ENCYCLOPEDIA",
+"conf": 0.95,
+"fam": 0.8
+},
+{
+"phrase": "RISING TO THE CHALLENGE",
+"conf": 0.98,
+"fam": 0.85
+},
+{
+"phrase": "BUYING TIME",
+"conf": 0.87,
+"fam": 0.83
+},
+{
+"phrase": "IT'S A BLESSING IN DISGUISE",
+"conf": 1.0,
+"fam": 0.8
+},
+{
+"phrase": "ASKING ALL THE RIGHT QUESTIONS",
+"conf": 0.77,
+"fam": 0.6
+},
+{
+"phrase": "FOLLOW IN HIS FATHER'S FOOTSTEPS",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "PURE GOLD",
+"conf": 0.84,
+"fam": 0.86
+},
+{
+"phrase": "MAKE OR BREAK",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "THE POWERS THAT BE",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "DON'T GIVE IT ANOTHER THOUGHT",
+"conf": 0.93,
+"fam": 0.8
+},
+{
+"phrase": "HOP TO IT",
+"conf": 0.97,
+"fam": 0.63
+},
+{
+"phrase": "PLAY IT COOL",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "YES SIR THAT'S MY BABY",
+"conf": 0.82,
+"fam": 0.52
+},
+{
+"phrase": "YOU'RE ON THE RIGHT TRACK",
+"conf": 0.97,
+"fam": 0.82
+},
+{
+"phrase": "ASHES TO ASHES DUST TO DUST",
+"conf": 0.92,
+"fam": 0.73
+},
+{
+"phrase": "LUCKY BREAK",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "A CHANGE OF HEART",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "THAT'S THE BOTTOM LINE",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "AT YOUR EARLIEST CONVENIENCE",
+"conf": 0.73,
+"fam": 0.83
+},
+{
+"phrase": "HAPPY-GO-LUCKY",
+"conf": 0.98,
+"fam": 0.79
+},
+{
+"phrase": "LOOMING ON THE HORIZON",
+"conf": 0.94,
+"fam": 0.78
+},
+{
+"phrase": "FLYING BY THE SEAT OF YOUR PANTS",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "WE'RE GOOD TO GO",
+"conf": 0.94,
+"fam": 0.88
+},
+{
+"phrase": "EVERYTHING BUT THE KITCHEN SINK",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "RIDING HIGH",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "ACT YOUR AGE",
+"conf": 0.96,
+"fam": 0.84
+},
+{
+"phrase": "BATTING A THOUSAND",
+"conf": 0.99,
+"fam": 0.61
+},
+{
+"phrase": "FROM THE GROUND UP",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "I'M STICKING TO MY STORY",
+"conf": 0.82,
+"fam": 0.76
+},
+{
+"phrase": "CRY WOLF",
+"conf": 0.98,
+"fam": 0.82
+},
+{
+"phrase": "YOU CAN'T FOOL ALL THE PEOPLE ALL THE TIME",
+"conf": 0.96,
+"fam": 0.77
+},
+{
+"phrase": "LIGHT AS A FEATHER",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "SPILL THE BEANS",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "BEAUTY IS IN THE EYE OF THE BEHOLDER",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "GIVE IT THE OLD COLLEGE TRY",
+"conf": 0.97,
+"fam": 0.66
+},
+{
+"phrase": "AIN'T IT THE TRUTH",
+"conf": 0.96,
+"fam": 0.71
+},
+{
+"phrase": "NO HARM DONE",
+"conf": 0.94,
+"fam": 0.85
+},
+{
+"phrase": "MAKING A SPECTACLE OF YOURSELF",
+"conf": 0.89,
+"fam": 0.8
+},
+{
+"phrase": "LOOK ALIVE",
+"conf": 0.87,
+"fam": 0.66
+},
+{
+"phrase": "SPEAKING THE SAME LANGUAGE",
+"conf": 0.9,
+"fam": 0.87
+},
+{
+"phrase": "WELL IT'S ABOUT TIME",
+"conf": 0.89,
+"fam": 0.88
+},
+{
+"phrase": "EXPECT THE UNEXPECTED",
+"conf": 0.88,
+"fam": 0.84
+},
+{
+"phrase": "THAT WAS THEN THIS IS NOW",
+"conf": 0.71,
+"fam": 0.71
+},
+{
+"phrase": "YOU HAD TO GO AND OPEN YOUR BIG MOUTH",
+"conf": 0.99,
+"fam": 0.76
+},
+{
+"phrase": "HANG TOUGH",
+"conf": 0.99,
+"fam": 0.78
+},
+{
+"phrase": "A PICTURE'S WORTH A THOUSAND WORDS",
+"conf": 1.0,
+"fam": 0.93
+},
+{
+"phrase": "NOTHING TO WRITE HOME ABOUT",
+"conf": 0.99,
+"fam": 0.69
+},
+{
+"phrase": "MADE THE GRADE",
+"conf": 0.99,
+"fam": 0.69
+},
+{
+"phrase": "KISS AND TELL",
+"conf": 0.92,
+"fam": 0.77
+},
+{
+"phrase": "MANY HAPPY RETURNS OF THE DAY",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "IT'S TOO LATE TO TURN BACK NOW",
+"conf": 0.9,
+"fam": 0.8
+},
+{
+"phrase": "WISHFUL THINKING",
+"conf": 0.91,
+"fam": 0.89
+},
+{
+"phrase": "IT'S A FINE LINE",
+"conf": 0.98,
+"fam": 0.75
+},
+{
+"phrase": "WATER AND OIL DON'T MIX",
+"conf": 0.83,
+"fam": 0.92
+},
+{
+"phrase": "WHO'S MINDING THE STORE",
+"conf": 0.89,
+"fam": 0.52
+},
+{
+"phrase": "FIT FOR A KING",
+"conf": 0.94,
+"fam": 0.73
+},
+{
+"phrase": "ZIP YOUR LIP",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "A BARGAIN HUNTER'S DREAM",
+"conf": 0.88,
+"fam": 0.73
+},
+{
+"phrase": "JUMP FOR JOY",
+"conf": 0.88,
+"fam": 0.9
+},
+{
+"phrase": "MY COMPLIMENTS TO THE CHEF",
+"conf": 0.89,
+"fam": 0.7
+},
+{
+"phrase": "KEEP YOUR FINGERS CROSSED",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "BITE THE BULLET",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "I'LL NEVER HEAR THE END OF IT",
+"conf": 0.95,
+"fam": 0.77
+},
+{
+"phrase": "GLOWING REVIEWS",
+"conf": 0.72,
+"fam": 0.84
+},
+{
+"phrase": "ZONKED OUT",
+"conf": 0.97,
+"fam": 0.68
+},
+{
+"phrase": "I'M AT THE END OF MY ROPE",
+"conf": 1.0,
+"fam": 0.81
+},
+{
+"phrase": "A RENAISSANCE MAN",
+"conf": 0.83,
+"fam": 0.72
+},
+{
+"phrase": "I'D BEND OVER BACKWARDS FOR YOU",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "OFF THE TOP OF MY HEAD",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "THAT'S PAR FOR THE COURSE",
+"conf": 1.0,
+"fam": 0.63
+},
+{
+"phrase": "I GET YOUR DRIFT",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "I'VE HAD A CHANGE OF HEART",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "I SWEAR I WON'T TELL A SOUL",
+"conf": 0.93,
+"fam": 0.73
+},
+{
+"phrase": "SLOW AND STEADY WINS THE RACE",
+"conf": 1.0,
+"fam": 0.91
+},
+{
+"phrase": "DID YOU EVER SEE SUCH A SIGHT IN YOUR LIFE",
+"conf": 0.77,
+"fam": 0.56
+},
+{
+"phrase": "LET'S GET A MOVE ON",
+"conf": 0.9,
+"fam": 0.87
+},
+{
+"phrase": "IN THE TWINKLING OF AN EYE",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "IN HIGH GEAR",
+"conf": 0.97,
+"fam": 0.76
+},
+{
+"phrase": "UNDER THE BEST OF CIRCUMSTANCES",
+"conf": 0.87,
+"fam": 0.6
+},
+{
+"phrase": "RARING TO GO",
+"conf": 0.99,
+"fam": 0.79
+},
+{
+"phrase": "SPEAK FOR YOURSELF",
+"conf": 0.95,
+"fam": 0.89
+},
+{
+"phrase": "NO STRINGS ATTACHED",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "DOZE OFF",
+"conf": 0.79,
+"fam": 0.84
+},
+{
+"phrase": "HOW DO YOU DO",
+"conf": 0.86,
+"fam": 0.81
+},
+{
+"phrase": "THERE'S A METHOD TO MY MADNESS",
+"conf": 0.91,
+"fam": 0.78
+},
+{
+"phrase": "IS THE GLASS HALF FULL OR HALF EMPTY",
+"conf": 0.99,
+"fam": 0.9
+},
+{
+"phrase": "NO BIG DEAL",
+"conf": 0.94,
+"fam": 0.93
+},
+{
+"phrase": "DON'T BE A WORRYWART",
+"conf": 0.96,
+"fam": 0.75
+},
+{
+"phrase": "GIVE CREDIT WHERE CREDIT IS DUE",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "SHAKE IT OFF",
+"conf": 0.93,
+"fam": 0.84
+},
+{
+"phrase": "SERVED ON A SILVER PLATTER",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "ALL HELL BROKE LOOSE",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "LITTLE WHITE LIE",
+"conf": 0.9,
+"fam": 0.87
+},
+{
+"phrase": "COME HELL OR HIGH WATER",
+"conf": 0.99,
+"fam": 0.69
+},
+{
+"phrase": "CAUGHT RED-HANDED",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "LAUGHING FIT TO BE TIED",
+"conf": 1.0,
+"fam": 0.64
+},
+{
+"phrase": "IN A MANNER OF SPEAKING",
+"conf": 0.91,
+"fam": 0.81
+},
+{
+"phrase": "IN THE NICK OF TIME",
+"conf": 1.0,
+"fam": 0.83
+},
+{
+"phrase": "IT'S A SURE THING",
+"conf": 0.91,
+"fam": 0.89
+},
+{
+"phrase": "ASK AND YE SHALL RECEIVE",
+"conf": 0.98,
+"fam": 0.69
+},
+{
+"phrase": "LET ME GO ON RECORD AS SAYING",
+"conf": 0.76,
+"fam": 0.56
+},
+{
+"phrase": "SLEPT LIKE A BABY",
+"conf": 1.0,
+"fam": 0.9
+},
+{
+"phrase": "EPIDEMIC PROPORTIONS",
+"conf": 0.88,
+"fam": 0.75
+},
+{
+"phrase": "AND AWAY WE GO",
+"conf": 0.92,
+"fam": 0.76
+},
+{
+"phrase": "THE CREAM OF THE CROP",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "IT WAS FUN WHILE IT LASTED",
+"conf": 0.91,
+"fam": 0.89
+},
+{
+"phrase": "ZIGZAGGING ALL OVER THE PLACE",
+"conf": 0.76,
+"fam": 0.78
+},
+{
+"phrase": "ANY FRIEND OF YOURS IS A FRIEND OF MINE",
+"conf": 0.91,
+"fam": 0.82
+},
+{
+"phrase": "FOG AS THICK AS PEA SOUP",
+"conf": 0.95,
+"fam": 0.57
+},
+{
+"phrase": "PUSHING ALL THE RIGHT BUTTONS",
+"conf": 0.96,
+"fam": 0.57
+},
+{
+"phrase": "THE STRAW THAT BROKE THE CAMEL'S BACK",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "NERVES OF STEEL",
+"conf": 1.0,
+"fam": 0.74
+},
+{
+"phrase": "LET YOUR HAIR DOWN",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "BORDERS ON THE RIDICULOUS",
+"conf": 0.95,
+"fam": 0.72
+},
+{
+"phrase": "TO HAVE AND TO HOLD FROM THIS DAY FORWARD",
+"conf": 0.83,
+"fam": 0.75
+},
+{
+"phrase": "SPIT AND POLISH",
+"conf": 0.96,
+"fam": 0.7
+},
+{
+"phrase": "FEE FI FO FUM",
+"conf": 0.7,
+"fam": 0.69
+},
+{
+"phrase": "ONE SIZE FITS ALL",
+"conf": 0.93,
+"fam": 0.92
+},
+{
+"phrase": "A SLIP OF THE TONGUE",
+"conf": 0.99,
+"fam": 0.87
+},
+{
+"phrase": "MUMBO JUMBO",
+"conf": 0.92,
+"fam": 0.81
+},
+{
+"phrase": "GO AHEAD MAKE MY DAY",
+"conf": 0.8,
+"fam": 0.73
+},
+{
+"phrase": "THE GIFT OF GAB",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "YOU CRACK ME UP",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "WE'RE ON THE SAME WAVELENGTH",
+"conf": 1.0,
+"fam": 0.67
+},
+{
+"phrase": "SKY-HIGH",
+"conf": 0.79,
+"fam": 0.86
+},
+{
+"phrase": "LOCK STOCK AND BARREL",
+"conf": 0.97,
+"fam": 0.58
+},
+{
+"phrase": "IT WORKS LIKE A CHARM",
+"conf": 1.0,
+"fam": 0.82
+},
+{
+"phrase": "CONSIDER IT DONE",
+"conf": 0.82,
+"fam": 0.86
+},
+{
+"phrase": "HOOK LINE AND SINKER",
+"conf": 1.0,
+"fam": 0.75
+},
+{
+"phrase": "SMACK-DAB IN THE MIDDLE",
+"conf": 0.96,
+"fam": 0.68
+},
+{
+"phrase": "TOO CUTE FOR WORDS",
+"conf": 0.93,
+"fam": 0.75
+},
+{
+"phrase": "BEAT A HASTY RETREAT",
+"conf": 0.96,
+"fam": 0.56
+},
+{
+"phrase": "A LITTLE KNOWLEDGE IS A DANGEROUS THING",
+"conf": 0.98,
+"fam": 0.77
+},
+{
+"phrase": "A NIGHT ON THE TOWN",
+"conf": 0.81,
+"fam": 0.85
+},
+{
+"phrase": "THE FACT OF THE MATTER IS",
+"conf": 0.83,
+"fam": 0.86
+},
+{
+"phrase": "IT'S JUST A PHONE CALL AWAY",
+"conf": 0.98,
+"fam": 0.8
+},
+{
+"phrase": "CAME TO A SCREECHING HALT",
+"conf": 0.92,
+"fam": 0.75
+},
+{
+"phrase": "LIGHTEN UP",
+"conf": 0.97,
+"fam": 0.89
+},
+{
+"phrase": "YOU CAN ALWAYS COUNT ON ME",
+"conf": 0.8,
+"fam": 0.86
+},
+{
+"phrase": "BITE YOUR TONGUE",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "I'M DRAWING A BLANK",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "I FEEL LIKE A NEW MAN",
+"conf": 0.97,
+"fam": 0.82
+},
+{
+"phrase": "THE PAST MAY COME BACK TO HAUNT YOU",
+"conf": 0.96,
+"fam": 0.71
+},
+{
+"phrase": "KEEPING ABREAST OF WHAT'S GOING ON",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "BLOWING IT OUT OF PROPORTION",
+"conf": 1.0,
+"fam": 0.79
+},
+{
+"phrase": "TIMING IS EVERYTHING IN LIFE",
+"conf": 0.91,
+"fam": 0.54
+},
+{
+"phrase": "THE LUCK OF THE IRISH",
+"conf": 0.97,
+"fam": 0.72
+},
+{
+"phrase": "IT'S SAID TO BE THE SPICE OF LIFE",
+"conf": 1.0,
+"fam": 0.69
+},
+{
+"phrase": "BLOW OVER",
+"conf": 0.95,
+"fam": 0.74
+},
+{
+"phrase": "PAR FOR THE COURSE",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "OPEN FOR BUSINESS",
+"conf": 0.76,
+"fam": 0.89
+},
+{
+"phrase": "WHAT'S COOKING?",
+"conf": 0.83,
+"fam": 0.81
+},
+{
+"phrase": "TOO MARVELOUS FOR WORDS",
+"conf": 0.93,
+"fam": 0.64
+},
+{
+"phrase": "HAS A LOT OF OOMPH",
+"conf": 0.82,
+"fam": 0.56
+},
+{
+"phrase": "HANKY-PANKY",
+"conf": 0.98,
+"fam": 0.65
+},
+{
+"phrase": "I CAN'T MAKE UP MY MIND",
+"conf": 0.87,
+"fam": 0.91
+},
+{
+"phrase": "BIOLOGICAL CLOCK",
+"conf": 0.73,
+"fam": 0.8
+},
+{
+"phrase": "TEXTBOOK EXAMPLE",
+"conf": 0.81,
+"fam": 0.83
+},
+{
+"phrase": "BEEFED UP",
+"conf": 0.93,
+"fam": 0.81
+},
+{
+"phrase": "THE FLIP SIDE OF THE COIN",
+"conf": 0.99,
+"fam": 0.85
+},
+{
+"phrase": "HE HAS A GOOD HEAD ON HIS SHOULDERS",
+"conf": 1.0,
+"fam": 0.78
+},
+{
+"phrase": "A PILLAR OF THE COMMUNITY",
+"conf": 0.99,
+"fam": 0.82
+},
+{
+"phrase": "TICKLED PINK",
+"conf": 1.0,
+"fam": 0.7
+},
+{
+"phrase": "ROUGHING IT",
+"conf": 0.99,
+"fam": 0.72
+},
+{
+"phrase": "STICKY FINGERS",
+"conf": 0.95,
+"fam": 0.79
+},
+{
+"phrase": "A DIME A DOZEN",
+"conf": 0.99,
+"fam": 0.74
+},
+{
+"phrase": "HANDED DOWN FROM GENERATION TO GENERATION",
+"conf": 0.7,
+"fam": 0.73
+},
+{
+"phrase": "THE LION'S SHARE",
+"conf": 0.98,
+"fam": 0.77
+},
+{
+"phrase": "YOU HAVE NO ONE TO BLAME BUT YOURSELF",
+"conf": 0.98,
+"fam": 0.79
+},
+{
+"phrase": "KICK THE BUCKET",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "PULLING OUT ALL THE STOPS",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "DEEP IN THOUGHT",
+"conf": 0.89,
+"fam": 0.9
+},
+{
+"phrase": "FLUSHED WITH PRIDE",
+"conf": 0.98,
+"fam": 0.78
+},
+{
+"phrase": "OVERNIGHT SUCCESS",
+"conf": 0.74,
+"fam": 0.87
+},
+{
+"phrase": "FASHION PLATE",
+"conf": 0.73,
+"fam": 0.67
+},
+{
+"phrase": "OVERWHELMING ODDS",
+"conf": 0.71,
+"fam": 0.75
+},
+{
+"phrase": "NEITHER HERE NOR THERE",
+"conf": 0.91,
+"fam": 0.78
+},
+{
+"phrase": "IT'S A CINCH",
+"conf": 1.0,
+"fam": 0.71
+},
+{
+"phrase": "DON'T GIVE IT A SECOND THOUGHT",
+"conf": 0.98,
+"fam": 0.81
+},
+{
+"phrase": "EVERYTHING HUMANLY POSSIBLE",
+"conf": 0.74,
+"fam": 0.82
+},
+{
+"phrase": "IT'S EASY MONEY",
+"conf": 0.96,
+"fam": 0.84
+},
+{
+"phrase": "JAZZ IT UP",
+"conf": 0.95,
+"fam": 0.73
+},
+{
+"phrase": "TAKE FIVE",
+"conf": 0.84,
+"fam": 0.82
+},
+{
+"phrase": "COME TO LIFE",
+"conf": 0.98,
+"fam": 0.83
+},
+{
+"phrase": "RETURNING TO THE SCENE OF THE CRIME",
+"conf": 0.79,
+"fam": 0.73
+},
+{
+"phrase": "WHEN YOU'RE RIGHT YOU'RE RIGHT",
+"conf": 0.84,
+"fam": 0.6
+},
+{
+"phrase": "THEY GO HAND IN HAND",
+"conf": 0.99,
+"fam": 0.84
+},
+{
+"phrase": "EXTRA EXTRA READ ALL ABOUT IT",
+"conf": 0.8,
+"fam": 0.79
+},
+{
+"phrase": "ALL THINGS BEING EQUAL",
+"conf": 0.95,
+"fam": 0.72
+},
+{
+"phrase": "TIMES HAVE CHANGED",
+"conf": 0.81,
+"fam": 0.91
+},
+{
+"phrase": "ACQUIRED TASTE",
+"conf": 0.75,
+"fam": 0.81
+},
+{
+"phrase": "YOU ALWAYS WANT WHAT YOU CAN'T HAVE",
+"conf": 0.92,
+"fam": 0.74
+},
+{
+"phrase": "NOT FOR ALL THE TEA IN CHINA",
+"conf": 1.0,
+"fam": 0.56
+},
+{
+"phrase": "MOVING AT A SNAIL'S PACE",
+"conf": 1.0,
+"fam": 0.84
+},
+{
+"phrase": "MAKE IT SNAPPY",
+"conf": 0.78,
+"fam": 0.68
+},
+{
+"phrase": "BEYOND A REASONABLE DOUBT",
+"conf": 0.96,
+"fam": 0.83
+},
+{
+"phrase": "THE IN CROWD",
+"conf": 0.79,
+"fam": 0.8
+},
+{
+"phrase": "THE STORK IS BRINGING A BABY",
+"conf": 0.91,
+"fam": 0.83
+},
+{
+"phrase": "MOVE YOUR BUNS",
+"conf": 0.84,
+"fam": 0.61
+},
+{
+"phrase": "FIRST AND FOREMOST",
+"conf": 0.96,
+"fam": 0.88
+},
+{
+"phrase": "SHE'S GOT EYES IN THE BACK OF HER HEAD",
+"conf": 1.0,
+"fam": 0.73
+},
+{
+"phrase": "A LITTLE BIRD TOLD ME",
+"conf": 1.0,
+"fam": 0.88
+},
+{
+"phrase": "HOME FIELD ADVANTAGE",
+"conf": 0.75,
+"fam": 0.84
+},
+{
+"phrase": "THE STAFF OF LIFE",
+"conf": 0.98,
+"fam": 0.72
+},
+{
+"phrase": "IN A TAILSPIN",
+"conf": 0.99,
+"fam": 0.66
+},
+{
+"phrase": "STOP AND SMELL THE ROSES",
+"conf": 0.99,
+"fam": 0.86
+},
+{
+"phrase": "A DAY LATE AND A DOLLAR SHORT",
+"conf": 0.96,
+"fam": 0.59
+},
+{
+"phrase": "SWEET AS SUGAR",
+"conf": 0.99,
+"fam": 0.9
+},
+{
+"phrase": "NONE THE WORSE FOR WEAR",
+"conf": 0.98,
+"fam": 0.51
+},
+{
+"phrase": "NIPPED IN THE BUD",
+"conf": 1.0,
+"fam": 0.72
+},
+{
+"phrase": "A BOLT FROM THE BLUE",
+"conf": 1.0,
+"fam": 0.62
+},
+{
+"phrase": "MY PRIDE AND JOY",
+"conf": 0.95,
+"fam": 0.83
+},
+{
+"phrase": "DON'T BREATHE A WORD OF THIS",
+"conf": 0.94,
+"fam": 0.87
+},
+{
+"phrase": "I'LL QUIT WHILE I'M AHEAD",
+"conf": 0.97,
+"fam": 0.75
+},
+{
+"phrase": "THE CUTTING EDGE",
+"conf": 0.97,
+"fam": 0.8
+},
+{
+"phrase": "BREAK OUT IN A COLD SWEAT",
+"conf": 0.96,
+"fam": 0.79
+},
+{
+"phrase": "HOLD ON TO YOUR HAT",
+"conf": 0.97,
+"fam": 0.77
+},
+{
+"phrase": "HE HAS A MIND LIKE A STEEL TRAP",
+"conf": 1.0,
+"fam": 0.76
+},
+{
+"phrase": "EVERYTHING UNDER THE SUN",
+"conf": 0.97,
+"fam": 0.83
+},
+{
+"phrase": "MAKE A SPLASH",
+"conf": 0.99,
+"fam": 0.8
+},
+{
+"phrase": "OLDIES BUT GOODIES",
+"conf": 0.97,
+"fam": 0.84
+},
+{
+"phrase": "HAVING THE TIME OF MY LIFE",
+"conf": 0.99,
+"fam": 0.89
+},
+{
+"phrase": "ON THE WARPATH",
+"conf": 1.0,
+"fam": 0.64
+},
+{
+"phrase": "I'VE GOT IT DOWN TO A SCIENCE",
+"conf": 0.99,
+"fam": 0.73
+},
+{
+"phrase": "VICTIM OF CIRCUMSTANCE",
+"conf": 0.79,
+"fam": 0.73
+},
+{
+"phrase": "KNEE-JERK REACTION",
+"conf": 0.95,
+"fam": 0.86
+},
+{
+"phrase": "LOST ITS FIZZ",
+"conf": 0.95,
+"fam": 0.69
+},
+{
+"phrase": "CLAIM TO FAME",
+"conf": 0.75,
+"fam": 0.82
+},
+{
+"phrase": "HAPPY NEW YEAR",
+"conf": 0.9,
+"fam": 0.96
+},
+{
+"phrase": "A REAL GO-GETTER",
+"conf": 0.85,
+"fam": 0.75
+},
+{
+"phrase": "LET'S PUT OUR HEADS TOGETHER",
+"conf": 0.99,
+"fam": 0.81
+},
+{
+"phrase": "NO GUTS NO GLORY",
+"conf": 0.97,
+"fam": 0.78
+},
+{
+"phrase": "I GET THE PICTURE",
+"conf": 0.99,
+"fam": 0.88
+},
+{
+"phrase": "A JOB WELL DONE",
+"conf": 0.84,
+"fam": 0.91
+},
+{
+"phrase": "A CREATURE OF HABIT",
+"conf": 0.76,
+"fam": 0.79
+},
+{
+"phrase": "LET'S SPLIT THE DIFFERENCE",
+"conf": 0.98,
+"fam": 0.86
+},
+{
+"phrase": "I'LL TAKE MY CHANCES",
+"conf": 0.9,
+"fam": 0.82
+},
+{
+"phrase": "LOVEY-DOVEY",
+"conf": 0.78,
+"fam": 0.81
+},
+{
+"phrase": "I CAN'T SAY ENOUGH GOOD THINGS ABOUT IT",
+"conf": 0.86,
+"fam": 0.75
+},
+{
+"phrase": "I'LL GO FIFTY-FIFTY",
+"conf": 0.86,
+"fam": 0.63
+},
+{
+"phrase": "GRIN AND BEAR IT",
+"conf": 1.0,
+"fam": 0.85
+},
+{
+"phrase": "CONSIDER THE SOURCE",
+"conf": 0.89,
+"fam": 0.75
+},
+{
+"phrase": "I'M BIDING MY TIME",
+"conf": 0.99,
+"fam": 0.77
+}
+]

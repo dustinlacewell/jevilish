@@ -1,0 +1,99 @@
+.app {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding-block: clamp(1.5rem, 5vw, 3rem);
+  padding-inline: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.app--splash { justify-content: center; align-items: center; }
+.splash { color: var(--ink-soft); font-style: italic; }
+
+.masthead { text-align: center; border-bottom: 2px solid var(--ink); padding-bottom: 0.9rem; }
+
+.masthead__title {
+  margin: 0;
+  font-size: clamp(2rem, 8vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.masthead__sub {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+.outcome { display: grid; gap: 1rem; }
+
+.outcome__verdict { margin: 0; font-size: 1.05rem; text-align: center; }
+.outcome__verdict--solved { color: var(--green); font-weight: 600; }
+.outcome__verdict--failed { color: var(--seal); }
+
+.outcome__actions { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+
+.btn {
+  padding: 0.6rem 1.2rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  background: none;
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  color: var(--ink-soft);
+}
+.btn--primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+.attempts { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; }
+
+.attempt {
+  font-size: 0.82rem;
+  padding: 0.35rem 0.6rem;
+  border-left: 3px solid var(--rule);
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+}
+.attempt--close { border-left-color: var(--gold); }
+.attempt--wrong { border-left-color: var(--seal); }
+
+.colophon {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  text-align: center;
+  line-height: 1.6;
+}
+.colophon a { color: var(--gold); }
+
+.levels { display: flex; gap: 0.3rem; justify-content: center; margin-top: 0.8rem; }
+
+.level {
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.level--on { color: var(--ink); border-color: var(--rule); background: var(--paper-deep); }
+
+.reroll {
+  align-self: center;
+  background: none;
+  border: none;
+  font-size: 0.7rem;
+  font-style: italic;
+  color: var(--ink-faint);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

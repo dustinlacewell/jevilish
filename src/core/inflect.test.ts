@@ -1,0 +1,70 @@
+import { describe, expect, it } from "vitest";
+import { inflect } from "./inflect";
+
+describe("inflect", () => {
+  it("leaves the base form alone", () => {
+    expect(inflect("PERAMBULATE", "base")).toBe("PERAMBULATE");
+  });
+
+  it("adds a plain S", () => {
+    expect(inflect("TINTINNABULATE", "s")).toBe("TINTINNABULATES");
+  });
+
+  it("adds ES after a sibilant", () => {
+    expect(inflect("EXPUNGE", "s")).toBe("EXPUNGES");
+    expect(inflect("SQUASH", "s")).toBe("SQUASHES");
+    expect(inflect("FIZZ", "s")).toBe("FIZZES");
+  });
+
+  it("turns a consonant+Y into IES", () => {
+    expect(inflect("MAGNIFY", "s")).toBe("MAGNIFIES");
+  });
+
+  it("drops a silent E before ING", () => {
+    expect(inflect("PERAMBULATE", "ing")).toBe("PERAMBULATING");
+  });
+
+  it("doubles a final consonant before ING and ED", () => {
+    expect(inflect("SLAM", "ing")).toBe("SLAMMING");
+    expect(inflect("STOP", "ed")).toBe("STOPPED");
+  });
+
+  it("does not double after a long vowel", () => {
+    expect(inflect("SHOUT", "ed")).toBe("SHOUTED");
+  });
+
+  it("does not double on an unstressed final syllable", () => {
+    expect(inflect("MARATHON", "ing")).toBe("MARATHONING");
+    expect(inflect("GALLOP", "ed")).toBe("GALLOPED");
+  });
+
+  it("forms the past of an E-final word", () => {
+    expect(inflect("EXPECTORATE", "ed")).toBe("EXPECTORATED");
+  });
+
+  it("uses MORE for long adjectives", () => {
+    expect(inflect("MALODOROUS", "comparative")).toBe("MORE MALODOROUS");
+    expect(inflect("GRANDILOQUENT", "superlative")).toBe("MOST GRANDILOQUENT");
+  });
+
+  it("uses the suffix for short adjectives", () => {
+    expect(inflect("BIG", "comparative")).toBe("BIGGER");
+    expect(inflect("GRAND", "superlative")).toBe("GRANDEST");
+  });
+
+  it("does not inflect a word that is already in the target form", () => {
+    expect(inflect("CONSTRUCTED", "ed")).toBe("CONSTRUCTED");
+    expect(inflect("FASHIONING", "ing")).toBe("FASHIONING");
+    expect(inflect("GREATER", "comparative")).toBe("GREATER");
+  });
+
+  it("still inflects a base word that merely ends in those letters", () => {
+    expect(inflect("SEED", "s")).toBe("SEEDS");
+    expect(inflect("RING", "s")).toBe("RINGS");
+  });
+
+  it("knows the common irregulars", () => {
+    expect(inflect("GO", "ed")).toBe("WENT");
+    expect(inflect("GOOD", "comparative")).toBe("BETTER");
+  });
+});
