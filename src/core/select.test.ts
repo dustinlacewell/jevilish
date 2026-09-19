@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { TASTES, appeal, eligible, pick, type Candidate } from "./select";
+import { TASTE, appeal, eligible, pick, type Candidate } from "./select";
 
 const c = (w: string, sense: number, theme: number, unknown: number): Candidate =>
   ({ w, sense, theme, unknown });
@@ -7,18 +7,18 @@ const c = (w: string, sense: number, theme: number, unknown: number): Candidate 
 describe("eligible", () => {
   it("drops a word that means something else here", () => {
     // BANKRUPTED is a fine synonym for BROKE, and wrong for the camel.
-    const out = eligible([c("BANKRUPTED", 0.1, 1.1, 0.03)], "BROKE", TASTES.standard);
+    const out = eligible([c("BANKRUPTED", 0.1, 1.1, 0.03)], "BROKE", TASTE);
     expect(out).toHaveLength(0);
   });
 
   it("drops a word the reader has never met", () => {
-    // Measured: CULM scores 0.65 unknown, past every tier.
-    expect(eligible([c("CULM", 0.8, 1.2, 0.65)], "STRAW", TASTES.cruel)).toHaveLength(0);
+    // Measured: CULM scores 0.65 unknown, well past the threshold.
+    expect(eligible([c("CULM", 0.8, 1.2, 0.65)], "STRAW", TASTE)).toHaveLength(0);
   });
 
   it("keeps a costumed word that is rare but recognised", () => {
     // PERCHANCE is archaic and universally understood: exactly the target.
-    const out = eligible([c("PERCHANCE", 0.7, 1.3, 0.12)], "MAYBE", TASTES.standard);
+    const out = eligible([c("PERCHANCE", 0.7, 1.3, 0.12)], "MAYBE", TASTE);
     expect(out.map((x) => x.w)).toEqual(["PERCHANCE"]);
   });
 
@@ -26,15 +26,21 @@ describe("eligible", () => {
     const out = eligible(
       [c("SLEEP", 1, 1, 0.02), c("SLEEPING", 0.9, 1, 0.02), c("REPOSE", 0.67, 0.7, 0.15)],
       "SLEEP",
-      TASTES.standard,
+      TASTE,
     );
     expect(out.map((x) => x.w)).toEqual(["REPOSE"]);
   });
 
-  it("gentle allows less unfamiliarity than cruel", () => {
-    const field = [c("SCATHE", 0.6, 1.1, 0.3)];
-    expect(eligible(field, "HURT", TASTES.gentle)).toHaveLength(0);
-    expect(eligible(field, "HURT", TASTES.cruel)).toHaveLength(1);
+  it("admits a word at the top of the lexicon's unfamiliarity range", () => {
+    // The lexicon tops out at 0.30 unknown, and the taste allows exactly
+    // that: generation already rejected the merely obscure, so filtering
+    // harder here would discard costume without buying fairness.
+    expect(eligible([c("SCATHE", 0.6, 1.1, 0.3)], "HURT", TASTE)).toHaveLength(1);
+  });
+
+  it("drops a word whose meaning is too loose for the phrase", () => {
+    // Just under minSense: plausible in a thesaurus, wrong in this sentence.
+    expect(eligible([c("SCATHE", 0.31, 1.1, 0.1)], "HURT", TASTE)).toHaveLength(0);
   });
 });
 
@@ -58,33 +64,33 @@ describe("pick", () => {
   ];
 
   it("returns null when nothing survives", () => {
-    expect(pick([c("X", 0.01, 1, 0.01)], "CAT", TASTES.standard, 0.5)).toBeNull();
+    expect(pick([c("X", 0.01, 1, 0.01)], "CAT", TASTE, 0.5)).toBeNull();
   });
 
   it("favours the most appealing word at a low roll", () => {
-    expect(pick(field, "CAT", TASTES.standard, 0.01)?.w).toBe("FELINE");
+    expect(pick(field, "CAT", TASTE, 0.01)?.w).toBe("FELINE");
   });
 
   it("is deterministic for a given roll", () => {
-    expect(pick(field, "CAT", TASTES.standard, 0.42)?.w)
-      .toBe(pick(field, "CAT", TASTES.standard, 0.42)?.w);
+    expect(pick(field, "CAT", TASTE, 0.42)?.w)
+      .toBe(pick(field, "CAT", TASTE, 0.42)?.w);
   });
 
   it("covers the whole field at high temperature", () => {
-    const warm = { ...TASTES.standard, temperature: 3 };
+    const warm = { ...TASTE, temperature: 3 };
     const seen = new Set<string>();
     for (let i = 0; i < 100; i++) seen.add(pick(field, "CAT", warm, i / 100)!.w);
     expect(seen.size).toBe(3);
   });
 
   it("collapses onto the best word at low temperature", () => {
-    const cold = { ...TASTES.standard, temperature: 0.01 };
+    const cold = { ...TASTE, temperature: 0.01 };
     const seen = new Set<string>();
     for (let i = 0; i < 100; i++) seen.add(pick(field, "CAT", cold, i / 100)!.w);
     expect(seen).toEqual(new Set(["FELINE"]));
   });
 
   it("handles a roll at the top of the range", () => {
-    expect(pick(field, "CAT", TASTES.standard, 1)).not.toBeNull();
+    expect(pick(field, "CAT", TASTE, 1)).not.toBeNull();
   });
 });

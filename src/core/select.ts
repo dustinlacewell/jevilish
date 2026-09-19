@@ -2,7 +2,7 @@
  * Runtime choice of a replacement word.
  *
  * Generation answers three questions per candidate and filters none of them
- * out, so all the taste lives here: what a difficulty will allow, how much
+ * out, so all the taste lives here: what the game will allow, how much
  * the theme is worth, and how varied a re-roll should be. Pure, so changing
  * any of it costs nothing.
  */
@@ -31,11 +31,27 @@ export interface Taste {
   readonly temperature: number;
 }
 
-/** Three settings, differing in how far from plain English they will go. */
-export const TASTES: Record<"gentle" | "standard" | "cruel", Taste> = {
-  gentle: { minSense: 0.45, maxUnknown: 0.12, temperature: 0.45 },
-  standard: { minSense: 0.35, maxUnknown: 0.22, temperature: 0.3 },
-  cruel: { minSense: 0.28, maxUnknown: 0.35, temperature: 0.25 },
+/**
+ * The game's one setting.
+ *
+ * Tuned against the lexicon rather than by feel. `minSense` is the only
+ * threshold that really bites: raising it strands slots with no eligible
+ * word, and a slot with no word goes undisguised, which makes the puzzle
+ * easier rather than harder. At 0.32 only 1.2% of slots come up empty and
+ * the median slot still offers eight candidates.
+ *
+ * `maxUnknown` sits at the top of the lexicon's own range, because
+ * generation already rejected the merely obscure. Anything lower discards
+ * costume without buying fairness.
+ *
+ * `temperature` governs re-roll variety more than difficulty: at 0.25 the
+ * grandest candidate wins about a third of the time, so the same phrase
+ * dressed twice reads differently.
+ */
+export const TASTE: Taste = {
+  minSense: 0.32,
+  maxUnknown: 0.3,
+  temperature: 0.25,
 };
 
 /** Candidates a given taste is willing to show the player. */

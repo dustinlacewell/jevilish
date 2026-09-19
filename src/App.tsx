@@ -1,47 +1,56 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { nextIn, prune } from "./core/progress";
 import { livesLeft, scoreRound, startRound, submitGuess, useHint, type Round } from "./core/session";
-import { TASTES } from "./core/select";
-import { shuffled } from "./core/shuffle";
-import { hydrate, loadBank, puzzleOfTheDay, type Bank, type RawPuzzle } from "./data/bank";
+import { TASTE } from "./core/select";
+import { hydrate, loadBank, type Bank, type RawPuzzle } from "./data/bank";
+import { loadProgress, saveProgress } from "./data/progress-store";
 import { Board } from "./ui/Board";
 import { Controls } from "./ui/Controls";
+import { ModeTag } from "./ui/ModeTag";
 import { Reveal } from "./ui/Reveal";
 import { shareText } from "./ui/share";
 import "./App.css";
 
-type Difficulty = keyof typeof TASTES;
-const LEVELS: readonly Difficulty[] = ["gentle", "standard", "cruel"];
+/** The single run of the bank. Progress is keyed by this, so the name is
+    stored data: changing it starts every player over. */
+const RUN = "standard";
 
 export function App() {
   const [bank, setBank] = useState<Bank | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [order, setOrder] = useState<readonly RawPuzzle[]>([]);
-  const [index, setIndex] = useState(0);
+  const [raw, setRaw] = useState<RawPuzzle | null>(null);
   const [seed, setSeed] = useState(1);
-  const [level, setLevel] = useState<Difficulty>("standard");
   const [round, setRound] = useState<Round | null>(null);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     let live = true;
     loadBank()
-      .then((loaded) => {
-        if (!live) return;
-        const today = puzzleOfTheDay(loaded.puzzles);
-        const rest = shuffled(loaded.puzzles.filter((p) => p.id !== today.id), Date.now() & 0xffff);
-        setBank(loaded);
-        setOrder([today, ...rest]);
-      })
+      .then((loaded) => live && setBank(loaded))
       .catch((e: Error) => live && setError(e.message));
     return () => { live = false; };
   }, []);
 
-  const raw = order[index];
+  /** Serve the next unseen puzzle and record that it was served, so the bank
+      plays out once through before anything repeats. */
+  const serve = useCallback((puzzles: readonly RawPuzzle[]) => {
+    const stored = prune(loadProgress(RUN), puzzles);
+    const step = nextIn(puzzles, RUN, stored);
+    if (!step) return;
+    saveProgress(RUN, step.progress);
+    setRaw(step.puzzle);
+    setSeed((s) => s + 1);
+  }, []);
 
-  // The board is derived: same puzzle, new seed or difficulty, new words.
+  // The opening puzzle, once the bank arrives.
+  useEffect(() => {
+    if (bank && !raw) serve(bank.puzzles);
+  }, [bank, raw, serve]);
+
+  // The board is derived: same puzzle, new seed, new words.
   const puzzle = useMemo(
-    () => (bank && raw ? hydrate(raw, bank, TASTES[level], seed) : null),
-    [bank, raw, level, seed],
+    () => (bank && raw ? hydrate(raw, bank, TASTE, seed) : null),
+    [bank, raw, seed],
   );
 
   useEffect(() => {
@@ -50,9 +59,8 @@ export function App() {
   }, [puzzle?.id, puzzle?.words.map((w) => w.shown).join(" ")]);
 
   const next = useCallback(() => {
-    setIndex((at) => (at + 1) % Math.max(1, order.length));
-    setSeed((s) => s + 1);
-  }, [order.length]);
+    if (bank) serve(bank.puzzles);
+  }, [bank, serve]);
 
   const hintsLeft = useMemo(() => {
     if (!round) return 0;
@@ -61,7 +69,7 @@ export function App() {
   }, [round]);
 
   if (error) return <Splash>Could not load the puzzle bank. {error}</Splash>;
-  if (!bank || !round || !puzzle) return <Splash>Setting type…</Splash>;
+  if (!bank || !round || !puzzle || !raw) return <Splash>Setting type…</Splash>;
 
   const over = round.status !== "playing";
   const shown = round.puzzle.words.map((word, i) =>
@@ -78,21 +86,12 @@ export function App() {
   return (
     <main className="app">
       <header className="masthead">
-        <h1 className="masthead__title">Jevlish</h1>
-        <p className="masthead__sub">A common phrase, rendered insufferable.</p>
-        <div className="levels" role="group" aria-label="Difficulty">
-          {LEVELS.map((name) => (
-            <button
-              key={name}
-              type="button"
-              className={`level${name === level ? " level--on" : ""}`}
-              onClick={() => setLevel(name)}
-            >
-              {name}
-            </button>
-          ))}
-        </div>
+        <img className="masthead__seal" src="/logo-512.png" alt="" width={512} height={512} />
+        <h1 className="masthead__title">Jevilish</h1>
+        <p className="masthead__sub">A common phrase served devilishly opaque.</p>
       </header>
+
+      <ModeTag mode={round.puzzle.mode} />
 
       <Board puzzle={{ ...round.puzzle, words: shown }} revealed={over} matched={round.matched} />
 
@@ -109,7 +108,7 @@ export function App() {
               {copied ? "Copied" : "Share"}
             </button>
           </div>
-          <Reveal puzzle={round.puzzle} lexicon={bank.lexicon} raw={raw} taste={TASTES[level]} />
+          <Reveal puzzle={round.puzzle} lexicon={bank.lexicon} raw={raw} taste={TASTE} />
         </section>
       ) : (
         <>
@@ -137,7 +136,7 @@ export function App() {
       <footer className="colophon">
         Every word vetted by <a href="https://typesafe.ai" target="_blank" rel="noreferrer">Jev</a> —
         scored for meaning, pomposity and obscurity against a thesaurus.
-        {" "}{order.length} phrases.
+        {" "}{bank.puzzles.length} phrases.
       </footer>
     </main>
   );

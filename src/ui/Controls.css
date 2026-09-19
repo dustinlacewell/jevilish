@@ -22,11 +22,13 @@
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--paper);
-  background: var(--ink);
-  border: none;
+  color: var(--ink);
+  background: var(--seal-deep);
+  border: 1px solid var(--seal);
   border-radius: 3px;
+  transition: background 150ms ease, border-color 150ms ease;
 }
+.controls__go:not(:disabled):hover { background: var(--seal); border-color: var(--gold); }
 .controls__go:disabled { opacity: 0.4; cursor: not-allowed; }
 
 .controls__meta {

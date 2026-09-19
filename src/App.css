@@ -12,14 +12,41 @@
 .app--splash { justify-content: center; align-items: center; }
 .splash { color: var(--ink-soft); font-style: italic; }
 
-.masthead { text-align: center; border-bottom: 2px solid var(--ink); padding-bottom: 0.9rem; }
+.masthead {
+  text-align: center;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* The badge is already a black disc, so it seats on the page ground without
+   a frame. The glow is the only thing separating it from the paper. */
+.masthead__seal {
+  display: block;
+  width: clamp(4.5rem, 18vw, 6rem);
+  height: auto;
+  margin: 0 auto 0.5rem;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 1.6rem var(--glow));
+}
 
 .masthead__title {
   margin: 0;
   font-size: clamp(2rem, 8vw, 3.2rem);
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
+  color: var(--ink);
+  text-shadow: 0 0 1.5rem rgba(201, 162, 39, 0.18);
+}
+
+/* A hairline gold rule under the title, the way the badge is ringed. */
+.masthead__title::after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 1px;
+  margin: 0.55rem auto 0;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
 }
 
 .masthead__sub {
@@ -43,12 +70,21 @@
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  background: none;
+  background: var(--paper-deep);
   border: 1px solid var(--rule);
   border-radius: 3px;
   color: var(--ink-soft);
+  transition: color 150ms ease, border-color 150ms ease;
 }
-.btn--primary { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.btn:hover { color: var(--ink); border-color: var(--gold); }
+
+/* The primary action wears the cravat. */
+.btn--primary {
+  background: var(--seal-deep);
+  color: var(--ink);
+  border-color: var(--seal);
+}
+.btn--primary:hover { background: var(--seal); color: #f6ead2; border-color: var(--gold); }
 
 .attempts { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.3rem; }
 
@@ -73,20 +109,6 @@
 }
 .colophon a { color: var(--gold); }
 
-.levels { display: flex; gap: 0.3rem; justify-content: center; margin-top: 0.8rem; }
-
-.level {
-  background: none;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  padding: 0.2rem 0.7rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--ink-faint);
-}
-.level--on { color: var(--ink); border-color: var(--rule); background: var(--paper-deep); }
-
 .reroll {
   align-self: center;
   background: none;
@@ -97,3 +119,6 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+
+/* The mode tag sits close to the board it labels, not floating mid-gap. */
+.app > .mode { margin-bottom: -0.75rem; }

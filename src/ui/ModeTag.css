@@ -1,0 +1,74 @@
+.mode {
+  margin: 0;
+  text-align: center;
+}
+
+/* A small ruled label, the way a broadsheet names a column. */
+.mode__tag {
+  position: relative;
+  display: inline-block;
+  padding: 0.15rem 0.9rem;
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: var(--gold);
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+  cursor: help;
+}
+
+/* The rules taper away from the label rather than stopping square. */
+.mode__tag::before,
+.mode__tag::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 2.2rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--rule));
+}
+.mode__tag::before { right: 100%; }
+.mode__tag::after { left: 100%; transform: scaleX(-1); }
+
+.mode__gloss {
+  position: absolute;
+  top: calc(100% + 0.6rem);
+  left: 50%;
+  z-index: 2;
+  width: max-content;
+  max-width: min(22rem, 78vw);
+  transform: translateX(-50%);
+  padding: 0.55rem 0.8rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.45;
+  color: var(--ink-soft);
+  background: var(--paper-deep);
+  border: 1px solid var(--rule);
+  border-radius: 3px;
+  box-shadow: 0 0.5rem 1.5rem var(--shadow);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 140ms ease, visibility 140ms;
+}
+
+.mode__tag:hover .mode__gloss,
+.mode__tag:focus-visible .mode__gloss {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* A small pointer up toward the label. */
+.mode__gloss::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -0.35rem;
+  border: 0.35rem solid transparent;
+  border-bottom-color: var(--rule);
+}

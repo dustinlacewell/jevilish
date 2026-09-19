@@ -2,9 +2,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: baseline;
   gap: 0.35em 0.5em;
   padding: clamp(1rem, 4vw, 2.5rem) 0;
-  font-size: clamp(1.35rem, 5.2vw, 2.9rem);
+  /* Set per puzzle by Board.tsx — see ui/fit.ts. The literal is the fallback
+     for a board rendered without one. */
+  font-size: var(--board-size, clamp(1.35rem, 5.2vw, 2.9rem));
   line-height: 1.25;
   text-align: center;
 }
@@ -31,7 +34,7 @@
 
 /* The shared hinge of a Before & After puzzle. */
 .word--pivot .word__shown {
-  box-shadow: inset 0 -0.55em 0 rgba(154, 123, 37, 0.16);
+  box-shadow: inset 0 -0.55em 0 rgba(201, 162, 39, 0.18);
 }
 
 .word--matched .word__shown { color: var(--green); }

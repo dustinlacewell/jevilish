@@ -1,4 +1,6 @@
+import type { CSSProperties } from "react";
 import type { Puzzle, PuzzleWord } from "../core/types";
+import { boardFontSize } from "./fit";
 import "./Board.css";
 
 interface BoardProps {
@@ -10,8 +12,12 @@ interface BoardProps {
 
 /** The puzzle as printed: inflated words above, the recovered phrase below. */
 export function Board({ puzzle, revealed, matched }: BoardProps) {
+  // The type is sized from the phrase itself, so a long replacement word
+  // shrinks the line instead of stranding itself on one.
+  const style = { "--board-size": boardFontSize(puzzle.words) } as CSSProperties;
+
   return (
-    <div className="board" aria-live="polite">
+    <div className="board" style={style} aria-live="polite">
       {puzzle.words.map((word, index) => (
         <WordCard
           key={index}

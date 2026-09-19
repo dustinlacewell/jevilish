@@ -1,4 +1,4 @@
-# Jevlish
+# Jevilish
 
 A common phrase, rendered insufferable. Guess what it was.
 
@@ -56,7 +56,7 @@ word. Nobody *says* "forsooth", and everybody knows it — from Shakespeare,
 the King James Bible, and every fairy tale. Asked directly, Jev separates the
 two cleanly: costumed words score 0.02–0.23 on "most adults have never
 encountered this word", and genuinely unknown ones score 0.45–0.83, with no
-overlap. That gap is the difficulty slider.
+overlap. The game's `maxUnknown` threshold sits in that gap.
 
 ### Where a thesaurus cannot help
 
