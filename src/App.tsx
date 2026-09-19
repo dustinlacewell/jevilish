@@ -187,9 +187,9 @@ export function App() {
         scored for meaning, pomposity and obscurity against a thesaurus.
         {" "}{bank.puzzles.length} phrases.
         <span className="colophon__ask">
-          Thesaurus consultation is not gratis.{" "}
+          Procure the author a caffeinated infusion.{" "}
           <a href="https://buymeacoffee.com/idle" target="_blank" rel="noreferrer">
-            Endow the lexicon
+            Buy me a coffee
           </a>.
         </span>
       </footer>
