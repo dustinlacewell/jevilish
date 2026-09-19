@@ -137,6 +137,12 @@ export function App() {
         Every word vetted by <a href="https://typesafe.ai" target="_blank" rel="noreferrer">Jev</a> —
         scored for meaning, pomposity and obscurity against a thesaurus.
         {" "}{bank.puzzles.length} phrases.
+        <span className="colophon__ask">
+          Thesaurus consultation is not gratis.{" "}
+          <a href="https://buymeacoffee.com/idle" target="_blank" rel="noreferrer">
+            Endow the lexicon
+          </a>.
+        </span>
       </footer>
     </main>
   );

@@ -109,6 +109,14 @@
 }
 .colophon a { color: var(--gold); }
 
+/* The tip line sits on its own, quieter than the credit above it. */
+.colophon__ask {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+.colophon__ask a { text-decoration: underline; text-underline-offset: 3px; }
+
 .reroll {
   align-self: center;
   background: none;
